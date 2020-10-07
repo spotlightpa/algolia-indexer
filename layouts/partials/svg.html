@@ -1,0 +1,6 @@
+<div class="hidden">
+  {{ $banner := resources.Get "/img/logos/banner-default-on-trans.svg" }}
+  {{ $logo := resources.Get "/img/logos/circle-default-on-trans.svg" }}
+  <svg id="banner-svg">{{ $banner.Content|safeHTML }}</svg>
+  <svg id="logo-svg">{{ $logo.Content|safeHTML }}</svg>
+</div>

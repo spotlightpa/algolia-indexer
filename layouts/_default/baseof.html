@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='{{ .Param "language-code" | default site.LanguageCode }}'>
+<head
+  itemscope itemtype="http://schema.org/WebSite"
+>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    {{- with .Param "title-tag" -}}
+      {{- . -}}
+    {{- else -}}
+      {{ .Title }} &middot; {{ .Site.Title }}
+    {{- end -}}
+  </title>
+
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/schema.html" . }}
+  {{ template "_internal/google_news.html" . }}
+
+  {{ template "_internal/google_analytics_async.html" . }}
+
+  {{ range .AlternativeOutputFormats }}
+    <link
+      rel="{{ .Rel }}"
+      type="{{ .MediaType.Type }}"
+      href="{{ .Permalink | safeURL }}"
+      title="{{ $.Title }}"
+    />
+  {{ end }}
+
+  {{ $cssFonts := resources.Get "css/fonts.css" }}
+  {{ $cssTW := resources.Get "css/main.css" }}
+  {{ $css := slice $cssFonts $cssTW | resources.Concat "css/site.css" }}
+  {{ $css = $css | postCSS }}
+  {{ if ne hugo.Environment "development" }}
+    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  <link rel="preload" as="font" href="/css/fonts/merriweather-v21/merriweather-v21-latin-regular.woff2" crossorigin>
+
+</head>
+{{ $pageCat := printf "%s:%s" (.Section | default .Type) .Kind }}
+{{ if eq .Kind "home" }}{{ $pageCat = "home "}}{{ end }}
+<body
+  data-ga-label='{{ $pageCat }}:featured'
+  data-ga-category="featured"
+  class="w-screen overflow-x-hidden text-g-9 font-serif leading-normal"
+>
+  <div class="flex flex-col min-h-screen bg-white">
+    {{ partial "nav.html" . }}
+    {{ block "main" . }}
+    {{ end }}
+    {{ partial "footer.html" . }}
+  </div>
+  {{ partial "svg.html" . }}
+</body>
+</html>

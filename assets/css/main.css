@@ -1,0 +1,117 @@
+@tailwind base;
+
+html {
+  @apply bg-beige;
+  font-size: 17px;
+}
+
+.drop-cap:first-letter {
+  float: left;
+  font-size: 4.25rem;
+  line-height: 1;
+  padding-top: .25rem;
+  padding-right: .5rem;
+  padding-left: .25rem;
+}
+
+.monochrome {
+  filter: grayscale(1);
+}
+
+/*! purgecss start ignore */
+[x-cloak] {
+  display: none;
+}
+.no-js {
+  display: none;
+}
+.has-old-js .no-js {
+  display: block;
+}
+.has-old-js .no-js-hide {
+  display: none;
+}
+/*! purgecss end ignore */
+
+.content-area > p a {
+  @apply text-darkblue underline;
+  @apply transition-colors duration-500;
+}
+
+.content-area > p a:hover {
+  @apply text-yellow;
+}
+
+.content-area > p + p,
+.content-area > aside + p,
+.content-area > figure + p {
+  @apply mt-8;
+}
+
+.content-area > h3 {
+  @apply font-sans italic text-3xl mt-4 mb-8 leading-8;
+}
+
+.content-area > ul {
+  @apply list-disc;
+}
+.content-area > ol {
+  @apply list-decimal;
+}
+
+
+@responsive {
+  .shape-outside {
+    shape-outside: border-box;
+  }
+}
+
+.content-aside > p {
+  @apply leading-relaxed;
+}
+
+.content-aside a {
+  @apply text-darkblue underline;
+  @apply transition-colors duration-500;
+}
+
+.content-aside a:hover {
+  @apply text-yellow;
+}
+
+.content-aside > ul {
+  @apply list-disc;
+}
+.content-aside > ol {
+  @apply list-decimal;
+}
+
+.content-aside > h1,
+.content-aside > h2,
+.content-aside > h3,
+.content-aside > h4 {
+  @apply uppercase font-bold text-lg leading-none;
+}
+
+.content-aside > * + h1,
+.content-aside > * + h2,
+.content-aside > * + h3,
+.content-aside > * + h4 {
+  @apply mt-8;
+}
+
+.content-aside > * + * ,
+.content-aside ul > li + li,
+.content-aside ol > li + li {
+  @apply mt-3;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+@responsive {
+  .block-important {
+    display: block !important;
+  }
+}

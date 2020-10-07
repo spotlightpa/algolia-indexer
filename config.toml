@@ -1,0 +1,37 @@
+baseURL = "https://sources.spotlightpa.org/"
+languageCode = "en-us"
+title = "Diverse Source Database"
+enableRobotsTXT = true
+enableGitInfo = true
+rssLimit = 50
+Paginate = 25
+
+googleAnalytics = "UA-141126362-3"
+buildFuture = true
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+[markup.goldmark.extensions]
+  definitionList = false
+  footnote = false
+  linkify = false
+  strikethrough = false
+  table = false
+  taskList = false
+  typographer = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+
+[build]
+  writeStats = true
+
+[minify]
+  minifyOutput = true
