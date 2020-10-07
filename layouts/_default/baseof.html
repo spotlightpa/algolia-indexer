@@ -13,6 +13,13 @@
     {{- end -}}
   </title>
 
+  {{ if .Param "no-index" }}
+    <meta name="robots" content="noindex">
+  {{ else }}
+    <meta name="robots" content="index,follow">
+    <link href="{{ .Permalink }}" rel="canonical">
+  {{ end }}
+
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
   {{ template "_internal/schema.html" . }}
