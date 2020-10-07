@@ -17,3 +17,19 @@ command = "yarn build:stage"
 
 [context.branch-deploy]
 command = "yarn build:stage"
+
+
+[[headers]]
+for = "/*.ico"
+[headers.values]
+Cache-Control = "public, max-age=1209600" # 2 weeks
+
+[[headers]]
+for = "/css/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable" # 1 year
+
+[[headers]]
+for = "/js/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable" # 1 year
