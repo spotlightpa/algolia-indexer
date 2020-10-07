@@ -1,0 +1,44 @@
+{{ define "main" }}
+  <main class="p-8">
+  <h1 class="text-2xl font-bold">
+    {{ .Param "first" }} {{ .Param "last" }}
+  </h1>
+
+<dl>
+  <dt class="font-bold">last_mod</dt>
+  <dd>{{ .Param "last_mod" }}</dd>
+  <dt class="font-bold">first</dt>
+  <dd>{{ .Param "first" }}</dd>
+  <dt class="font-bold">last</dt>
+  <dd>{{ .Param "last" }}</dd>
+  <dt class="font-bold">pronoun</dt>
+  <dd>{{ .Param "pronoun" }}</dd>
+  <dt class="font-bold">pronunciation</dt>
+  <dd>{{ .Param "pronunciation" }}</dd>
+  <dt class="font-bold">email</dt>
+  <dd>{{ .Param "email" }}</dd>
+  <dt class="font-bold">tel</dt>
+  <dd>{{ .Param "tel" }}</dd>
+  <dt class="font-bold">title</dt>
+  <dd>{{ .Param "title" }}</dd>
+  <dt class="font-bold">bio</dt>
+  <dd>{{ .Param "bio" }}</dd>
+  <dt class="font-bold">photo</dt>
+  <dd>{{ .Param "photo" }}</dd>
+  <dt class="font-bold">location</dt>
+  <dd>{{ .Param "location" }}</dd>
+  <dt class="font-bold">social</dt>
+  <dd>{{ .Param "social" }}</dd>
+  <dt class="font-bold">website</dt>
+  <dd>{{ .Param "website" }}</dd>
+  <dt class="font-bold">expertise</dt>
+  <dd>{{ .Param "expertise" }}</dd>
+  <dt class="font-bold">keywords</dt>
+  <dd>{{ .Param "keywords" }}</dd>
+</dl>
+
+  <div>
+    {{ .Content }}
+  </div>
+  </main>
+{{ end }}
