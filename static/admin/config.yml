@@ -29,7 +29,7 @@ collections:
         hint: E.g. "John Jacob Jingleheimer Smith, IV"
         name: title
         widget: string
-        required: false
+        required: true
       - label: Display name
         hint: E.g. "John Smith" (defaults to full name)
         name: linktitle
@@ -40,6 +40,10 @@ collections:
         name: full-name
         widget: string
         required: true
+      - label: Email
+        name: email
+        widget: email
+        required: false
       - label: "Headshot"
         name: "headshot"
         widget: "image"
