@@ -25,6 +25,24 @@ collections:
     editor:
       preview: false
     fields:
-      - label: Full display name
-        name: name
+      - label: Full name
+        hint: E.g. "John Jacob Jingleheimer Smith, IV"
+        name: title
         widget: string
+        required: false
+      - label: Display name
+        hint: E.g. "John Smith" (defaults to full name)
+        name: linktitle
+        widget: string
+        required: false
+      - label: Sortable name
+        hint: E.g. "Smith, John Jacob Jingleheimer 4"
+        name: full-name
+        widget: string
+        required: true
+      - label: "Headshot"
+        name: "headshot"
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
