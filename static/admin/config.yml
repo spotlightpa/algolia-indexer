@@ -1,0 +1,30 @@
+media_folder: static/img/uploads
+public_folder: /img/uploads
+
+site_url: https://sources.spotlightpa.org
+display_url: https://sources.spotlightpa.org
+logo_url: https://www.spotlightpa.org/img/logos/banner-share-5000.png
+
+show_preview_links: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+collections:
+  - label: People
+    label_singular: Person
+    name: people
+    folder: content/people
+    format: json
+    extension: md
+    create: true
+    slug: "{{name}}"
+    preview_path: /people/
+    identity_field: name
+    editor:
+      preview: false
+    fields:
+      - label: Full display name
+        name: name
+        widget: string
