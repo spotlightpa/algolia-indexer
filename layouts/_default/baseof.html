@@ -46,6 +46,28 @@
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   <link rel="preload" as="font" href="/css/fonts/merriweather-v21/merriweather-v21-latin-regular.woff2" crossorigin>
   <link rel="preload" as="font" href="/css/fonts/merriweather-v21/merriweather-v21-latin-700.woff2" crossorigin>
+  {{ block "extra-head" . }}{{ end }}
+
+  <noscript>
+    <style>
+      .no-js-show {
+        display: block;
+      }
+      .no-js-hide {
+         display: none;
+      }
+    </style>
+  </noscript>
+  {{ $shouldMinify := not site.IsServer }}
+  {{ $jsOpts := dict "minify" $shouldMinify "targetPath" "/js/main.js" "target" "es2019" }}
+  {{ $js := resources.Get "js/entrypoint/main.js" | js.Build $jsOpts }}
+  {{ if $shouldMinify }}
+    {{ $js = $js | minify | fingerprint }}
+  {{ end }}
+  <link
+    rel="modulepreload"
+    href='{{ $js.RelPermalink }}'
+  />
 
 </head>
 {{ $pageCat := printf "%s:%s" (.Section | default .Type) .Kind }}
@@ -62,5 +84,12 @@
     {{ partial "footer.html" . }}
   </div>
   {{ partial "svg.html" . }}
+  <script
+    src='{{ $js.RelPermalink }}'
+    type="module"
+    async
+  ></script>
+
+  {{ block "extra-footer" . }}{{ end }}
 </body>
 </html>

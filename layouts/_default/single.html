@@ -15,8 +15,18 @@
   <dd>{{ .Param "pronoun" }}</dd>
   <dt class="font-bold">pronunciation</dt>
   <dd>{{ .Param "pronunciation" }}</dd>
-  <dt class="font-bold">email</dt>
-  <dd>{{ .Param "email" }}</dd>
+  <dt class="no-js-hide font-bold">email</dt>
+  <dd
+    class="no-js-hide"
+    x-data="{ email: atob($el.dataset.email) }"
+    data-email='{{ .Param "email" }}'
+  >
+    <a
+      class="text-darkblue hover:text-yellow transition-colors duration-500"
+      :href="'mailto:'+email"
+      x-text="email"
+    ></a>
+  </dd>
   <dt class="font-bold">tel</dt>
   <dd>{{ .Param "tel" }}</dd>
   <dt class="font-bold">title</dt>
