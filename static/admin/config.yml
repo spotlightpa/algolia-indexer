@@ -19,9 +19,9 @@ collections:
     format: json
     extension: md
     create: true
-    slug: "{{name}}"
-    preview_path: /people/
-    identity_field: name
+    slug: "{{title}}"
+    preview_path: /people/{{slug}}/
+    identity_field: title
     editor:
       preview: false
     fields:
@@ -47,6 +47,7 @@ collections:
       - label: "Headshot"
         name: "headshot"
         widget: "image"
+        required: false
         media_library:
           config:
             multiple: false
