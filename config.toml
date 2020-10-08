@@ -9,6 +9,9 @@ Paginate = 25
 googleAnalytics = "UA-141126362-5"
 buildFuture = true
 
+[taxonomies]
+  expertise = "expertise"
+
 [markup]
   defaultMarkdownHandler = "goldmark"
 
