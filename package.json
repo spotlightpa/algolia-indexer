@@ -5,8 +5,9 @@
   "author": "webmaster@spotlightpa.org",
   "license": "MIT",
   "scripts": {
-    "build:prod": "hugo version && hugo --cleanDestinationDir",
-    "build:stage": "hugo version && hugo --environment staging --baseURL ${DEPLOY_PRIME_URL:-https://www.spotlightpa.org}"
+    "build:prod": "hugo version && hugo --cleanDestinationDir && yarn run searchindex",
+    "build:stage": "hugo version && hugo --environment staging --baseURL ${DEPLOY_PRIME_URL:-https://www.spotlightpa.org}",
+    "searchindex": "go run ./cmd/indexer -src ./public/searchindex.json -verbose"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",

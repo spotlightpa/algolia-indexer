@@ -27,15 +27,6 @@
 
   {{ template "_internal/google_analytics_async.html" . }}
 
-  {{ range .AlternativeOutputFormats }}
-    <link
-      rel="{{ .Rel }}"
-      type="{{ .MediaType.Type }}"
-      href="{{ .Permalink | safeURL }}"
-      title="{{ $.Title }}"
-    />
-  {{ end }}
-
   {{ $cssFonts := resources.Get "css/fonts.css" }}
   {{ $cssTW := resources.Get "css/main.css" }}
   {{ $css := slice $cssFonts $cssTW | resources.Concat "css/site.css" }}

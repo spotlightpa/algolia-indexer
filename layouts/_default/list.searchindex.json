@@ -1,0 +1,11 @@
+{{ $ppl := .GetPage "people" }}
+[
+  {{ range $i, $page := $ppl.Pages }}
+    {{ if ne $i 0 }},{{ end }}
+    {
+      "objectID": {{ .Permalink|jsonify }},
+      "URL": {{ .Permalink|jsonify }},
+      "name": {{ .Param "title"| default "" | jsonify }}
+    }
+  {{ end }}
+]
