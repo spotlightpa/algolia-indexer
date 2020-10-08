@@ -89,6 +89,12 @@
     type="module"
     async
   ></script>
+  <script
+    nomodule
+    async
+  >
+    document.body.classList.add('has-old-js');
+  </script>
 
   {{ block "extra-footer" . }}{{ end }}
 </body>
