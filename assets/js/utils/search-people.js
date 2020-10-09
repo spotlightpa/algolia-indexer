@@ -3,7 +3,14 @@ import { debouncer } from "../utils/timers.js";
 
 function normalize(obj) {
   return {
-    name: obj.name || "",
+    "path": obj["path"] || "",
+    "full_name": obj["full_name"] || "",
+    "bio": obj["bio"] || "",
+    "last_name": obj["last_name"] || "",
+    "location": obj["location"] || "",
+    "role": obj["role"] || "",
+    "expertise": obj["expertise"] || [],
+    "keywords": obj["keywords"] || [],
   };
 }
 
