@@ -3,7 +3,7 @@ public_folder: /img/uploads
 
 site_url: https://sources.spotlightpa.org
 display_url: https://sources.spotlightpa.org
-logo_url: https://www.spotlightpa.org/img/logos/banner-share-5000.png
+logo_url: https://www.spotlightpa.org/img/logos/capitol-moody-logo-500.jpeg
 
 show_preview_links: true
 
@@ -26,28 +26,79 @@ collections:
       preview: false
     fields:
       - label: Full name
-        hint: E.g. "John Jacob Jingleheimer Smith, IV"
+        hint: E.g. "John Jacob Jingleheimer Schmidt, IV"
         name: title
         widget: string
         required: true
-      - label: Display name
-        hint: E.g. "John Smith" (defaults to full name)
-        name: linktitle
-        widget: string
-        required: false
-      - label: Sortable name
-        hint: E.g. "Smith, John Jacob Jingleheimer 4"
-        name: full-name
+      - label: First name
+        hint: E.g. "John Jacob"
+        name: first
         widget: string
         required: true
+      - label: Last name
+        hint: E.g. "Schmidt"
+        name: last
+        widget: string
+        required: true
+      - label: Pronoun
+        hint: E.g. "he/him," "she/her," "they/them"
+        name: pronoun
+        widget: string
+        required: false
+      - label: Title or Profession
+        name: role
+        widget: string
+        required: false
+      - label: Expertise
+        name: expertise
+        widget: list
+        required: false
+      - label: Keywords
+        name: keywords
+        widget: list
+        required: false
       - label: Email
         name: email
         widget: email
         required: false
       - label: "Headshot"
-        name: "headshot"
+        name: "image"
         widget: "image"
         required: false
         media_library:
           config:
             multiple: false
+      - label: Website
+        hint: Full URL with http://
+        name: website
+        widget: string
+        required: false
+      - label: Facebook
+        hint: Just the username without http://facebook.com/
+        name: facebook
+        widget: string
+        required: false
+      - label: Twitter
+        hint: Just the username without the @
+        name: twitter
+        widget: string
+        required: false
+      - label: Instagram
+        hint: Just the username without the @
+        name: instagram
+        widget: string
+        required: false
+      - label: Location
+        hint: City, state, e.g. "Philadelphia, Pa."
+        name: location
+        widget: string
+        required: false
+      - label: "Phone"
+        hint: Just the digits
+        name: phone
+        widget: string
+        required: false
+      - label: Biography
+        name: bio
+        widget: markdown
+        required: false
