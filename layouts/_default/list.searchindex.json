@@ -4,8 +4,14 @@
     {{ if ne $i 0 }},{{ end }}
     {
       "objectID": {{ .Permalink|jsonify }},
-      "URL": {{ .Permalink|jsonify }},
-      "name": {{ .Param "title"| default "" | jsonify }}
+      "path": {{ .RelPermalink|jsonify }},
+      "full_name": {{ .Title | jsonify }},
+      "bio": {{ .Param "bio"|jsonify }},
+      "expertise": {{ .Param "expertise"|jsonify }},
+      "keywords": {{ .Param "keywords"|jsonify }},
+      "last_name": {{ .Param "last"|jsonify }},
+      "location": {{ .Param "location"|jsonify }},
+      "role": {{ .Param "role"|jsonify }}
     }
   {{ end }}
 ]
