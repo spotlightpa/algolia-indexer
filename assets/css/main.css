@@ -115,3 +115,15 @@ html {
     display: block !important;
   }
 }
+
+@responsive {
+  .column-count-2 {
+    column-count: 2;
+  }
+  .column-count-3 {
+    column-count: 3;
+  }
+  .break-inside-avoid-column {
+    break-inside: avoid-column;
+  }
+}
