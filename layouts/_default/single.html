@@ -1,54 +1,170 @@
 {{ define "main" }}
   <main class="p-8">
-  <h1 class="text-2xl font-bold">
+  <h1 class="text-2xl text-black font-bold">
     {{ .Param "first" }} {{ .Param "last" }}
+    {{ with .Param "pronunciation" }}
+      <span class="text-base text-g-6">
+        ({{ . }})
+      </span>
+    {{ end }}
   </h1>
+  {{ with .Param "role" }}
+    <p class="text-lg -mt-2">
+      {{ . }}
+    </p>
+  {{ end }}
+  <div class="mt-2 sm:flex sm:flex-wrap max-w-screen-sm text-sm">
+    {{ with .Param "location" }}
+      <p class="sm:w-1/2">
+        <span class="mr-5 text-g-6">
+          <svg class="inline-block h-4 w-4 align-text-bottom fill-current">
+            <title>Location</title>
+            <use xlink:href="#earth-svg"></use>
+          </svg>
+        </span>
+        <span>{{ . }}</span>
+      </p>
+    {{ end }}
 
-<dl>
-  <dt class="font-bold">last_mod</dt>
-  <dd>{{ .Param "last_mod" }}</dd>
-  <dt class="font-bold">first</dt>
-  <dd>{{ .Param "first" }}</dd>
-  <dt class="font-bold">last</dt>
-  <dd>{{ .Param "last" }}</dd>
-  <dt class="font-bold">pronoun</dt>
-  <dd>{{ .Param "pronoun" }}</dd>
-  <dt class="font-bold">pronunciation</dt>
-  <dd>{{ .Param "pronunciation" }}</dd>
-  <dt class="no-js-hide font-bold">email</dt>
-  <dd
-    class="no-js-hide"
-    x-data="{ email: atob($el.dataset.email) }"
-    data-email='{{ .Param "email" }}'
-  >
-    <a
-      class="text-darkblue hover:text-yellow transition-colors duration-500"
-      :href="'mailto:'+email"
-      x-text="email"
-    ></a>
-  </dd>
-  <dt class="font-bold">tel</dt>
-  <dd>{{ .Param "tel" }}</dd>
-  <dt class="font-bold">title</dt>
-  <dd>{{ .Param "title" }}</dd>
-  <dt class="font-bold">bio</dt>
-  <dd>{{ .Param "bio" }}</dd>
-  <dt class="font-bold">photo</dt>
-  <dd>{{ .Param "photo" }}</dd>
-  <dt class="font-bold">location</dt>
-  <dd>{{ .Param "location" }}</dd>
-  <dt class="font-bold">social</dt>
-  <dd>{{ .Param "social" }}</dd>
-  <dt class="font-bold">website</dt>
-  <dd>{{ .Param "website" }}</dd>
-  <dt class="font-bold">expertise</dt>
-  <dd>{{ .Param "expertise" }}</dd>
-  <dt class="font-bold">keywords</dt>
-  <dd>{{ .Param "keywords" }}</dd>
-</dl>
+    {{ with .Param "pronoun" }}
+      <p class="sm:w-1/2">
+        <span class="mr-5 text-g-6">
+          <svg class="inline-block h-4 w-4 align-text-bottom fill-current">
+            <title>Preferred pronoun</title>
+            <use xlink:href="#user-svg"></use>
+          </svg>
+        </span>
+        <span>{{ . }}</span>
+      </p>
+    {{ end }}
 
-  <div>
-    {{ .Content }}
+    {{ with .Param "email" }}
+      <p
+        class="no-js-hide sm:w-1/2"
+        x-data="{ email: atob($el.dataset.email) }"
+        data-email='{{ . }}'
+      >
+        <span class="mr-5 text-g-6">
+          <svg class="inline-block h-4 w-4 align-text-bottom fill-current">
+            <title>Email address</title>
+            <use xlink:href="#email-svg"></use>
+          </svg>
+        </span>
+        <a
+          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          :href="'mailto:'+email"
+          x-text="email"
+        ></a>
+      </p>
+    {{ end }}
+
+    {{ with .Param "phone" }}
+      <p class="sm:w-1/2">
+        <span class="mr-5 text-g-6">
+          <svg class="inline-block h-4 w-4 align-text-bottom fill-current">
+            <title>Telephone number</title>
+            <use xlink:href="#phone-svg"></use>
+          </svg>
+        </span>
+        <a
+          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          href="tel:{{ . }}"
+          x-data="{ tel: spl.formatTel($el.href) }"
+          x-text="tel"
+        >{{ . }}</a>
+      </p>
+    {{ end }}
+
+    {{ with .Param "website" }}
+      <p class="sm:w-1/2">
+        {{ $url := urls.Parse . }}
+        <span class="mr-5 text-g-6">
+          <svg class="inline-block h-4 w-4 align-text-bottom fill-current">
+            <title>Website</title>
+            <use xlink:href="#globe-svg"></use>
+          </svg>
+        </span>
+        <a
+          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          href="{{ . }}"
+          target="_blank"
+        >{{ $url.Host }}</a>
+      </p>
+    {{ end }}
+
+    {{ with .Param "facebook" }}
+      <p class="sm:w-1/2">
+        <span class="mr-5 text-g-6">
+          <svg class="inline-block h-4 w-4 align-text-bottom fill-current">
+            <title>Facebook page</title>
+            <use xlink:href="#fb-svg"></use>
+          </svg>
+        </span>
+        <a
+          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          href="https://www.facebook.com/{{ . }}"
+          target="_blank"
+        >{{ . }}</a>
+      </p>
+    {{ end }}
+
+    {{ with .Param "twitter" }}
+      <p class="sm:w-1/2">
+        <span class="mr-5 text-g-6">
+          <svg class="inline-block h-4 w-4 align-text-bottom fill-current">
+            <title>Twitter account</title>
+            <use xlink:href="#twitter-svg"></use>
+          </svg>
+        </span>
+        <a
+          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          href="https://www.twitter.com/{{ . }}"
+          target="_blank"
+        >@{{ . }}</a>
+      </p>
+    {{ end }}
+
+    {{ with .Param "instagram" }}
+      <p class="sm:w-1/2">
+        <span class="mr-5 text-g-6">
+          <svg class="inline-block h-4 w-4 align-text-bottom fill-current">
+            <title>Instagram account</title>
+            <use xlink:href="#instagram-svg"></use>
+          </svg>
+        </span>
+        <a
+          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          href="https://www.instagram.com/{{ . }}/"
+          target="_blank"
+        >@{{ . }}</a>
+      </p>
+    {{ end }}
   </div>
+
+  <div class="mt-4 max-w-screen-sm content-area">
+    {{ .Param "bio" | markdownify }}
+  </div>
+  <dl class="mt-4 max-w-screen-sm md:flex">
+    <div class="md:max-w-md">
+      <dt class="text-lg font-bold">Expertise</dt>
+      <dd class="text-md text-darkblue ">
+        {{ range $i, $p := .GetTerms "expertise" }}
+          {{- if ne $i 0 }},{{ end }}
+          <a
+            class="hover:text-yellow transition-colors duration-500"
+            href="{{ $p.RelPermalink }}"
+          >
+            {{ .Title -}}
+          </a>
+        {{- end }}
+      </dd>
+    </div>
+    <div class="mt-4 md:mt-0 md:ml-4 md:max-w-md">
+      <dt class="text-lg font-bold">Keywords</dt>
+      <dd class="text-md text-g-9">
+        {{ delimit (.Param "keywords") ", " }}
+      </dd>
+    </div>
+  </dl>
   </main>
 {{ end }}

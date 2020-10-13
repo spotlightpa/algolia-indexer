@@ -47,3 +47,11 @@ buildFuture = true
 
 [minify]
   minifyOutput = true
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "node_modules/@fortawesome/fontawesome-free/svgs"
+target = "assets/@fontawesome"
