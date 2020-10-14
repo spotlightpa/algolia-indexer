@@ -9,9 +9,9 @@ html {
   float: left;
   font-size: 4.25rem;
   line-height: 1;
-  padding-top: .25rem;
-  padding-right: .5rem;
-  padding-left: .25rem;
+  padding-top: 0.25rem;
+  padding-right: 0.5rem;
+  padding-left: 0.25rem;
 }
 
 .monochrome {
@@ -59,7 +59,6 @@ html {
   @apply list-decimal;
 }
 
-
 @responsive {
   .shape-outside {
     shape-outside: border-box;
@@ -100,7 +99,7 @@ html {
   @apply mt-8;
 }
 
-.content-aside > * + * ,
+.content-aside > * + *,
 .content-aside ul > li + li,
 .content-aside ol > li + li {
   @apply mt-3;
