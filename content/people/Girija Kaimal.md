@@ -29,5 +29,5 @@
   "role": "Associate Professor (art therapy)",
   "title": "Girija  Kaimal ",
   "twitter": "kaimalgirija",
-  "website": "http://www.girijakaimal.com "
+  "website": "http://www.girijakaimal.com"
 }
