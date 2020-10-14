@@ -9,7 +9,10 @@
     "format:prettier": "prettier --ignore-path .gitignore --write **/*.{css,js,yml}",
     "build:prod": "hugo version && hugo --cleanDestinationDir && yarn run searchindex",
     "build:stage": "hugo version && hugo --environment staging --baseURL ${DEPLOY_PRIME_URL:-https://www.spotlightpa.org}",
-    "searchindex": "go run ./cmd/indexer -src ./public/searchindex.json -verbose"
+    "searchindex": "go run ./cmd/indexer -src ./public/searchindex.json -verbose",
+    "test": "yarn run test:eslint && yarn run test:prettier",
+    "test:eslint": "eslint --ext .js --ignore-path .gitignore .",
+    "test:prettier": "prettier --ignore-path .gitignore --check **/*.{css,js,yml}"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
