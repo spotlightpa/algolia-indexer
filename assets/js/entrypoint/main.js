@@ -9,6 +9,8 @@ window.spl = Object.assign({}, window.spl, {
 // Redirect admin emails to admin
 const routes = /(confirmation|invite|recovery|email_change)_token=([^&]+)/g;
 
-if (window.location.hash.match(routes) ) {
-  window.location.replace(window.location.origin+"/admin/"+window.location.hash);
+if (window.location.hash.match(routes)) {
+  window.location.replace(
+    window.location.origin + "/admin/" + window.location.hash
+  );
 }
