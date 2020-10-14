@@ -1,8 +1,10 @@
 import "alpinejs";
 
+import formatTel from "../utils/format-tel.js";
 import searchPeople from "../utils/search-people.js";
 
 window.spl = Object.assign({}, window.spl, {
+  formatTel,
   searchPeople,
 });
 
