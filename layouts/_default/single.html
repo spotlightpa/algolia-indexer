@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <main class="p-8">
+<main class="p-8">
   <h1 class="text-2xl text-black font-bold">
     {{ .Param "first" }} {{ .Param "last" }}
     {{ with .Param "pronunciation" }}
@@ -9,9 +9,9 @@
     {{ end }}
   </h1>
   {{ with .Param "role" }}
-    <p class="text-lg -mt-2">
+    <h2 class="text-lg -mt-2">
       {{ . }}
-    </p>
+    </h2>
   {{ end }}
   <div class="mt-2 sm:flex sm:flex-wrap max-w-screen-sm text-sm">
     {{ with index (.GetTerms "location") 0 }}
@@ -144,9 +144,11 @@
     {{ end }}
   </div>
 
-  <div class="mt-4 max-w-screen-sm content-area">
+  <section class="mt-4 max-w-screen-sm content-area">
+    <h2 class="sr-only">Biographical information</h2>
+
     {{ .Param "bio" | markdownify }}
-  </div>
+  </section>
 
   {{ with $img := .Param "image" | resources.GetMatch }}
     {{ $imgSmall := $img.Resize "200x" }}
@@ -171,10 +173,10 @@
     </p>
   {{ end }}
 
-  <dl class="mt-4 max-w-screen-sm md:flex">
+  <div class="mt-4 max-w-screen-sm md:flex">
     <div class="md:max-w-md">
-      <dt class="text-lg font-bold">Expertise</dt>
-      <dd class="text-md text-blue ">
+      <h2 class="text-lg font-bold">Expertise</h2>
+      <p class="text-md text-blue ">
         {{ range $i, $p := .GetTerms "expertise" }}
           {{- if ne $i 0 }},{{ end }}
           <a
@@ -184,14 +186,14 @@
             {{ .Title -}}
           </a>
         {{- end }}
-      </dd>
+      </p>
     </div>
     <div class="mt-4 md:mt-0 md:ml-4 md:max-w-md">
-      <dt class="text-lg font-bold">Keywords</dt>
-      <dd class="text-md text-g-9">
+      <h2 class="text-lg font-bold">Keywords</h2>
+      <p class="text-md text-g-9">
         {{ delimit (.Param "keywords") ", " }}
-      </dd>
+      </p>
     </div>
-  </dl>
-  </main>
+  </div>
+</main>
 {{ end }}
