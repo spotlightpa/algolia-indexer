@@ -51,7 +51,7 @@
           </svg>
         </span>
         <a
-          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          class="text-blue hover:text-yellow transition-colors duration-500"
           :href="'mailto:'+email"
           x-text="email"
         ></a>
@@ -67,7 +67,7 @@
           </svg>
         </span>
         <a
-          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          class="text-blue hover:text-yellow transition-colors duration-500"
           href="tel:{{ . }}"
           x-data="{ tel: spl.formatTel($el.href) }"
           x-text="tel"
@@ -85,7 +85,7 @@
           </svg>
         </span>
         <a
-          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          class="text-blue hover:text-yellow transition-colors duration-500"
           href="{{ . }}"
           target="_blank"
         >{{ $url.Host }}</a>
@@ -101,7 +101,7 @@
           </svg>
         </span>
         <a
-          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          class="text-blue hover:text-yellow transition-colors duration-500"
           href="https://www.facebook.com/{{ . }}"
           target="_blank"
         >{{ . }}</a>
@@ -117,7 +117,7 @@
           </svg>
         </span>
         <a
-          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          class="text-blue hover:text-yellow transition-colors duration-500"
           href="https://www.twitter.com/{{ . }}"
           target="_blank"
         >@{{ . }}</a>
@@ -133,7 +133,7 @@
           </svg>
         </span>
         <a
-          class="text-darkblue hover:text-yellow transition-colors duration-500"
+          class="text-blue hover:text-yellow transition-colors duration-500"
           href="https://www.instagram.com/{{ . }}/"
           target="_blank"
         >@{{ . }}</a>
@@ -147,7 +147,7 @@
   <dl class="mt-4 max-w-screen-sm md:flex">
     <div class="md:max-w-md">
       <dt class="text-lg font-bold">Expertise</dt>
-      <dd class="text-md text-darkblue ">
+      <dd class="text-md text-blue ">
         {{ range $i, $p := .GetTerms "expertise" }}
           {{- if ne $i 0 }},{{ end }}
           <a

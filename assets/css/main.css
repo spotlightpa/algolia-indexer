@@ -34,7 +34,7 @@ html {
 /*! purgecss end ignore */
 
 .content-area > p a {
-  @apply text-darkblue underline;
+  @apply text-blue underline;
   @apply transition-colors duration-500;
 }
 
