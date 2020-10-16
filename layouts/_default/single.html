@@ -147,6 +147,30 @@
   <div class="mt-4 max-w-screen-sm content-area">
     {{ .Param "bio" | markdownify }}
   </div>
+
+  {{ with $img := .Param "image" | resources.GetMatch }}
+    {{ $imgSmall := $img.Resize "200x" }}
+    {{ $imgMedium := $img.Resize "400x" }}
+    <h2 class="mt-4 text-lg font-bold">Headshot</h2>
+    <p>
+      <a
+        href="{{ $img.RelPermalink }}"
+        download
+      >
+        <img
+          title="Click to download"
+          alt="Headshot of {{ $.Title }}"
+          width="200"
+          src="{{ $imgSmall.RelPermalink }}"
+          srcset="
+            {{ $imgSmall.RelPermalink }} 1x,
+            {{ $imgMedium.RelPermalink }} 2x,
+          "
+        >
+      </a>
+    </p>
+  {{ end }}
+
   <dl class="mt-4 max-w-screen-sm md:flex">
     <div class="md:max-w-md">
       <dt class="text-lg font-bold">Expertise</dt>
