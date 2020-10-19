@@ -23,9 +23,8 @@
   "role": "LSW, MSW, IBCLC",
   "last": "Coleman",
   "title": "Jabina Coleman",
-  "images": "/img/uploads/jabina-headshot-jabina-coleman.jpeg",
+  "images": ["/img/uploads/jabina-headshot-jabina-coleman.jpeg"],
   "website": "https://thelactationtherapist.com",
-  "image": "/img/uploads/jabina-headshot-jabina-coleman.jpeg",
   "email": "aW5mb0B0aGVsYWN0YXRpb250aGVyYXBpc3QuY29t",
   "linkedin": ""
 }

@@ -62,12 +62,10 @@ collections:
         widget: email
         required: false
       - label: "Headshot"
-        name: "image"
-        widget: "image"
-        required: false
-        media_library:
-          config:
-            multiple: false
+        name: "images"
+        widget: list
+        summary: '{{fields.image}}'
+        field: {label: Image, name: image, widget: image}
       - label: Website
         hint: Full URL with http://
         name: website
