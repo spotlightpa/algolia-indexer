@@ -12,15 +12,33 @@
     x-data="spl.searchPeople()"
     x-init="init()"
   >
-    <h2 class="text-2xl font-bold">Search</h2>
-    <input
-      class="rounded border border-black"
-      x-model="query"
-    >
+    <div class="rounded p-2 bg-beige shadow-md">
+    <h2 class="ml-10 text-g-9 font-sans uppercase text-base font-bold">
+      <label for="search">
+        Search
+      </label>
+    </h2>
+    <div class="relative">
+      <input
+        id="search"
+        class="appearance-none block w-full rounded-full border-2 border-g-5 pl-10 py-2 bg-white text-g-8 placeholder-g-5 placeholder-opacity-100 tracking-wider"
+        x-model="query"
+      >
+      <span
+        class="absolute inline-flex items-center justify-center inset-y-0 left-0 text-g-5 pointer-events-none z-10 w-10 leading-none"
+        aria-hidden="true"
+      >
+        <svg class="fill-current h-4 w-auto">
+          <title>Search</title>
+          <use xlink:href="#search-svg"></use>
+        </svg>
+      </span>
+    </div>
     <div x-text="query"></div>
     <template x-for="result of people">
       <div x-text="JSON.stringify(result)"></div>
     </template>
+    </div>
   </section>
   <section class="p-8">
     <h2 class="text-2xl font-bold">
@@ -29,7 +47,7 @@
     {{ $expertise := .GetPage "expertise" }}
     {{ partial "pages-list.html" $expertise }}
   </section>
-  <section class="p-8">
+  <section class="p-8 bg-beige shadow-inner">
     <h2 class="text-2xl font-bold">
       Location
     </h2>
