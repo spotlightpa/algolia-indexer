@@ -53,5 +53,13 @@ source = "assets"
 target = "assets"
 
 [[module.mounts]]
+source = "static/img/uploads"
+target = "assets/img/uploads"
+
+[[module.mounts]]
+source = "static"
+target = "static"
+
+[[module.mounts]]
 source = "node_modules/@fortawesome/fontawesome-free/svgs"
 target = "assets/@fontawesome"
