@@ -33,3 +33,6 @@ Cache-Control = "public, max-age=31536000, immutable" # 1 year
 for = "/js/*"
 [headers.values]
 Cache-Control = "public, max-age=31536000, immutable" # 1 year
+
+[[plugins]]
+package = "netlify-plugin-hugo-cache-resources"
