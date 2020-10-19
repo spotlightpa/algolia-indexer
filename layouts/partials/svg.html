@@ -1,28 +1,28 @@
-<div class="hidden">
-  {{ $banner := resources.Get "/img/logos/banner-default-on-trans.svg" }}
-  <svg id="banner-svg">{{ $banner.Content|safeHTML }}</svg>
-  {{ $logo := resources.Get "/img/logos/circle-default-on-trans.svg" }}
-  <svg id="logo-svg">{{ $logo.Content|safeHTML }}</svg>
-  {{ $iconCheck := resources.Get "@fontawesome/solid/check.svg" }}
-  <svg id="check-svg">{{ $iconCheck.Content|safeHTML }}</svg>
-  {{ $iconEmail := resources.Get "@fontawesome/regular/envelope.svg" }}
-  <svg id="email-svg">{{ $iconEmail.Content|safeHTML }}</svg>
-  {{ $iconFB := resources.Get "@fontawesome/brands/facebook-f.svg" }}
-  <svg id="fb-svg">{{ $iconFB.Content|safeHTML }}</svg>
-  {{ $iconSearch := resources.Get "@fontawesome/solid/search.svg" }}
-  <svg id="search-svg">{{ $iconSearch.Content|safeHTML }}</svg>
-  {{ $iconInstagram := resources.Get "@fontawesome/brands/instagram.svg" }}
-  <svg id="instagram-svg">{{ $iconInstagram.Content|safeHTML }}</svg>
-  {{ $iconShare := resources.Get "@fontawesome/solid/share.svg" }}
-  <svg id="share-svg">{{ $iconShare.Content|safeHTML }}</svg>
-  {{ $iconTwitter := resources.Get "@fontawesome/brands/twitter.svg" }}
-  <svg id="twitter-svg">{{ $iconTwitter.Content|safeHTML }}</svg>
-  {{ $iconGlobe := resources.Get "@fontawesome/solid/globe.svg" }}
-  <svg id="globe-svg">{{ $iconGlobe.Content|safeHTML }}</svg>
-  {{ $iconEarth := resources.Get "@fontawesome/solid/globe-americas.svg" }}
-  <svg id="earth-svg">{{ $iconEarth.Content|safeHTML }}</svg>
-  {{ $iconPhone := resources.Get "@fontawesome/solid/phone.svg" }}
-  <svg id="phone-svg">{{ $iconPhone.Content|safeHTML }}</svg>
-  {{ $iconUser := resources.Get "@fontawesome/solid/user.svg" }}
-  <svg id="user-svg">{{ $iconUser.Content|safeHTML }}</svg>
+{{/*
+SVGS formatted readably:
+
+"banner-svg" "/img/logos/banner-default-on-trans.svg"
+"check-svg" "@fontawesome/solid/check.svg"
+"earth-svg" "@fontawesome/solid/globe-americas.svg"
+"email-svg" "@fontawesome/regular/envelope.svg"
+"fb-svg" "@fontawesome/brands/facebook-f.svg"
+"globe-svg" "@fontawesome/solid/globe.svg"
+"instagram-svg" "@fontawesome/brands/instagram.svg"
+"logo-svg" "/img/logos/circle-default-on-trans.svg"
+"phone-svg" "@fontawesome/solid/phone.svg"
+"search-svg" "@fontawesome/solid/search.svg"
+"share-svg" "@fontawesome/solid/share.svg"
+"twitter-svg" "@fontawesome/brands/twitter.svg"
+"user-svg" "@fontawesome/solid/user.svg"
+
+ */}}
+
+{{ $svgs := dict "banner-svg" "/img/logos/banner-default-on-trans.svg" "check-svg" "@fontawesome/solid/check.svg" "earth-svg" "@fontawesome/solid/globe-americas.svg" "email-svg" "@fontawesome/regular/envelope.svg" "fb-svg" "@fontawesome/brands/facebook-f.svg" "globe-svg" "@fontawesome/solid/globe.svg" "instagram-svg" "@fontawesome/brands/instagram.svg" "logo-svg" "/img/logos/circle-default-on-trans.svg" "phone-svg" "@fontawesome/solid/phone.svg" "search-svg" "@fontawesome/solid/search.svg" "share-svg" "@fontawesome/solid/share.svg" "twitter-svg" "@fontawesome/brands/twitter.svg" "user-svg" "@fontawesome/solid/user.svg" }}
+
+<div hidden>
+  {{ range $id, $rsc := $svgs }}
+    {{ $svg := resources.Get $rsc }}
+    <svg id="{{ $id }}">{{ $svg.Content|safeHTML }}</svg>
+  {{ end }}
 </div>
+
