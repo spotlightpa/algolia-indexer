@@ -1,11 +1,47 @@
 {{ define "main" }}
-  <main class="p-8">
-  <h1 class="text-2xl font-bold">
-    {{ .Title }}
-  </h1>
+  <section class="p-8">
+    <h1 class="text-2xl font-bold">
+      {{ .Title }}
+    </h1>
+    <div>
+      {{ .Content }}
+    </div>
+  </section>
+  <section
+    class="p-8"
+    x-data="spl.searchPeople()"
+    x-init="init()"
+  >
+    <h2 class="text-2xl font-bold">Search</h2>
+    <input
+      class="rounded border border-black"
+      x-model="query"
+    >
+    <div x-text="query"></div>
+    <template x-for="result of people">
+      <div x-text="JSON.stringify(result)"></div>
+    </template>
+  </section>
+  <section class="p-8">
+    <h2 class="text-2xl font-bold">
+      Expertise
+    </h2>
+    {{ $expertise := .GetPage "expertise" }}
+    {{ partial "pages-list.html" $expertise }}
+  </section>
+  <section class="p-8">
+    <h2 class="text-2xl font-bold">
+      Location
+    </h2>
+    {{ $loc := .GetPage "location" }}
+    {{ partial "pages-list.html" $loc }}
+  </section>
+  <section class="p-8">
+    <h2 class="text-2xl font-bold">
+      All Sources
+    </h2>
+    {{ $people := .GetPage "people" }}
+    {{ partial "people-by-last-name.html" $people }}
+  </section>
 
-  <div>
-    {{ .Content }}
-  </div>
-  </main>
 {{ end }}
