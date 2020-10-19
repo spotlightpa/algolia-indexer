@@ -25,7 +25,7 @@
   "linkedin": "",
   "location": "Philadelphia, PA",
   "phone": "2035703706",
-  "pronoun": "Dr.",
+  "honorific": "Dr.",
   "pronunciation": "",
   "role": "Assistant Professor",
   "title": "Carolina Hausmann-Stabile",
