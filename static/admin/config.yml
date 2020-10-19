@@ -40,12 +40,18 @@ collections:
         name: last
         widget: string
         required: true
+      - label: Honorific
+        hint: E.g. Dr., Prof., Mr., Ms., Mx.
+        name: honorific
+        widget: string
+        required: false
       - label: Pronoun
         hint: E.g. "he/him," "she/her," "they/them"
         name: pronoun
         widget: string
         required: false
       - label: Title or Profession
+        hint: E.g. Assistant Professor of Example Studies
         name: role
         widget: string
         required: false
@@ -64,8 +70,8 @@ collections:
       - label: "Headshot"
         name: "images"
         widget: list
-        summary: '{{fields.image}}'
-        field: {label: Image, name: image, widget: image}
+        summary: "{{fields.image}}"
+        field: { label: Image, name: image, widget: image }
       - label: Website
         hint: Full URL with http://
         name: website
