@@ -19,6 +19,7 @@ export default function searchPeople() {
     query: "",
     results: null,
     error: null,
+    hasSearched: false,
     isLoading: false,
 
     init() {
@@ -40,24 +41,33 @@ export default function searchPeople() {
       );
 
       this.$watch("query", () => {
+        this.hasSearched = true;
         this.isLoading = true;
         bouncedSearch();
       });
+
+      if (window.history.state?.searchResult) {
+        this.results = window.history.state.searchResult;
+        this.query = window.history.state.searchQuery;
+      }
     },
 
     get people() {
       if (!this.results || !this.results.hits) {
         return [];
       }
+      window.history.replaceState(
+        {
+          searchQuery: this.query,
+          searchResult: this.results,
+        },
+        ""
+      );
       return this.results.hits.map(normalize);
     },
 
-    get resultsCount() {
-      return this.results?.nbHits ?? 0;
-    },
-
     get resultsText() {
-      let nHits = this.resultsCount;
+      let nHits = this.results?.nbHits ?? 0;
       if (!nHits) {
         return "No search results";
       }
