@@ -66,9 +66,9 @@
 <body
   data-ga-label='{{ $pageCat }}:featured'
   data-ga-category="featured"
-  class="w-screen overflow-x-hidden text-g-9 font-serif leading-normal"
+  class="bg-beige text-g-9 font-serif leading-normal"
 >
-  <div class="flex flex-col min-h-screen bg-white">
+  <div class="flex flex-col max-w-screen  min-h-screen bg-white overflow-x-hidden">
     {{ partial "nav.html" . }}
     {{ block "main" . }}
     {{ end }}
