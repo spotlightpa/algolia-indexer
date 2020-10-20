@@ -1,6 +1,6 @@
 {{ define "main" }}
-<main class="p-8">
-  <h1 class="font-bold">
+<main class="p-8 max-w-screen-md">
+  <h1 class="font-bold leading-tight break-word">
     <span class="text-2xl text-black">
       {{ .Param "honorific" }}
       {{ .Title }}
@@ -12,7 +12,7 @@
     {{ end }}
   </h1>
   {{ with .Param "role" }}
-    <h2 class="text-lg -mt-2">
+    <h2 class="text-lg leading-tight break-word">
       {{ . }}
     </h2>
   {{ end }}

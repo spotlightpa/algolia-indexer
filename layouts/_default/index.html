@@ -1,6 +1,6 @@
 {{ define "main" }}
   <section class="p-8">
-    <h1 class="text-2xl font-bold">
+    <h1 class="text-2xl font-bold leading-tight">
       {{ .Title }}
     </h1>
     <div>
@@ -11,21 +11,21 @@
     {{ partial "search.html" . }}
   </section>
   <section class="p-8">
-    <h2 class="text-2xl font-bold">
+    <h2 class="text-2xl font-bold leading-tight">
       Expertise
     </h2>
     {{ $expertise := .GetPage "expertise" }}
     {{ partial "pages-list.html" $expertise }}
   </section>
   <section class="p-8 bg-beige shadow-inner">
-    <h2 class="text-2xl font-bold">
+    <h2 class="text-2xl font-bold leading-tight">
       Location
     </h2>
     {{ $loc := .GetPage "location" }}
     {{ partial "pages-list.html" $loc }}
   </section>
   <section class="p-8">
-    <h2 class="text-2xl font-bold">
+    <h2 class="text-2xl font-bold leading-tight">
       All Sources
     </h2>
     {{ $people := .GetPage "people" }}
