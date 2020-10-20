@@ -130,6 +130,8 @@ html {
   }
 }
 
+/*! purgecss start ignore */
 input[type="search"]::-webkit-search-cancel-button {
   display: none;
 }
+/*! purgecss end ignore */
