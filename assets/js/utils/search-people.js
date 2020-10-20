@@ -16,53 +16,44 @@ function normalize(obj) {
 
 export default function searchPeople() {
   return {
-    query: "",
-    results: null,
+    query: window.history.state?.searchQuery || "",
+    results: window.history.state?.searchResult || null,
     error: null,
-    hasSearched: false,
     isLoading: false,
 
     init() {
       const bouncedSearch = debouncer({ milliseconds: 500 }, () =>
-        searchAPI(this.query)
-          .then((results) => {
-            this.error = null;
-            if (results) {
-              this.results = results;
-            }
-          })
-          .catch((error) => {
-            this.isLoading = false;
-            this.error = error;
-          })
-          .finally(() => {
-            this.isLoading = false;
-          })
+        this.search()
       );
-
-      this.$watch("query", () => {
-        this.hasSearched = true;
-        this.isLoading = true;
+      this.$watch("query", (query) => {
+        this.isLoading = !!query;
+        this.storeHistory();
         bouncedSearch();
       });
+    },
 
-      if (window.history.state?.searchResult) {
-        this.results = window.history.state.searchResult;
-        this.query = window.history.state.searchQuery;
-      }
+    search() {
+      searchAPI(this.query)
+        .then((results) => {
+          this.error = null;
+          if (results) {
+            this.results = results;
+          }
+          this.storeHistory();
+        })
+        .catch((error) => {
+          this.isLoading = false;
+          this.error = error;
+        })
+        .finally(() => {
+          this.isLoading = false;
+        });
     },
 
     get people() {
       if (!this.results || !this.results.hits) {
         return [];
       }
-      window.history.replaceState(
-        {
-          searchQuery: this.query,
-          searchResult: this.results,
-        },
-        ""
-      );
       return this.results.hits.map(normalize);
     },
 
@@ -77,6 +68,24 @@ export default function searchPeople() {
       let nStories = this.results?.hits?.length ?? 0;
       let more = nHits > nStories ? `Showing first ${nStories}.` : "";
       return `Got ${nHits} search results. ${more}`;
+    },
+
+    storeHistory() {
+      let searchQuery = "" + this.query;
+      let searchResult = JSON.parse(JSON.stringify(this.results));
+
+      window.history.replaceState(
+        {
+          searchQuery,
+          searchResult,
+        },
+        ""
+      );
+    },
+
+    clear() {
+      this.results = null;
+      this.query = "";
     },
   };
 }
