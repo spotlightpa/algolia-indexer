@@ -179,14 +179,14 @@
     {{ end }}
   {{ end }}
 
-  <div class="mt-4 max-w-screen-sm md:flex">
+  <nav class="mt-4 max-w-screen-sm md:flex">
     <div class="md:max-w-md">
       <h2 class="text-lg font-bold">Expertise</h2>
-      <p class="text-md text-blue ">
+      <p class="text-md">
         {{ range $i, $p := .GetTerms "expertise" }}
           {{- if ne $i 0 }},{{ end }}
           <a
-            class="hover:text-yellow transition-colors duration-500"
+            class="text-blue hover:text-yellow transition-colors duration-500"
             href="{{ $p.RelPermalink }}"
           >
             {{ .Title -}}
@@ -200,6 +200,6 @@
         {{ delimit (.Param "keywords") ", " }}
       </p>
     </div>
-  </div>
+  </nav>
 </main>
 {{ end }}
