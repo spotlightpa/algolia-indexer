@@ -1,0 +1,135 @@
+<div
+  class="border border-g-5 rounded p-2 bg-beige font-sans shadow-md"
+  x-data="spl.searchPeople()"
+  x-init="init()"
+>
+  <h2 class="ml-10 text-g-9">
+    <label
+      class="uppercase text-base font-bold"
+      for="search"
+    >
+      Search
+    </label>
+    <span
+      class="text-g-7"
+      x-text="query && !isLoading ? resultsText : ''"
+    ></span>
+  </h2>
+  <div class="relative">
+    <input
+      id="search"
+      type="search"
+      class="appearance-none block w-full rounded-full border-2 border-g-5 px-10 py-2 bg-white text-g-8 placeholder-g-5 placeholder-opacity-100 tracking-wider"
+      x-model="query"
+      @keydown.escape="clear()"
+    >
+    <span
+      class="absolute inline-flex items-center justify-center inset-y-0 left-0 text-g-5 pointer-events-none z-10 w-10 leading-none"
+      aria-hidden="true"
+    >
+      <svg class="fill-current h-4 w-auto">
+        <title>Search</title>
+        <use xlink:href="#search-svg"></use>
+      </svg>
+    </span>
+    <span
+      x-cloak
+      x-show="isLoading"
+      class="absolute inline-flex items-center justify-center inset-y-0 right-0 text-g-5 pointer-events-none z-10 w-10 leading-none"
+      aria-hidden="true"
+    >
+      <svg class="animate-spin h-4 w-auto fill-current ">
+        <title>Is Loading</title>
+        <use xlink:href="#loading-svg"></use>
+      </svg>
+    </span>
+    <button
+      x-cloak
+      x-show="!isLoading && query"
+      @click="clear()"
+      class="absolute flex items-center justify-center inset-y-0 right-0 text-g-5 hover:text-g-7 z-10 w-10 leading-none"
+      aria-hidden="true"
+    >
+      <svg class="h-4 w-auto fill-current ">
+        <title>Clear search</title>
+        <use xlink:href="#close-svg"></use>
+      </svg>
+    </button>
+  </div>
+  <p
+    x-show="error"
+    class="mt-2"
+  >
+    <span class="italic">
+      Something went wrong:
+    </span>
+    <br>
+    <span
+      class="font-bold"
+      x-text="error && error.name || ''"></span>
+    <br>
+    <span
+      class="text-g-7"
+      x-text="error && error.message || ''"></span>
+  </p>
+  <div class="m-2 divide-y divide-black divide-opacity-50">
+    <template
+      x-for="p of people"
+    >
+      <a
+        class="block py-2"
+        :href="p.path"
+      >
+        <h2
+          class="inline text-lg font-bold"
+          x-text="p.full_name"
+        ></h2>
+        <h3
+          class="inline ml-1 text-g-7"
+          x-text="p.role"
+        ></h3>
+        <div
+          class=""
+        >
+          <span
+            x-show="p.expertise.length"
+            class="mr-1 text-g-7"
+          >
+            <svg class="inline-block h-4 w-4 fill-current align-middle">
+              <title>Expertise</title>
+              <use xlink:href="#university-svg"></use>
+            </svg>
+          </span>
+          <span
+            class="align-middle"
+            x-text="p.expertise.join(', ')"
+          ></span>
+          <span
+            x-show="p.keywords.length"
+            class="mx-1 text-g-7"
+          >
+            <svg class="inline-block h-4 w-4 fill-current align-middle">
+              <title>Keywords</title>
+              <use xlink:href="#tags-svg"></use>
+            </svg>
+          </span>
+          <span
+            class="align-middle"
+            x-text="p.keywords.join(', ')"></span>
+          <span
+            x-show="p.location"
+            class="mx-1 text-g-7">
+            <svg class="inline-block h-4 w-4 fill-current align-middle">
+              <title>Location</title>
+              <use xlink:href="#earth-svg"></use>
+            </svg>
+          </span>
+          <span
+            x-show="p.location"
+            class="align-middle"
+            x-text="p.location"></span>
+        </div>
+      </a>
+    </template>
+  </div>
+</div>
