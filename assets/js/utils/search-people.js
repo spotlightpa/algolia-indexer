@@ -60,7 +60,7 @@ export default function searchPeople() {
     get resultsText() {
       let nHits = this.results?.nbHits ?? 0;
       if (!nHits) {
-        return "No search results";
+        return "No search results.";
       }
       if (nHits === 1) {
         return "Got one search result.";
