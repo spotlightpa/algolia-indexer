@@ -197,7 +197,7 @@
     <div class="mt-4 md:mt-0 md:ml-4 md:max-w-md">
       <h2 class="text-lg font-bold">Keywords</h2>
       <p class="text-md text-g-9">
-        {{ delimit (.Param "keywords") ", " }}
+        {{ delimit (.Param "keywords" | default slice) ", " }}
       </p>
     </div>
   </nav>
