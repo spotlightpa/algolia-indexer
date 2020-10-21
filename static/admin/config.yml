@@ -11,11 +11,55 @@ backend:
   name: git-gateway
   branch: main
 
+yaml-definitions: &page-fields
+  - label: "URL path"
+    hint: E.g. /about/
+    name: url
+    widget: string
+    required: false
+  - label: Title
+    name: title
+    hint: "Title as it appears at top of page"
+    widget: string
+  - label: Summary
+    name: description
+    hint: "Shown in social share previews and search results"
+    widget: string
+    required: false
+  - label: Body
+    name: body
+    widget: markdown
+  - label: "Override title tag"
+    name: title-tag
+    widget: string
+    hint: "Set title tag separately from page hed"
+    required: false
+  - label: Link to as
+    name: linktitle
+    hint: "When linking to this page from another page, use this as the link title instead of hed"
+    widget: string
+    required: false
+  - label: "No index"
+    name: no-index
+    hint: "Hide page on Google etc."
+    widget: boolean
+    required: false
+  - label: URL path aliases
+    label_singular: alias
+    name: aliases
+    widget: list
+    default: []
+    field:
+      label: Path
+      name: path
+      widget: string
+
 collections:
   - label: People
     label_singular: Person
     name: people
     folder: content/people
+    filter: { field: "layout", value: "person" }
     format: json
     extension: md
     create: true
@@ -106,3 +150,44 @@ collections:
         name: bio
         widget: markdown
         required: false
+      - label: layout
+        name: layout
+        default: person
+        widget: hidden
+        required: true
+  - label: Landing pages
+    name: data
+    editor:
+      preview: false
+    files:
+      - label: "Homepage"
+        name: homepage
+        file: content/_index.md
+        format: toml-frontmatter
+        fields: *page-fields
+      - label: "People list page"
+        name: people
+        file: content/people/_index.md
+        format: toml-frontmatter
+        fields: *page-fields
+      - label: "Location list page"
+        name: location
+        file: content/location/_index.md
+        format: toml-frontmatter
+        fields: *page-fields
+      - label: "Expertise list page"
+        name: expertise
+        file: content/expertise/_index.md
+        format: toml-frontmatter
+        fields: *page-fields
+  - label: Content pages
+    name: pages
+    folder: pages
+    format: toml-frontmatter
+    extension: md
+    create: true
+    slug: "{{url}}"
+    preview_path: "/{{slug}}/"
+    editor:
+      preview: false
+    fields: *page-fields
