@@ -36,12 +36,12 @@ html {
   @apply break-words;
 }
 
-.content-area > p a {
+.content-area a {
   @apply text-blue underline;
   @apply transition-colors duration-500;
 }
 
-.content-area > p a:hover {
+.content-area a:hover {
   @apply text-yellow;
 }
 
