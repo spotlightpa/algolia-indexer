@@ -1,5 +1,5 @@
 ---
-title: Diverse Source Database from Spotlight PA
+title: Diverse Source Database for Pennsylvania
 title-tag: Spotlight PA Diverse Source Database
 ---
 The Diverse Source Database from Spotlight PA is TKTK coming soon…
