@@ -91,11 +91,13 @@ func (app *appEnv) Exec() (err error) {
 		return err
 	}
 	app.logf("saving to Algolia")
-	res, err := app.i.SaveObjects(objs)
-	if err != nil {
+	// I believe it is safe to not wait for this.
+	// If there are problems, change to
+	// ReplaceAllObjects(objs, opt.Safe(true))
+	if _, err = app.i.ReplaceAllObjects(objs); err != nil {
 		return err
 	}
-	app.logf("saved to %d objects to Algolia", len(res.ObjectIDs()))
+	app.logf("saved to %d objects to Algolia", len(objs))
 
 	return err
 }
