@@ -70,17 +70,22 @@ collections:
       preview: false
     fields:
       - label: Full name
-        hint: E.g. "John Jacob Jingleheimer Schmidt, IV"
+        hint: E.g. "John Jacob Jingleheimer Schmidt, IV PhD CPA"
         name: title
         widget: string
         required: true
+      - label: Short name
+        hint: E.g. "John Schmidt" or "Betty Jo Smith-Rodriguez"
+        name: linktitle
+        widget: string
+        required: true
       - label: First name
-        hint: E.g. "John Jacob"
+        hint: E.g. "John" or "Betty Jo"
         name: first
         widget: string
         required: true
       - label: Last name
-        hint: E.g. "Schmidt"
+        hint: E.g. "Schmidt" or "Smith-Rodriguez"
         name: last
         widget: string
         required: true
@@ -134,6 +139,11 @@ collections:
       - label: Instagram
         hint: Just the username without the @
         name: instagram
+        widget: string
+        required: false
+      - label: LinkedIn
+        hint: Just the username without the https://www.linkedin.com/in/
+        name: linkedin
         widget: string
         required: false
       - label: Location
