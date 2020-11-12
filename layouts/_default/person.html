@@ -145,6 +145,22 @@
         >@{{ . }}</a>
       </p>
     {{ end }}
+
+    {{ with .Param "linkedin" }}
+      <p class="sm:w-1/2">
+        <span class="mr-5 text-g-6">
+          <svg class="inline-block h-4 w-4 align-text-bottom fill-current">
+            <title>LinkIn account</title>
+            <use xlink:href="#linkedin-svg"></use>
+          </svg>
+        </span>
+        <a
+          class="text-blue hover:text-yellow transition-colors duration-500"
+          href="https://www.linked.com/in/{{ . }}/"
+          target="_blank"
+        >{{ . }}</a>
+      </p>
+    {{ end }}
   </div>
 
   <section class="mt-4 max-w-screen-sm content-area">
@@ -180,26 +196,30 @@
   {{ end }}
 
   <nav class="mt-4 max-w-screen-sm md:flex">
-    <div class="md:max-w-md">
-      <h2 class="text-lg font-bold">Expertise</h2>
-      <p class="text-md">
-        {{ range $i, $p := .GetTerms "expertise" }}
-          {{- if ne $i 0 }},{{ end }}
-          <a
-            class="text-blue hover:text-yellow transition-colors duration-500"
-            href="{{ $p.RelPermalink }}"
-          >
-            {{ .Title -}}
-          </a>
-        {{- end }}
-      </p>
-    </div>
-    <div class="mt-4 md:mt-0 md:ml-4 md:max-w-md">
-      <h2 class="text-lg font-bold">Keywords</h2>
-      <p class="text-md text-g-9">
-        {{ delimit (.Param "keywords" | default slice) ", " }}
-      </p>
-    </div>
+    {{ with .GetTerms "expertise" }}
+      <div class="md:max-w-md">
+        <h2 class="text-lg font-bold">Expertise</h2>
+        <p class="text-md">
+          {{ range $i, $p := . }}
+            {{- if ne $i 0 }},{{ end }}
+            <a
+              class="text-blue hover:text-yellow transition-colors duration-500"
+              href="{{ $p.RelPermalink }}"
+            >
+              {{ .Title -}}
+            </a>
+          {{- end }}
+        </p>
+      </div>
+    {{ end }}
+    {{ with .Param "keywords" }}
+      <div class="mt-4 md:mt-0 md:ml-4 md:max-w-md">
+        <h2 class="text-lg font-bold">Keywords</h2>
+        <p class="text-md text-g-9">
+          {{ delimit . ", " }}
+        </p>
+      </div>
+    {{ end }}
   </nav>
 </main>
 {{ end }}
