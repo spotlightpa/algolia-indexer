@@ -58,9 +58,15 @@ def process(ifname, odname):
         row["images"] = []
         newrows.append({key: row.get(key, "") for key in canonical_rows})
 
+    seen = set()
     for row in newrows:
-        fname = Path(odname, row["linktitle"] + ".md")
-        with open(fname, "w") as f:
+        fname = row["linktitle"] + ".md"
+        if fname in seen:
+            print(f"warning: duplicate {fname}")
+            fname = f"{row['linktitle']}.{len(seen)}.md"
+        else:
+            seen.add(fname)
+        with open(Path(odname, fname), "w") as f:
             json.dump(row, f, indent=2)
 
 
