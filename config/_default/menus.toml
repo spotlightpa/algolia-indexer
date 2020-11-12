@@ -1,0 +1,19 @@
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Spotlight PA"
+url = "https://www.spotlightpa.org/"
+weight = 2
+
+[[main]]
+name = "About"
+url = "/about/"
+weight = 3
+
+[[main]]
+name = "Nominate"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSdZx3UnNQaT9dLmWZQ0Ro41hygj7Mn_IvgddJzGF8R3TX50sA/viewform"
+weight = 4

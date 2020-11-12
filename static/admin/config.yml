@@ -156,7 +156,7 @@ collections:
         widget: hidden
         required: true
   - label: Landing pages
-    name: data
+    name: landing
     editor:
       preview: false
     files:
@@ -191,3 +191,35 @@ collections:
     editor:
       preview: false
     fields: *page-fields
+  - label: Settings
+    name: data
+    editor:
+      preview: false
+    files:
+      - label: Menus
+        name: menus
+        file: config/_default/menus.toml
+        fields:
+          - label: "Main menu items"
+            label_singular: "menu item"
+            name: main
+            hint: "Navbar main menu"
+            widget: list
+            fields:
+              - label: "Display Name"
+                name: name
+                widget: string
+                required: true
+              - label: URL
+                name: url
+                widget: string
+                required: true
+              - label: "CSS class"
+                name: pre
+                widget: string
+                required: false
+              - label: Order
+                name: weight
+                widget: number
+                valueType: int
+                required: false
