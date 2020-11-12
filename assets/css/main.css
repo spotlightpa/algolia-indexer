@@ -19,7 +19,7 @@ html {
 
 /*! purgecss start ignore */
 [x-cloak] {
-  display: none;
+  display: none !important;
 }
 .no-js-show {
   display: none;
