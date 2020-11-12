@@ -2,6 +2,18 @@
   <section class="p-8 pb-4 max-w-screen-lg">
     <h1 class="text-2xl font-bold leading-tight">{{ .Title }}</h1>
 
-    {{ partial "pages-list.html" . }}
+    <ul class="mt-2 max-w-screen-lg">
+      {{ range .Pages }}
+        <li>
+          <a
+            class="text-blue hover:text-yellow duration-500"
+            href="{{ .RelPermalink }}"
+          >{{ .LinkTitle }}</a>
+          {{ if gt (len .Pages) 1 }}
+            ({{ len .Pages }})
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
   </section>
 {{ end }}
