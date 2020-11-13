@@ -14,10 +14,12 @@
     "Diversity & Inclusion",
     "Immigration",
     "Politics",
-    "Latino Issues",
+    "Latinx Issues"
+  ],
+  "keywords": [
+    "CASA",
     "Elections"
   ],
-  "keywords": [],
   "email": "anNhcHVuYXJAd2VhcmVjYXNhLm9yZw==",
   "images": [],
   "website": "http://wearecasa.org",
