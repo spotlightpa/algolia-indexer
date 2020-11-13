@@ -1,33 +1,34 @@
 {
-  "layout": "person",
-  "Social Media": "@goodjobsfirst @avmartinez",
-  "bio": "Arlene has years of experience covering local government, especially as it relates to public spending, pensions and contracts, spending time in Washington, D.C., California and Pennsylvania (The Morning Call). At Good Jobs First, she leads communications for the nonprofit, which tracks government subsidies and incentives in economic development and promotes corporate/government accountability. ",
-  "date": "9/29/2020 12:21:48",
-  "email": "YXJsZW5lQGdvb2Rqb2JzZmlyc3Qub3Jn",
+  "title": "Arlene Martinez",
+  "linktitle": "Arlene Martinez",
+  "first": "Arlene",
+  "middle": "",
+  "last": "Martinez",
+  "honorific": "",
+  "pronoun": "she/her",
+  "role": "Communications Director",
   "expertise": [
     "Business & Finance",
     "Economy",
     "Education"
   ],
-  "facebook": "",
-  "first": "Arlene",
-  "instagram": "",
   "keywords": [
     "Economic development",
     "subsidies",
     "GASB 77",
     "mega deals",
     "Amazon",
-    "corporate subsidies "
+    "corporate subsidies"
   ],
-  "last": "Martinez",
+  "email": "YXJsZW5lQGdvb2Rqb2JzZmlyc3Qub3Jn",
+  "images": [],
+  "website": "https://www.goodjobsfirst.org",
+  "facebook": "",
+  "twitter": "RhondaBoydPhD",
+  "instagram": "",
   "linkedin": "",
-  "location": "Ventura, CA (org is based in Washington, D.C., our scope is national)",
+  "location": "California",
   "phone": "2022324257",
-  "pronoun": "She/Her/Hers",
-  "pronunciation": "Arlene (R-lean) Martinez (Mar-tee-nez)",
-  "role": "Communications Director ",
-  "title": "Arlene Martinez",
-  "twitter": "goodjobsfirst",
-  "website": "https://www.goodjobsfirst.org"
+  "bio": "Arlene has years of experience covering local government, especially as it relates to public spending, pensions and contracts, spending time in Washington, D.C., California and Pennsylvania (The Morning Call). At Good Jobs First, she leads communications for the nonprofit, which tracks government subsidies and incentives in economic development and promotes corporate/government accountability.",
+  "layout": "person"
 }
