@@ -1,0 +1,41 @@
+{
+  "title": "Tha\u00eds Carrero",
+  "linktitle": "Tha\u00eds Carrero",
+  "first": "Tha\u00eds",
+  "middle": "",
+  "last": "Carrero",
+  "honorific": "",
+  "pronoun": "she/her",
+  "role": "Pennsylvania Director CASA / CASA in Action",
+  "expertise": [
+    "Diversity & Inclusion",
+    "Immigration",
+    "Politics"
+  ],
+  "keywords": [
+    "Latino",
+    "Latina",
+    "Latinx",
+    "Puerto Rico",
+    "immigration",
+    "diversity",
+    "inclusion",
+    "equity",
+    "social justice",
+    "education",
+    "climate change",
+    "redistricting",
+    "drivers license"
+  ],
+  "email": "dGNhcnJlcm9Ad2VhcmVjYXNhLm9yZyAvIHRoYWlzLmNhcnJlcm9AZ21haWwuY29t",
+  "images": [],
+  "website": "",
+  "facebook": "",
+  "twitter": "",
+  "instagram": "",
+  "linkedin": "thaiscarrero",
+  "location": "York, PA",
+  "phone": "7875398814",
+  "bio": "A native Puerto Rican, Tha\u00eds has lived in York, Pennsylvania since 2016. She is the Pennsylvania Director for CASA, with 100,000 lifetime members, the largest membership-led non-profit organization advocating for Latino, immigrant and working-class communities in the Mid-Atlantic region, and the Pennsylvania Director for CASA's sister organization, CASA in Action, which mobilizes voters to elect progressive leaders supporting immigrants, Latinos and communities of color.\u00a0\n\nTha\u00eds was appointed by Governor Tom Wolf to serve on the Governor\u2019s Advisory Commission on Latino Affairs, and currently serves on the board of directors of the Cultural Alliance of York County, Community Progress Council, WITF, Inc., the Pennsylvania affiliate of Emerge America, and is a volunteer for multiple nonprofit organizations in Central Pennsylvania. She is the recipient of the Junior League of York's 2019 Catalyst Award, offered to a woman who has made a positive impact in the community.",
+  "layout": "person"
+}
