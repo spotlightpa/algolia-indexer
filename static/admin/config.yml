@@ -147,7 +147,7 @@ collections:
         widget: string
         required: false
       - label: Location
-        hint: City, state, e.g. "Philadelphia, Pa."
+        hint: E.g. "Philadelphia, PA", "California", "Canada"
         name: location
         widget: string
         required: false
