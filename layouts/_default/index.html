@@ -1,35 +1,68 @@
 {{ define "main" }}
   <section class="p-8">
-    <h1 class="text-2xl font-bold leading-tight">
+    <h1 class="text-4xl font-bold leading-tight text-center">
       {{ .Title }}
     </h1>
-    <div class="content-area">
+    <h2 class="text-2xl leading-tight text-center text-g-7">
+      A public service of
+      <a href="https://www.spotlightpa.org">
+        <svg class="inline-block -mt-3 w-40 h-8 fill-current">
+          <title>Spotlight PA</title>
+          <desc>Spotlight PA logo</desc>
+          <use xlink:href="#banner-svg"></use>
+        </svg>
+      </a>
+    </h2>
+    <div class="content-area mt-8">
       {{ .Content }}
     </div>
   </section>
   <section class="p-8 no-js-hide ">
     {{ partial "search.html" . }}
   </section>
+  <section class="p-8 flex flex-col sm:flex-row justify-around space-y-4 sm:space-y-0 sm:space-x-4 bg-beige">
+    {{ $blkClass := `block w-full sm:w-64 border border-g-5 rounded p-2 uppercase font-bold shadow-md hover:shadow-lg duration-100 text-center` }}
+    <a
+      class="{{ $blkClass }} bg-robin text-white hover:text-blue duration-500"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdZx3UnNQaT9dLmWZQ0Ro41hygj7Mn_IvgddJzGF8R3TX50sA/viewform"
+    >
+      Nominate a source
+    </a>
+    {{ $emailSubject:= `About my Spotlight PA Sources Database entry` }}
+    <a
+      href="mailto:sources@spotlightpa.org?subject={{ $emailSubject }}"
+      class="{{ $blkClass }} bg-green text-white hover:text-black duration-500"
+    >
+      Update your information
+    </a>
+    <a
+      class="{{ $blkClass }} bg-orange text-white hover:text-black duration-500"
+      href="https://www.spotlightpa.org/donate/"
+    >
+      Support this project
+    </a>
+
+  </section>
   <section class="p-8">
     <h2 class="text-2xl font-bold leading-tight">
+      All Experts
+    </h2>
+    {{ $people := .GetPage "people" }}
+    {{ partial "people-by-last-name.html" $people }}
+  </section>
+  <section class="p-8 bg-beige shadow-inner">
+    <h2 class="text-2xl font-bold leading-tight mb-2">
       Expertise
     </h2>
     {{ $expertise := .GetPage "expertise" }}
     {{ partial "pages-list.html" $expertise }}
   </section>
-  <section class="p-8 bg-beige shadow-inner">
-    <h2 class="text-2xl font-bold leading-tight">
-      Location
+  <section class="p-8">
+    <h2 class="text-2xl font-bold leading-tight mb-2">
+      Locations
     </h2>
     {{ $loc := .GetPage "location" }}
     {{ partial "pages-list.html" $loc }}
-  </section>
-  <section class="p-8">
-    <h2 class="text-2xl font-bold leading-tight">
-      All Sources
-    </h2>
-    {{ $people := .GetPage "people" }}
-    {{ partial "people-by-last-name.html" $people }}
   </section>
 
 {{ end }}

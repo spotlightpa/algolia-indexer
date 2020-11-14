@@ -6,7 +6,9 @@
         href="{{ .RelPermalink }}"
       >{{ .LinkTitle }}</a>
       {{ if gt (len .Pages) 1 }}
-        ({{ len .Pages }})
+        <span class="text-g-6">
+          ({{ len .Pages }})
+        </span>
       {{ end }}
     </li>
   {{ end }}
