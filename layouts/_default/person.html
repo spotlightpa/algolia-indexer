@@ -170,11 +170,11 @@
   </section>
 
   {{ with .Param "images" }}
-    {{ with $img := resources.GetMatch (index . 0) }}
+    {{ range . }}
+      {{ $img := resources.GetMatch . }}
       {{ $imgSmall := $img.Resize "200x" }}
       {{ $imgMedium := $img.Resize "400x" }}
-      <h2 class="mt-4 text-lg font-bold">Headshot</h2>
-      <p>
+      <p class="mt-4">
         <a
           href="{{ $img.RelPermalink }}"
           download
