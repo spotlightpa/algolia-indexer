@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <section class="p-8 pb-4 max-w-screen-lg">
+    <h1 class="leading-tight mb-4">
+      {{ with .Parent }}
+        {{ if ne . site.Home }}
+        <a
+          class="text-2xl text-blue hover:text-yellow duration-500"
+          href="{{ .RelPermalink }}"
+        >{{ .LinkTitle }}</a>
+        <span class="text-2xl text-g-5">»</span>
+        {{ end }}
+      {{ end }}
+      <span class="text-2xl font-bold">
+        {{ .Title }}
+      </span>
+    </h1>
+
+    {{ partial "pages-list.html" . }}
+  </section>
+{{ end }}

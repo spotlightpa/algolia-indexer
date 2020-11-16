@@ -1,32 +1,93 @@
 {{ define "main" }}
-  <section class="p-8 pb-4 max-w-screen-lg">
-    <h1 class="leading-tight">
+  <section class="p-8 pb-4 max-w-screen-md">
+    <h1 class="text-right leading-tight text-lg">
       {{ with .Parent }}
         {{ if ne . site.Home }}
         <a
-          class="text-2xl text-blue hover:text-yellow duration-500"
+          class="text-blue hover:text-yellow duration-500"
           href="{{ .RelPermalink }}"
         >{{ .LinkTitle }}</a>
-        <span class="text-2xl text-g-5">»</span>
+        <span class="text-g-5">»</span>
         {{ end }}
       {{ end }}
-      <span class="text-2xl font-bold">
+      <span class="font-bold">
         {{ .Title }}
       </span>
     </h1>
 
-    <ul class="mt-2 max-w-screen-lg">
-      {{ range .Pages }}
-        <li>
-          <a
-            class="text-blue hover:text-yellow duration-500"
-            href="{{ .RelPermalink }}"
-          >{{ .LinkTitle }}</a>
-          {{ if gt (len .Pages) 1 }}
-            ({{ len .Pages }})
+  <ul class="mt-6">
+    {{ range .Pages.ByParam "last" }}
+      <li class="py-2 px-1 odd:bg-beige rounded">
+        <a
+          class="text-base"
+          href="{{ .RelPermalink }}"
+        >
+          <h2 class="inline font-bold text-blue hover:text-yellow duration-500">
+            {{ .LinkTitle }}
+          </h2>
+          {{ with .Param "role" }}
+            <h3 class="inline ml-1 text-g-7 hover:underline">
+              {{ . }}
+            </h3>
           {{ end }}
-        </li>
-      {{ end }}
-    </ul>
+        </a>
+        <div class="text-base font-sans leading-snug">
+          {{ with .GetTerms "expertise" }}
+            <span class="mr-1 text-g-7">
+              <svg class="inline-block h-3 w-3 fill-current align-middle">
+                <title>Expertise</title>
+                <use xlink:href="#university-svg"></use>
+              </svg>
+            </span>
+            <span
+              class="mr-1 align-middle"
+            >
+              {{ range $i, $p := . }}
+                {{- if ne $i 0 }},{{ end }}
+                {{ if ne $.RelPermalink $p.RelPermalink}}
+                  <a
+                    class="hover:underline"
+                    href="{{ $p.RelPermalink }}"
+                  >
+                    {{ .Title -}}
+                  </a>
+                {{- else }}
+                  {{ .Title -}}
+                {{ end }}
+              {{- end }}
+            </span>
+          {{ end }}
+          {{ with .Param "keywords" }}
+            <span class="mr-1 text-g-7">
+              <svg class="inline-block h-3 w-3 fill-current align-middle">
+                <title>Keywords</title>
+                <use xlink:href="#tags-svg"></use>
+              </svg>
+            </span>
+            <span class="mr-1 align-middle">
+              {{ delimit . ", " }}
+            </span>
+          {{ end }}
+          {{ with .GetTerms "location" }}
+            {{ range . }}
+              <span class="mr-1 text-g-7">
+                <svg class="inline-block h-3 w-3 fill-current align-middle">
+                  <title>Location</title>
+                  <use xlink:href="#earth-svg"></use>
+                </svg>
+              </span>
+              <a
+                class="align-middle hover:underline"
+                href="{{ .RelPermalink }}"
+              >
+                {{ .Title }}
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+
   </section>
 {{ end }}
