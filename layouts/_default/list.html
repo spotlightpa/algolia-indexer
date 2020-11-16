@@ -15,79 +15,80 @@
       </span>
     </h1>
 
-  <ul class="mt-6">
-    {{ range .Pages.ByParam "last" }}
-      <li class="py-2 px-1 odd:bg-beige rounded">
-        <a
-          class="text-base"
-          href="{{ .RelPermalink }}"
-        >
-          <h2 class="inline font-bold text-blue hover:text-yellow duration-500">
-            {{ .LinkTitle }}
-          </h2>
-          {{ with .Param "role" }}
-            <h3 class="inline ml-1 text-g-7 hover:underline">
-              {{ . }}
-            </h3>
-          {{ end }}
-        </a>
-        <div class="text-base font-sans leading-snug">
-          {{ with .GetTerms "expertise" }}
-            <span class="mr-1 text-g-7">
-              <svg class="inline-block h-3 w-3 fill-current align-middle">
-                <title>Expertise</title>
-                <use xlink:href="#university-svg"></use>
-              </svg>
-            </span>
-            <span
-              class="mr-1 align-middle"
-            >
-              {{ range $i, $p := . }}
-                {{- if ne $i 0 }},{{ end }}
-                {{ if ne $.RelPermalink $p.RelPermalink}}
-                  <a
-                    class="hover:underline"
-                    href="{{ $p.RelPermalink }}"
-                  >
-                    {{ .Title -}}
-                  </a>
-                {{- else }}
-                  {{ .Title -}}
-                {{ end }}
-              {{- end }}
-            </span>
-          {{ end }}
-          {{ with .Param "keywords" }}
-            <span class="mr-1 text-g-7">
-              <svg class="inline-block h-3 w-3 fill-current align-middle">
-                <title>Keywords</title>
-                <use xlink:href="#tags-svg"></use>
-              </svg>
-            </span>
-            <span class="mr-1 align-middle">
-              {{ delimit . ", " }}
-            </span>
-          {{ end }}
-          {{ with .GetTerms "location" }}
-            {{ range . }}
+    <ul class="mt-6">
+      {{ $isOdd := false }}
+      {{ range .Pages.ByParam "last" }}
+        {{ $isOdd = not $isOdd }}
+        <li class='p-2 {{ cond $isOdd "bg-beige rounded" ""}}'>
+          <a
+            class="text-base"
+            href="{{ .RelPermalink }}"
+          >
+            <h2 class="inline font-bold text-blue hover:text-yellow duration-500">
+              {{ .LinkTitle }}
+            </h2>
+            {{ with .Param "role" }}
+              <h3 class="inline ml-1 text-g-9 hover:underline">
+                {{ . }}
+              </h3>
+            {{ end }}
+          </a>
+          <div class="text-g-7 text-base font-sans leading-snug">
+            {{ with .GetTerms "expertise" }}
               <span class="mr-1 text-g-7">
                 <svg class="inline-block h-3 w-3 fill-current align-middle">
-                  <title>Location</title>
-                  <use xlink:href="#earth-svg"></use>
+                  <title>Expertise</title>
+                  <use xlink:href="#university-svg"></use>
                 </svg>
               </span>
-              <a
-                class="align-middle hover:underline"
-                href="{{ .RelPermalink }}"
+              <span
+                class="mr-1 align-middle"
               >
-                {{ .Title }}
-              </a>
+                {{ range $i, $p := . }}
+                  {{- if ne $i 0 }},{{ end }}
+                  {{ if ne $.RelPermalink $p.RelPermalink}}
+                    <a
+                      class="hover:underline"
+                      href="{{ $p.RelPermalink }}"
+                    >
+                      {{ .Title -}}
+                    </a>
+                  {{- else }}
+                    {{ .Title -}}
+                  {{ end }}
+                {{- end }}
+              </span>
             {{ end }}
-          {{ end }}
-        </div>
-      </li>
-    {{ end }}
-  </ul>
-
+            {{ with .Param "keywords" }}
+              <span class="mr-1 text-g-7">
+                <svg class="inline-block h-3 w-3 fill-current align-middle">
+                  <title>Keywords</title>
+                  <use xlink:href="#tags-svg"></use>
+                </svg>
+              </span>
+              <span class="mr-1 align-middle">
+                {{ delimit . ", " }}
+              </span>
+            {{ end }}
+            {{ with .GetTerms "location" }}
+              {{ range . }}
+                <span class="mr-1 text-g-7">
+                  <svg class="inline-block h-3 w-3 fill-current align-middle">
+                    <title>Location</title>
+                    <use xlink:href="#earth-svg"></use>
+                  </svg>
+                </span>
+                <a
+                  class="align-middle hover:underline"
+                  href="{{ .RelPermalink }}"
+                >
+                  {{ .Title }}
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ul>
   </section>
 {{ end }}
