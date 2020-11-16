@@ -71,7 +71,7 @@ module.exports = {
     },
   },
   variants: {
-    backgroundColor: ['responsive', 'odd', 'hover', 'focus'],
+    backgroundColor: ["responsive", "odd", "hover", "focus"],
     boxShadow: ["responsive", "hover", "focus", "active", "group-hover"],
   },
   plugins: [],
