@@ -5,6 +5,7 @@
     {
       "objectID": {{ .Permalink|jsonify }},
       "path": {{ .RelPermalink|jsonify }},
+      "name": {{ .LinkTitle|jsonify }},
       "full_name": {{ .Title | jsonify }},
       "bio": {{ .Param "bio"|jsonify }},
       "expertise": {{ .Param "expertise"|jsonify }},

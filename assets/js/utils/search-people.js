@@ -4,6 +4,7 @@ import { debouncer } from "../utils/timers.js";
 function normalize(obj) {
   return {
     path: obj["path"] || "",
+    name: obj["name"] || "",
     full_name: obj["full_name"] || "",
     bio: obj["bio"] || "",
     last_name: obj["last_name"] || "",
