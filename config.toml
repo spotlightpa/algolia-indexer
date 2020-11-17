@@ -38,6 +38,9 @@ buildFuture = true
 
 [outputs]
   home = ["html", "searchindex"]
+  section = ["html"]
+  taxonomy = ["html"]
+  term = ["html"]
 
 [privacy.googleAnalytics]
     anonymizeIP = true
