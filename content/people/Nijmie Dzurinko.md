@@ -8,7 +8,7 @@
   "pronoun": "she/her or they/them",
   "role": "Co-founder and co-coordinator",
   "expertise": [
-    "Diversity",
+    "Diversity & Inclusion",
     "Education",
     "Health & Medicine"
   ],

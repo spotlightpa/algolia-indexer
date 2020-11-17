@@ -21,7 +21,7 @@
   "phone": "4846394105",
   "first": "Adam",
   "expertise": [
-    "Diversity",
+    "Diversity & Inclusion",
     "Education",
     "Gender & Sexuality"
   ],

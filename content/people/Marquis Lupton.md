@@ -9,7 +9,7 @@
   "role": "English Professor/Entreprenuer",
   "expertise": [
     "Communications",
-    "Diversity",
+    "Diversity & Inclusion",
     "Politics"
   ],
   "keywords": [

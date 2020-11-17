@@ -9,7 +9,7 @@
   "role": "CEO / Founder No more secrets mind body spirit Inc.",
   "expertise": [
     "Community Services",
-    "Diversity",
+    "Diversity & Inclusion",
     "Education",
     "Gender & Sexuality",
     "Health & Medicine",

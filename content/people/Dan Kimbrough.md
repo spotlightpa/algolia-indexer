@@ -9,7 +9,7 @@
   "role": "Owner - media company",
   "expertise": [
     "Communications",
-    "Diversity",
+    "Diversity & Inclusion",
     "Technology"
   ],
   "keywords": [

@@ -14,7 +14,7 @@
   ],
   "keywords": [
     "Immigration",
-    "Diversity",
+    "Diversity & Inclusion",
     "Inclusion",
     "Advocacy",
     "Civic Engagement",

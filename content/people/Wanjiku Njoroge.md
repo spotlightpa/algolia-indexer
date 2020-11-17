@@ -8,7 +8,7 @@
   "pronoun": "she/her",
   "role": "Assisitant Professor/Infant/preschool Psychiatrist",
   "expertise": [
-    "Diversity",
+    "Diversity & Inclusion",
     "Health & Medicine"
   ],
   "keywords": [

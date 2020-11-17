@@ -8,7 +8,7 @@
   "pronoun": "she/her",
   "role": "Assistant Professor",
   "expertise": [
-    "Diversity",
+    "Diversity & Inclusion",
     "Health & Medicine",
     "Immigration",
     "Latinx Issues"

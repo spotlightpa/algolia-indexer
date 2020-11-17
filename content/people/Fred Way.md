@@ -9,7 +9,7 @@
   "role": "Executive Director",
   "expertise": [
     "Community Services",
-    "Diversity"
+    "Diversity & Inclusion"
   ],
   "keywords": [
     "Saving Lives",

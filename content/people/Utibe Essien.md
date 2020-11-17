@@ -8,7 +8,7 @@
   "pronoun": "he/him",
   "role": "Assistant Professor of Medicine",
   "expertise": [
-    "Diversity",
+    "Diversity & Inclusion",
     "Health & Medicine",
     "Science"
   ],

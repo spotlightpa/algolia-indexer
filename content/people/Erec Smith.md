@@ -9,7 +9,7 @@
   "role": "Associate Professor of Rhetoric",
   "expertise": [
     "Communications",
-    "Diversity",
+    "Diversity & Inclusion",
     "Education",
     "Politics"
   ],

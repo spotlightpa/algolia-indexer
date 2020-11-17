@@ -8,7 +8,7 @@
   "pronoun": "",
   "role": "Professor",
   "expertise": [
-    "Diversity",
+    "Diversity & Inclusion",
     "History"
   ],
   "keywords": [

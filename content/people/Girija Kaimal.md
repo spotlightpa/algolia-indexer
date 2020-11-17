@@ -9,7 +9,7 @@
   "role": "Associate Professor (art therapy)",
   "expertise": [
     "Arts & Entertainment",
-    "Diversity",
+    "Diversity & Inclusion",
     "Education",
     "Wellness"
   ],

@@ -8,7 +8,7 @@
   "pronoun": "she/her",
   "role": "Political Operative",
   "expertise": [
-    "Diversity",
+    "Diversity & Inclusion",
     "Gender & Sexuality",
     "Politics"
   ],

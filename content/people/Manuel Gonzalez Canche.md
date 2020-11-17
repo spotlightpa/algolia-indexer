@@ -13,7 +13,7 @@
     "Sociology"
   ],
   "keywords": [
-    "Diversity",
+    "Diversity & Inclusion",
     "inclusion",
     "data science",
     "rigor",

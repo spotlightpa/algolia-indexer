@@ -11,7 +11,7 @@
     "Communications",
     "Community Services",
     "Criminal Justice",
-    "Diversity",
+    "Diversity & Inclusion",
     "Economy",
     "Education",
     "History",
