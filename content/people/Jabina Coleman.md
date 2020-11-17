@@ -21,7 +21,7 @@
   "website": "https://thelactationtherapist.com",
   "facebook": "",
   "twitter": "",
-  "instagram": "",
+  "instagram": "thelactationtherapist",
   "linkedin": "",
   "location": "Philadelphia, PA",
   "phone": "2678887043",

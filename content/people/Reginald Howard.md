@@ -21,7 +21,7 @@
   "images": [],
   "website": "https://reginaldahoward.com/",
   "facebook": "",
-  "twitter": "goodjobsfirst",
+  "twitter": "reginaldahoward",
   "instagram": "",
   "linkedin": "",
   "location": "Philadelphia, PA",

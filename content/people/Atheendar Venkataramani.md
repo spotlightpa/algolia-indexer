@@ -21,7 +21,7 @@
   "images": [],
   "website": "https://opportunityforhealth.org",
   "facebook": "",
-  "twitter": "reginaldahoward",
+  "twitter": "atheendar",
   "instagram": "",
   "linkedin": "",
   "location": "Philadelphia, PA",

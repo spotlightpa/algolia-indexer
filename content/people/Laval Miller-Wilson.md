@@ -21,7 +21,7 @@
   "images": [],
   "website": "",
   "facebook": "",
-  "twitter": "NijmieZD",
+  "twitter": "",
   "instagram": "",
   "linkedin": "",
   "location": "Philadelphia, PA",

@@ -19,7 +19,7 @@
   "images": [],
   "website": "",
   "facebook": "",
-  "twitter": "HausmannStabile",
+  "twitter": "RhondaBoydPhD",
   "instagram": "",
   "linkedin": "",
   "location": "Philadelphia, PA",

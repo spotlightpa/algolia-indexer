@@ -21,7 +21,7 @@
   "images": [],
   "website": "",
   "facebook": "",
-  "twitter": "atheendar",
+  "twitter": "",
   "instagram": "",
   "linkedin": "",
   "location": "Pittsburgh, PA",

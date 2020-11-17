@@ -18,7 +18,7 @@
   "images": [],
   "website": "http://www.history.pitt.edu/people/faculty",
   "facebook": "",
-  "twitter": "josiebhpickens",
+  "twitter": "",
   "instagram": "",
   "linkedin": "",
   "location": "Pittsburgh, PA",

@@ -17,7 +17,7 @@
   "images": [],
   "website": "",
   "facebook": "",
-  "twitter": "",
+  "twitter": "josiebhpickens",
   "instagram": "",
   "linkedin": "",
   "location": "Philadelphia, PA",

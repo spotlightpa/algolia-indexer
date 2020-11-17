@@ -24,7 +24,7 @@
   "images": [],
   "website": "https://www.goodjobsfirst.org",
   "facebook": "",
-  "twitter": "RhondaBoydPhD",
+  "twitter": "goodjobsfirst",
   "instagram": "",
   "linkedin": "",
   "location": "California",

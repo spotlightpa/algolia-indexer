@@ -20,7 +20,7 @@
   "website": "https://www.thetcpnetwork.com/",
   "facebook": "",
   "twitter": "",
-  "instagram": "",
+  "instagram": "tcp_network",
   "linkedin": "",
   "location": "Lancaster, PA",
   "phone": "7173806495",
