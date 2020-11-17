@@ -1,5 +1,5 @@
 {
-  "title": "Noor Y Syed",
+  "title": "Noor Younus Syed",
   "linktitle": "Noor Syed",
   "first": "Noor",
   "middle": "Y",
