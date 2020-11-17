@@ -9,11 +9,11 @@ url = "https://www.spotlightpa.org/"
 weight = 2
 
 [[main]]
-name = "About"
-url = "/about/"
+name = "Nominate"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSdZx3UnNQaT9dLmWZQ0Ro41hygj7Mn_IvgddJzGF8R3TX50sA/viewform"
 weight = 3
 
 [[main]]
-name = "Nominate"
-url = "https://docs.google.com/forms/d/e/1FAIpQLSdZx3UnNQaT9dLmWZQ0Ro41hygj7Mn_IvgddJzGF8R3TX50sA/viewform"
+name = "Support us"
+url = "http://checkout.fundjournalism.org/memberform?org_id=spotlightpa&campaign=7015G0000003ZZVQA2&utm_source=sources.spotlightpa.org"
 weight = 4
