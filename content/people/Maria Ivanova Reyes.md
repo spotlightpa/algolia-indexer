@@ -4,6 +4,7 @@
   "first": "Maria Ivanova",
   "middle": "",
   "last": "Reyes",
+  "pronunciation": "Mar-eeah Eh-vah-nova",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Assistant Professor/Economist",

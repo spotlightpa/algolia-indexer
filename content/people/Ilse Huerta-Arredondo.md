@@ -4,6 +4,7 @@
   "first": "Ilse",
   "middle": "A",
   "last": "Huerta-Arredondo",
+  "pronunciation": "eelsE",
   "honorific": "Dr.",
   "pronoun": "she/her",
   "role": "College Instructor",

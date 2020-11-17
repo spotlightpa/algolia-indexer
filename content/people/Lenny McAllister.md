@@ -4,6 +4,7 @@
   "first": "Lenny",
   "middle": "",
   "last": "McAllister",
+  "pronunciation": "LENN-nee",
   "honorific": "",
   "pronoun": "he/him",
   "role": "Director, Western Pennsylvania",

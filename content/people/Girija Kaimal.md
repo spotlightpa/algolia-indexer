@@ -4,6 +4,7 @@
   "first": "Girija",
   "middle": "",
   "last": "Kaimal",
+  "pronunciation": "Gee-ree-jaa (gee as in gift, ree as in reef, jaa as in jar)",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Associate Professor (art therapy)",

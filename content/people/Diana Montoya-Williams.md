@@ -4,6 +4,7 @@
   "first": "Diana",
   "middle": "C",
   "last": "Montoya-Williams",
+  "pronunciation": "Die-ana; Montoya is phonetic",
   "honorific": "Dr.",
   "pronoun": "she/her",
   "role": "Attending Neonatologist and Instructor of Pediatrics",

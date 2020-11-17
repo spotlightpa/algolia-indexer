@@ -4,6 +4,7 @@
   "first": "Marquis",
   "middle": "",
   "last": "Lupton",
+  "pronunciation": "Mar-Kees",
   "honorific": "",
   "pronoun": "he/him",
   "role": "English Professor/Entreprenuer",

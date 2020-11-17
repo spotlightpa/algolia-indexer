@@ -4,6 +4,7 @@
   "first": "Shanice",
   "middle": "",
   "last": "Wadell",
+  "pronunciation": "Sha-Niece Wah-Dell",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Makeup Artist (SFX) + Graphic Design",

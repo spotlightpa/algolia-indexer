@@ -4,6 +4,7 @@
   "first": "Dre",
   "middle": "I",
   "last": "Ceja",
+  "pronunciation": "D-R-AI      Seh-Ha",
   "honorific": "Mx.",
   "pronoun": "they/them",
   "role": "Director of Training & Education, Continuing Education Instructor, Trainer",

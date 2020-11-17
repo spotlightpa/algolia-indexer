@@ -4,6 +4,7 @@
   "first": "Leila",
   "middle": "",
   "last": "Bouchekouk",
+  "pronunciation": "Lay-lah",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Contact Tracer and soon to be Case Investigator.",

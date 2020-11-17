@@ -4,6 +4,7 @@
   "first": "Daniel",
   "middle": "",
   "last": "Gonzalez Jr.",
+  "pronunciation": "DAY-vid gon-SAH-lez",
   "honorific": "Mr.",
   "pronoun": "he/him",
   "role": "Advocacy Manager",

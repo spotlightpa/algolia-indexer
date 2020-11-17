@@ -4,6 +4,7 @@
   "first": "Tha\u00eds",
   "middle": "F",
   "last": "Vazquez-Carrero",
+  "pronunciation": "Tie-eese Vahz-kez Kah-rr-eh-roh",
   "honorific": "Ms.",
   "pronoun": "she/her",
   "role": "Pennsylvania Director CASA / CASA in Action",

@@ -4,6 +4,7 @@
   "first": "Prentice Michael",
   "middle": "",
   "last": "Boone",
+  "pronunciation": "Pren\u2022tiss",
   "honorific": "",
   "pronoun": "he/him",
   "role": "Barber",

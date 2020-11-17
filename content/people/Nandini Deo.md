@@ -4,6 +4,7 @@
   "first": "Nandini",
   "middle": "",
   "last": "Deo",
+  "pronunciation": "Nun-the-knee Dave",
   "honorific": "Dr",
   "pronoun": "she/her",
   "role": "Associate Professor",

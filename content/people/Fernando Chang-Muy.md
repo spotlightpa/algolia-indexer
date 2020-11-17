@@ -4,6 +4,7 @@
   "first": "Fernando",
   "middle": "",
   "last": "Chang-Muy",
+  "pronunciation": "Muy like boy",
   "honorific": "Prof.",
   "pronoun": "he/him",
   "role": "Thomas O'Boyle Lecturer in Law, U of PA School of Law",

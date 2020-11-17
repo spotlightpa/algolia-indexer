@@ -4,6 +4,7 @@
   "first": "Walter",
   "middle": "",
   "last": "Tsou",
+  "pronunciation": "Tsunami minus the nami",
   "honorific": "Dr.",
   "pronoun": "he/him",
   "role": "Exec Director, Physicians for Social Responsibility PA, MD, MPH",

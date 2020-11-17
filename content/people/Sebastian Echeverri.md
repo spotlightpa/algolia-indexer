@@ -4,6 +4,7 @@
   "first": "Sebastian",
   "middle": "",
   "last": "Echeverri",
+  "pronunciation": "Se (as in 'send') - bas (as in the fish 'bass') - tian (as in end of the word 'function'), E (as in 'every) che (as in 'check') verri (as in 'very')",
   "honorific": "",
   "pronoun": "he/him",
   "role": "Scientist (PhD)",

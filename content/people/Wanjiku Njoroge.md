@@ -4,6 +4,7 @@
   "first": "Wanjiku",
   "middle": "",
   "last": "Njoroge",
+  "pronunciation": "Wa-G-Ko Juh-Rah-Gay",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Assisitant Professor/Infant/preschool Psychiatrist",

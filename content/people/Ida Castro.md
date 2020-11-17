@@ -4,6 +4,7 @@
   "first": "Ida",
   "middle": "L",
   "last": "Castro",
+  "pronunciation": "eda",
   "honorific": "Dr.",
   "pronoun": "she/her",
   "role": "Associate Dean Equity and Inclusion/Chief Diversity Officer/VP Community Engagement",

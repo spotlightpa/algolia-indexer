@@ -4,6 +4,7 @@
   "first": "Akira",
   "middle": "Drake",
   "last": "Rodriguez",
+  "pronunciation": "Uh-keer-uh",
   "honorific": "Ms.",
   "pronoun": "she/her",
   "role": "Asst Prof",

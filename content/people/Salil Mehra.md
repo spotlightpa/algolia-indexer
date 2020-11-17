@@ -4,6 +4,7 @@
   "first": "Salil",
   "middle": "K",
   "last": "Mehra",
+  "pronunciation": "suh-LIL",
   "honorific": "Prof.",
   "pronoun": "he/him",
   "role": "Charles Klein Professor of Law and Government",

@@ -4,6 +4,7 @@
   "first": "Wasi",
   "middle": "",
   "last": "Mohamed",
+  "pronunciation": "Wa-See",
   "honorific": "",
   "pronoun": "he/him",
   "role": "Senior Policy Officer",

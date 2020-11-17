@@ -4,6 +4,7 @@
   "first": "Utibe",
   "middle": "",
   "last": "Essien",
+  "pronunciation": "Oo-tee-beh Ess-ee-en",
   "honorific": "",
   "pronoun": "he/him",
   "role": "Assistant Professor of Medicine",

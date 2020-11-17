@@ -4,6 +4,7 @@
   "first": "Tyra",
   "middle": "",
   "last": "Bryant-Stephens",
+  "pronunciation": "Ty-ra",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Director and Founder, Community Asthma Prevention Program, Associate Professor of Pediatrics",

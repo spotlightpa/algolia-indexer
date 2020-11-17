@@ -4,6 +4,7 @@
   "first": "Jabina",
   "middle": "",
   "last": "Coleman",
+  "pronunciation": "Ja-bean-ah",
   "honorific": "",
   "pronoun": "she/her",
   "role": "LSW, MSW, IBCLC",

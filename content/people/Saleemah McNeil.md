@@ -4,6 +4,7 @@
   "first": "Saleemah",
   "middle": "J",
   "last": "McNeil",
+  "pronunciation": "Sah-lee-maa",
   "honorific": "Mrs.",
   "pronoun": "she/her",
   "role": "Reproductive Psychotherapist (Mental Health)",

@@ -4,6 +4,7 @@
   "first": "Due",
   "middle": "",
   "last": "Quach",
+  "pronunciation": "Zway Kwok",
   "honorific": "Ms.",
   "pronoun": "she/her or they/them",
   "role": "Author, CEO, Founder",

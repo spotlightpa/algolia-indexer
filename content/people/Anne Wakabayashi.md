@@ -4,6 +4,7 @@
   "first": "Anne",
   "middle": "",
   "last": "Wakabayashi",
+  "pronunciation": "Anne Walk-a-bye-ashi",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Political Operative",

@@ -4,6 +4,7 @@
   "first": "Monica",
   "middle": "",
   "last": "Ruiz",
+  "pronunciation": "Monica Rue-eez",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Executive Director",

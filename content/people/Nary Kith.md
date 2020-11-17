@@ -4,6 +4,7 @@
   "first": "Nary",
   "middle": "P",
   "last": "Kith",
+  "pronunciation": "Nah-Ree",
   "honorific": "Dr.",
   "pronoun": "she/her",
   "role": "Executive Director",

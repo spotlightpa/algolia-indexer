@@ -4,6 +4,7 @@
   "first": "Dan",
   "middle": "",
   "last": "Kimbrough",
+  "pronunciation": "Dan Kim-bro",
   "honorific": "",
   "pronoun": "he/him",
   "role": "Owner - media company",

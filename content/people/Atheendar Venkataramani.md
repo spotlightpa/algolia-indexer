@@ -4,6 +4,7 @@
   "first": "Atheendar",
   "middle": "",
   "last": "Venkataramani",
+  "pronunciation": "uh-theen-der ven-kat-a-ruh-muh-nee",
   "honorific": "",
   "pronoun": "he/him",
   "role": "Assistant Professor of Health Policy and Medicine",

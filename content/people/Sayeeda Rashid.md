@@ -4,6 +4,7 @@
   "first": "Sayeeda",
   "middle": "",
   "last": "Rashid",
+  "pronunciation": "Sei-ee-dah",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Resource Director",

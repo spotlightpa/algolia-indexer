@@ -4,6 +4,7 @@
   "first": "Arlene",
   "middle": "",
   "last": "Martinez",
+  "pronunciation": "R-lean Mar-tee-nez",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Communications Director",

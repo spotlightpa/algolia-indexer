@@ -4,6 +4,7 @@
   "first": "Nijmie",
   "middle": "",
   "last": "Dzurinko",
+  "pronunciation": "J is pronounced the same as in the word jejune",
   "honorific": "",
   "pronoun": "she/her or they/them",
   "role": "Co-founder and co-coordinator",

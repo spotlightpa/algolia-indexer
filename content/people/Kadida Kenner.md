@@ -4,6 +4,7 @@
   "first": "Kadida",
   "middle": "Natasha",
   "last": "Kenner",
+  "pronunciation": "Ka-Dee-Duh",
   "honorific": "Ms.",
   "pronoun": "she/her",
   "role": "Director of Campaigns - PA Budget and Policy Center",

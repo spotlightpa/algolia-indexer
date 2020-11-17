@@ -4,6 +4,7 @@
   "first": "Amanda",
   "middle": "",
   "last": "Carter",
+  "pronunciation": "car - tur",
   "honorific": "",
   "pronoun": "she/her",
   "role": "Dir. GLO Harrisburg",

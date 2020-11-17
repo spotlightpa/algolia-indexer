@@ -4,6 +4,7 @@
   "first": "Quanesha",
   "middle": "",
   "last": "Johnson",
+  "pronunciation": "Qua-knee-sha",
   "honorific": "Mrs.",
   "pronoun": "she/her",
   "role": "Licensed Profesional Counselor/Licensed Educator",

@@ -4,6 +4,7 @@
   "first": "Keisha",
   "middle": "",
   "last": "Hudson",
+  "pronunciation": "Kee-sha",
   "honorific": "Ms.",
   "pronoun": "she/her",
   "role": "Associate Managing Director (Attorney)",

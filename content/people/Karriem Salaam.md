@@ -4,6 +4,7 @@
   "first": "Karriem",
   "middle": "Lateef",
   "last": "Salaam",
+  "pronunciation": "Kuh-REEM Suh-LAHM like salami but no \u201ci\u201d on the end",
   "honorific": "Dr.",
   "pronoun": "he/him",
   "role": "Board Certified Adult and Child & Adolescent Psychiatrist, MD, FAPA",

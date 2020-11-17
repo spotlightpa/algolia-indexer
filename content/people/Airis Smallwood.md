@@ -4,6 +4,7 @@
   "first": "Airis",
   "middle": "",
   "last": "Smallwood",
+  "pronunciation": "Air-iss",
   "honorific": "",
   "pronoun": "she/her",
   "role": "CEO and Founder of The Singer\u2019s Lounge",
