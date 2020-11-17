@@ -1,26 +1,30 @@
 {{ define "main" }}
+  {{ $wellClass := `mx-auto max-w-screen-md` }}
   <section class="p-8">
-    <h1 class="text-4xl font-bold leading-tight text-center">
+    <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold leading-none text-center">
       {{ .Title }}
     </h1>
-    <h2 class="text-2xl leading-tight text-center text-g-7">
-      A public service of
+    <h2 class="text-xl leading-tight text-center text-g-7">
+      A public service by
       <a href="https://www.spotlightpa.org">
-        <svg class="inline-block -mt-3 w-40 h-8 fill-current">
+        <svg
+          class="inline-block fill-current"
+          style="margin-top: -9px; width: 130px; height: 31px;"
+        >
           <title>Spotlight PA</title>
           <desc>Spotlight PA logo</desc>
           <use xlink:href="#banner-svg"></use>
         </svg>
       </a>
     </h2>
-    <div class="content-area mt-8">
+    <div class="content-area mt-8 text-center">
       {{ .Content }}
     </div>
   </section>
-  <section class="p-8 no-js-hide ">
+  <section class="p-8 no-js-hide">
     {{ partial "search.html" . }}
   </section>
-  <section class="p-8 flex flex-col sm:flex-row justify-around space-y-4 sm:space-y-0 sm:space-x-4 bg-beige">
+  <section class="p-8 flex flex-col sm:flex-row justify-around space-y-4 sm:space-y-0 sm:space-x-4 bg-beige shadow-inner">
     {{ $blkClass := `group relative block w-full sm:w-64 border border-g-5 rounded p-2 bg-white leading-tight shadow-md hover:shadow-lg duration-100 text-center` }}
     {{ $svgWrapperClass := `text-g-5 group-hover:text-yellow` }}
     {{ $hedClass := `font-sans font-bold uppercase group-hover:text-blue duration-100` }}
@@ -90,26 +94,41 @@
       </div>
     </a>
   </section>
+  {{ $secHedClass := `text-2xl font-bold leading-tight mb-2` }}
   <section class="p-8">
-    <h2 class="text-2xl font-bold leading-tight">
-      All Experts
-    </h2>
-    {{ $people := .GetPage "people" }}
-    {{ partial "people-by-last-name.html" $people }}
+    <div class="{{ $wellClass }}">
+      <h2
+        class="{{ $secHedClass }}"
+        id="by-expertise"
+      >
+        Areas of expertise
+      </h2>
+      {{ $expertise := .GetPage "expertise" }}
+      {{ partial "pages-list.html" $expertise }}
+    </div>
   </section>
   <section class="p-8 bg-beige shadow-inner">
-    <h2 class="text-2xl font-bold leading-tight mb-2">
-      Expertise
-    </h2>
-    {{ $expertise := .GetPage "expertise" }}
-    {{ partial "pages-list.html" $expertise }}
+    <div class="{{ $wellClass }}">
+      <h2
+        class="{{ $secHedClass }}"
+        id="by-location"
+      >
+        Experts by location
+      </h2>
+      {{ $loc := .GetPage "location" }}
+      {{ partial "pages-list.html" $loc }}
+    </div>
   </section>
   <section class="p-8">
-    <h2 class="text-2xl font-bold leading-tight mb-2">
-      Locations
-    </h2>
-    {{ $loc := .GetPage "location" }}
-    {{ partial "pages-list.html" $loc }}
+    <div class="{{ $wellClass }}">
+      <h2
+        class="{{ $secHedClass }}"
+        id="by-name"
+      >
+        All experts by last name
+      </h2>
+      {{ $people := .GetPage "people" }}
+      {{ partial "people-by-last-name.html" $people }}
+    </div>
   </section>
-
 {{ end }}
