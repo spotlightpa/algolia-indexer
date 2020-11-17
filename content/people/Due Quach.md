@@ -29,7 +29,7 @@
   "email": "ZHVlQGNhbG1jbGFyaXR5Lm9yZw==",
   "images": [],
   "website": "https://www.calmclarity.org",
-  "facebook": "CalmClarityOrg",
+  "facebook": "calmclarity",
   "twitter": "CalmClarityOrg",
   "instagram": "calmclarityorg",
   "linkedin": "",
