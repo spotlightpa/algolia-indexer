@@ -22,11 +22,14 @@
   </section>
   <section class="p-8 flex flex-col sm:flex-row justify-around space-y-4 sm:space-y-0 sm:space-x-4 bg-beige">
     {{ $blkClass := `group relative block w-full sm:w-64 border border-g-5 rounded p-2 bg-white leading-tight shadow-md hover:shadow-lg duration-100 text-center` }}
+    {{ $svgWrapperClass := `text-g-5 group-hover:text-yellow` }}
+    {{ $hedClass := `font-sans font-bold uppercase group-hover:text-blue duration-100` }}
+    {{ $dekClass := `mx-auto max-w-xs font-sans text-g-7 group-hover:text-darkblue duration-100` }}
     <a
       class="{{ $blkClass }}"
       href="https://docs.google.com/forms/d/e/1FAIpQLSdZx3UnNQaT9dLmWZQ0Ro41hygj7Mn_IvgddJzGF8R3TX50sA/viewform"
     >
-      <div class="text-g-5 group-hover:text-blue">
+      <div class="{{ $svgWrapperClass }}">
         <svg
           class="inline w-20 h-20"
           fill="none"
@@ -36,10 +39,10 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
         </svg>
       </div>
-      <div class="font-sans font-bold uppercase group-hover:text-yellow duration-100">
+      <div class="{{ $hedClass }}">
         Nominate a source
       </div>
-      <div class="mx-auto max-w-xs font-sans text-g-7">
+      <div class="{{ $dekClass }}">
         Know someone we should list here? Nominate them today.
       </div>
     </a>
@@ -48,7 +51,7 @@
       href="mailto:sources@spotlightpa.org?subject={{ $emailSubject }}"
       class="{{ $blkClass }}"
     >
-      <div class="text-center text-g-5 group-hover:text-blue">
+      <div class="{{ $svgWrapperClass }}">
         <svg
           class="inline w-20 h-20"
           fill="none"
@@ -58,10 +61,10 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
         </svg>
       </div>
-      <div class="font-sans font-bold uppercase group-hover:text-yellow duration-100">
+      <div class="{{ $hedClass }}">
         Update your information
       </div>
-      <div class="mx-auto max-w-xs font-sans text-g-7">
+      <div class="{{ $dekClass }}">
         Has your information changed? Let us know.
       </div>
     </a>
@@ -69,7 +72,7 @@
       class="{{ $blkClass }}"
       href='{{ site.Param "donate-link" }}'
     >
-      <div class="text-center text-g-5 group-hover:text-blue">
+      <div class="{{ $svgWrapperClass }}">
         <svg
           class="inline w-20 h-20"
           fill="none"
@@ -79,14 +82,13 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
         </svg>
       </div>
-      <div class="font-sans font-bold uppercase group-hover:text-yellow duration-100">
+      <div class="{{ $hedClass }}">
         Support this project
       </div>
-      <div class="mx-auto max-w-xs font-sans text-g-7">
+      <div class="{{ $dekClass }}">
         Want to see more journalism like this? Become a Spotlight PA member.
       </div>
     </a>
-
   </section>
   <section class="p-8">
     <h2 class="text-2xl font-bold leading-tight">
