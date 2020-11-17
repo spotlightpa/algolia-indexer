@@ -15,8 +15,7 @@
     "Community Services",
     "Entrepreneurship",
     "Law",
-    "Politics",
-    "Small Business"
+    "Politics"
   ],
   "keywords": [
     "Communication",
