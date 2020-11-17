@@ -89,6 +89,11 @@ collections:
         name: last
         widget: string
         required: true
+      - label: Pronunciation
+        hint: E.g. "Err On" "Co Bye Ah She"
+        name: last
+        widget: string
+        required: true
       - label: Honorific
         hint: E.g. Dr., Prof., Mr., Ms., Mx.
         name: honorific

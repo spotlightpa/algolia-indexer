@@ -27,6 +27,7 @@ def process(ifname, odname):
         "first",
         "middle",
         "last",
+        "pronunciation",
         "honorific",
         "pronoun",
         "role",
