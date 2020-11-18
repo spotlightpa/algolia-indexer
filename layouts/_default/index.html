@@ -1,10 +1,10 @@
 {{ define "main" }}
   {{ $wellClass := `mx-auto max-w-screen-md` }}
   <section class="p-8">
-    <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold leading-none text-center">
+    <h1 class="text-3xl sm:text-4xl md:text-6xl text-black font-bold leading-none text-center">
       {{ .Title }}
     </h1>
-    <h2 class="text-xl leading-tight text-center text-g-7">
+    <h2 class="mt-4 text-xl leading-tight text-center text-g-7">
       A public service by
       <a href="https://www.spotlightpa.org">
         <svg
@@ -17,7 +17,7 @@
         </svg>
       </a>
     </h2>
-    <div class="content-area mt-8 text-center">
+    <div class="content-area mt-8 mx-auto max-w-screen-md text-center">
       {{ .Content }}
     </div>
   </section>
