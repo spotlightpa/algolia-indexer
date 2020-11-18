@@ -1,5 +1,5 @@
 <div
-  class="mx-auto max-w-screen-md border border-g-5 rounded p-2 bg-beige font-sans shadow-md"
+  class="mx-auto max-w-screen-md font-sans"
   x-data="spl.searchPeople()"
   x-init="init()"
 >
@@ -22,6 +22,7 @@
       class="appearance-none block w-full rounded-full border-2 border-g-5 px-10 py-2 bg-white text-g-8 placeholder-g-5 placeholder-opacity-100 tracking-wider"
       x-model="query"
       @keydown.escape="clear()"
+      placeholder="Ex. “Jane Smith” “History” “Pittsburgh”"
     >
     <span
       class="absolute inline-flex items-center justify-center inset-y-0 left-0 text-g-5 pointer-events-none z-10 w-10 leading-none"
@@ -45,7 +46,7 @@
     </span>
     <button
       x-cloak
-      x-show="!isLoading && query"
+      x-show="!isLoading && query || people.length"
       @click="clear()"
       type="button"
       class="absolute flex items-center justify-center inset-y-0 right-0 text-g-5 hover:text-g-7 z-10 w-10 leading-none"
@@ -72,12 +73,13 @@
       class="text-g-7"
       x-text="error && error.message || ''"></span>
   </p>
-  <div class="m-2 divide-y divide-black divide-opacity-50">
+  <div class="m-2 space-y-2 ">
     <template
-      x-for="p of people"
+      x-for="p, i of people"
     >
       <a
-        class="block py-2"
+        class="block p-2 rounded hover:shadow-md duration-100"
+        :class='{"bg-beige": i%2 }'
         :href="p.path"
       >
         <h2
