@@ -18,7 +18,7 @@
     "Public Policy"
   ],
   "email": "dGFhbGxhZGluQGdtYWlsLmNvbQ==",
-  "images": [],
+  "images": ["/img/uploads/IMG_1162 - Terrence Alladin.JPG"],
   "website": "",
   "facebook": "",
   "twitter": "",

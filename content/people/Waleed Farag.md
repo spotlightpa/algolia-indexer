@@ -16,7 +16,7 @@
     "Cybersecurity"
   ],
   "email": "ZmFyYWdAaXVwLmVkdQ==",
-  "images": [],
+  "images": ["/img/uploads/Dr. Farag-Headshot-WebSite - Waleed Farag.png"],
   "website": "https://www.people.iup.edu/farag/index.html",
   "facebook": "",
   "twitter": "",

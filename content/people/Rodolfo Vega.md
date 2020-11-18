@@ -22,7 +22,7 @@
     "Public Policy Analysis"
   ],
   "email": "cm9kb2xmb212ZWdhQGdtYWlsLmNvbQ==",
-  "images": [],
+  "images": ["/img/uploads/Rodolfo M Vega - Rodolfo Vega.jpg"],
   "website": "http://www.cs.cmu.edu/~rmvega/",
   "facebook": "",
   "twitter": "",

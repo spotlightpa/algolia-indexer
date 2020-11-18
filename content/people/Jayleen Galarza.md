@@ -13,7 +13,7 @@
   ],
   "keywords": [],
   "email": "amdhbGFyemFAc2hpcC5lZHU=",
-  "images": [],
+  "images": ["/img/uploads/JayleenGalarza.1.SocWork.Gerontology.5x7.98 - Jayleen Galarza.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "jayleen_galarza",

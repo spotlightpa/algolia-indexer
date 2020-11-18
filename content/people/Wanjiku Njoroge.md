@@ -17,7 +17,7 @@
     "pediatrics"
   ],
   "email": "bmpvcm9nZXdAZW1haWwuY2hvcC5lZHU=",
-  "images": [],
+  "images": ["/img/uploads/2019-02-04 17.30.09 - Wanjiku Njoroge.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

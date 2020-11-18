@@ -16,7 +16,7 @@
     "Recovery Residences"
   ],
   "email": "Zi53YXlAcGFycm9ubGluZS5vcmc=",
-  "images": [],
+  "images": ["/img/uploads/photo - Fred Way.JPG"],
   "website": "http://www.parronline.org",
   "facebook": "",
   "twitter": "",

@@ -22,7 +22,7 @@
     "Menstrual equity"
   ],
   "email": "THluZXR0ZU1lZGxleUBub21vcmVzZWNyZXRzbWJzLm9yZw==",
-  "images": [],
+  "images": ["/img/uploads/7B5963F5-33E2-4A91-9EC9-C8DCAE1A43AA - lynette medley.jpeg"],
   "website": "https://www.nomoresecretsmbs.org/",
   "facebook": "",
   "twitter": "",

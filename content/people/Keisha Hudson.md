@@ -19,7 +19,7 @@
     "key areas for reform."
   ],
   "email": "S2Vpc2hhLmh1ZHNvbkB0aGVqdXN0aWNlY29sbGFib3JhdGl2ZS5jb20=",
-  "images": [],
+  "images": ["/img/uploads/55EE6721-0540-43D3-9591-5CC1A10227BC - Keisha Hudson.jpeg"],
   "website": "",
   "facebook": "",
   "twitter": "",

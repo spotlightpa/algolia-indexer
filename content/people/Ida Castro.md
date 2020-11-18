@@ -19,7 +19,7 @@
     "Latino socio-politico realities"
   ],
   "email": "aWNhc3Ryb0Bzb20uZ2Vpc2luZ2VyLmVkdQ==",
-  "images": [],
+  "images": ["/img/uploads/ida castro v-me - Ida Castro.JPG"],
   "website": "https://www.geisinger.edu/education-gcsom",
   "facebook": "",
   "twitter": "",

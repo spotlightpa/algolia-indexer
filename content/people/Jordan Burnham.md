@@ -17,7 +17,7 @@
     "public speaking"
   ],
   "email": "am9yZGFuQG1pbmRpbmd5b3VybWluZC5vcmc=",
-  "images": [],
+  "images": ["/img/uploads/Headshot_IMG_7733 - Jordan Burnham.jpg"],
   "website": "https://mindingyourmind.org",
   "facebook": "",
   "twitter": "jfburnham",

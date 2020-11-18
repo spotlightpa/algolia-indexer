@@ -21,7 +21,7 @@
     "Puerto Rico"
   ],
   "email": "c2l2N0BwaXR0LmVkdQ==",
-  "images": [],
+  "images": ["/img/uploads/Shelia Velez_Headshot-2 - Orlando Portela.jpg"],
   "website": "https://www.law.pitt.edu/people/sheila-velez-martinez",
   "facebook": "",
   "twitter": "",

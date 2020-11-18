@@ -24,7 +24,7 @@
     "diversity"
   ],
   "email": "dWVzc2llbkBwaXR0LmVkdQ==",
-  "images": [],
+  "images": ["/img/uploads/40BD1924-C329-4A6B-AA2E-463BA7B8CDE3 - Utibe Essien.jpeg"],
   "website": "https://www.uressien.com",
   "facebook": "",
   "twitter": "UREssien",

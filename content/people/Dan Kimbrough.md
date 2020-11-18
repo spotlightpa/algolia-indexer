@@ -27,7 +27,7 @@
     "live streaming"
   ],
   "email": "ZGFuQHBhcmttdWx0aW1lZGlhLmNvbQ==",
-  "images": [],
+  "images": ["/img/uploads/Dan-Headshot - Dan Kimbrough.JPG"],
   "website": "http://www.parkmultimedia.com",
   "facebook": "parkmultimedia",
   "twitter": "parkmultimedia",

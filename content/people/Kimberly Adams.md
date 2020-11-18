@@ -20,7 +20,7 @@
     "campaigns and elections"
   ],
   "email": "a3NhZGFtc0Blc3UuZWR1",
-  "images": [],
+  "images": ["/img/uploads/KSAheadshot - Kimberly S. Adams.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

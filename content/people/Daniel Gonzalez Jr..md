@@ -1,7 +1,7 @@
 {
-  "title": "Daniel Gonzalez Jr.",
-  "linktitle": "Daniel Gonzalez Jr.",
-  "first": "Daniel",
+  "title": "David Gonzalez Jr.",
+  "linktitle": "David Gonzalez Jr.",
+  "first": "David",
   "middle": "",
   "last": "Gonzalez Jr.",
   "pronunciation": "DAY-vid gon-SAH-lez",
@@ -25,7 +25,7 @@
     "Technology"
   ],
   "email": "ZGdvbnphbGV6QHljZWFwYS5vcmc=",
-  "images": [],
+  "images": ["/img/uploads/Gonzalez, David - Tamara Dunn.jpg"],
   "website": "http://yceapa.org",
   "facebook": "",
   "twitter": "GonzalezJ_David",

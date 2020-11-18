@@ -32,7 +32,7 @@
     "drivers license"
   ],
   "email": "anNhcHVuYXJAd2VhcmVjYXNhLm9yZw==",
-  "images": [],
+  "images": ["/img/uploads/IMG_1156-1 - Thais Carrero.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "thaiscarrero",

@@ -22,7 +22,7 @@
     "corporate subsidies"
   ],
   "email": "YXJsZW5lQGdvb2Rqb2JzZmlyc3Qub3Jn",
-  "images": [],
+  "images": ["/img/uploads/arlene headshot - Arlene Martinez.jpg"],
   "website": "https://www.goodjobsfirst.org",
   "facebook": "",
   "twitter": "goodjobsfirst",

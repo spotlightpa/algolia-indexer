@@ -14,7 +14,7 @@
     "Energy; utilities; low income consumers; Philadelphia; legal services; legal aid; attorney; poverty law; poverty lawyer"
   ],
   "email": "anBpY2tlbnNAY2xzcGhpbGEub3Jn",
-  "images": [],
+  "images": ["/img/uploads/Me - Josie Pickens.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "josiebhpickens",

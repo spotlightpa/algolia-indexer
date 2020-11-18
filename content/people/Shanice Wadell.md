@@ -32,7 +32,7 @@
     "Transformation"
   ],
   "email": "c2x3Y3JlYTguYnVzaW5lc3NAZ21haWwuY29t",
-  "images": [],
+  "images": ["/img/uploads/Screen Shot 2020-09-18 at 11.41.28 AM - Shanice Wadell.png"],
   "website": "https://officialslwcrea8.wixsite.com/slwcrea8/portfolio",
   "facebook": "",
   "twitter": "",

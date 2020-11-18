@@ -19,7 +19,7 @@
     "Refugees"
   ],
   "email": "b25pQGFmYWhvLm9yZw==",
-  "images": [],
+  "images": ["/img/uploads/afaho new logo - African Family Health Organization.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

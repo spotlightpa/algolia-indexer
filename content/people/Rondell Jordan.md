@@ -14,7 +14,7 @@
   ],
   "keywords": [],
   "email": "cmpvcmRhbkBqdXN0aWNlYXR3b3JrbGVnYWxhaWQub3Jn",
-  "images": [],
+  "images": ["/img/uploads/Rondell Photo - Friends of Farmworkers.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

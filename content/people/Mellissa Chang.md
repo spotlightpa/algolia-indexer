@@ -22,7 +22,7 @@
     "Government Acountability"
   ],
   "email": "bWVsbGlzc2FAZ29vZGpvYnNmaXJzdC5vcmc=",
-  "images": [],
+  "images": ["/img/uploads/SegalBenz-2019_MegMessinaPhoto_447_WEB - Mellissa Chang.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

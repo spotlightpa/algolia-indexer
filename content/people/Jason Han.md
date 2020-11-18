@@ -19,7 +19,7 @@
     "ethics"
   ],
   "email": "anNoYW4wMTEzQGdtYWlsLmNvbQ==",
-  "images": [],
+  "images": ["/img/uploads/JSKY1411_c - Jason Han.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "JasonHanMD",

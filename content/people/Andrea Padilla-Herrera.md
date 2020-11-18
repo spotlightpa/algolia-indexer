@@ -18,7 +18,7 @@
     "Social Media"
   ],
   "email": "YW5kcmVhcEBjYXNhc2Fuam9zZS5vcmc=",
-  "images": [],
+  "images": ["/img/uploads/AP - Andrea Padilla.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

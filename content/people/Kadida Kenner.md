@@ -22,7 +22,7 @@
     "state legislative advocacy campaigns"
   ],
   "email": "a2VubmVyQHBlbm5icGMub3Jn",
-  "images": [],
+  "images": ["/img/uploads/KK Pic Bio - Kadida Kenner.jpg"],
   "website": "https://www.krc-pbpc.org",
   "facebook": "WhyCourtsMatterPA",
   "twitter": "",

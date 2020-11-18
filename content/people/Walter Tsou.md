@@ -20,7 +20,7 @@
     "single payer health care"
   ],
   "email": "d2FsdGVyQHBzcnBhLm9yZw==",
-  "images": [],
+  "images": ["/img/uploads/Walter head shot - Walter Tsou.jpeg"],
   "website": "http://www.psrpa.org",
   "facebook": "",
   "twitter": "waltertsou",

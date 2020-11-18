@@ -20,7 +20,7 @@
     "transparency"
   ],
   "email": "bXNnY0B1cGVubi5lZHU=",
-  "images": [],
+  "images": ["/img/uploads/msgcPennGSE - Manuel S Gonzalez Canche.jpg"],
   "website": "https://www.gse.upenn.edu/academics/faculty-directory/canche",
   "facebook": "",
   "twitter": "manu_canche",

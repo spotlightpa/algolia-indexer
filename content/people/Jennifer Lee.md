@@ -19,7 +19,7 @@
     "Employment"
   ],
   "email": "amVubmlmZXJqbGVlQHRlbXBsZS5lZHU=",
-  "images": [],
+  "images": ["/img/uploads/JLPhoto2015 - Jennifer Lee.jpg"],
   "website": "https://www.law.temple.edu/contact/jennifer-j-lee/",
   "facebook": "",
   "twitter": "",

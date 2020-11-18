@@ -15,7 +15,7 @@
     "Mental Health"
   ],
   "email": "SmVzc2VTdWhARHJKZXNzZVN1aC5jb20=",
-  "images": [],
+  "images": ["/img/uploads/Suh Image - Jesse Suh.jpg"],
   "website": "https://www.drjessesuh.com",
   "facebook": "",
   "twitter": "",

@@ -15,7 +15,7 @@
   ],
   "keywords": [],
   "email": "YWNhcnRlckBjZW50cmFscGFsZ2J0Y2VudGVyLm9yZw==",
-  "images": [],
+  "images": ["/img/uploads/7E814173-3B91-47AB-B006-64A57DAF23CC - Amanda Carter.jpeg"],
   "website": "",
   "facebook": "",
   "twitter": "",

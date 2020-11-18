@@ -15,7 +15,7 @@
     "City and Regional Planning; Public Finance;"
   ],
   "email": "Y2hyaXNAZ29vZGpvYnNmaXJzdC5vcmc=",
-  "images": [],
+  "images": ["/img/uploads/Christina-HS-2 (2) - Christine Wen.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

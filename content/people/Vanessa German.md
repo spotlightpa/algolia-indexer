@@ -24,7 +24,7 @@
     "love"
   ],
   "email": "VmFuZXNzYWxnZXJtYW5AZ21haWwuY29t",
-  "images": [],
+  "images": ["/img/uploads/98A8B388-DE59-4EE6-89F4-714E8BC19BBE - Vanessa German.jpeg"],
   "website": "",
   "facebook": "",
   "twitter": "",

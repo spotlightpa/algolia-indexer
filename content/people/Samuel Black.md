@@ -18,7 +18,7 @@
     "Pittsburgh"
   ],
   "email": "c3dibGFja0BoZWluemhpc3RvcnljZW50ZXIub3Jn",
-  "images": [],
+  "images": ["/img/uploads/11681_GOV_BLACK__HISTORY_AWARDS_JH_032_0_15_1_012 - Sam Black.jpg"],
   "website": "https://heinzhistorycenter.org/",
   "facebook": "",
   "twitter": "",

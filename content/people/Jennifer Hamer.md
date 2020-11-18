@@ -1,8 +1,8 @@
 {
-  "title": "Jennifer F Hamer",
+  "title": "Jennifer F. Hamer",
   "linktitle": "Jennifer Hamer",
   "first": "Jennifer",
-  "middle": "F",
+  "middle": "F.",
   "last": "Hamer",
   "honorific": "Prof.",
   "pronoun": "she/her",
@@ -19,7 +19,7 @@
     "equity"
   ],
   "email": "amZoNTgxOUBwc3UuZWR1IGFuZCBoYW1lci5qZW5uaWZlci5mQGdtYWlsLmNvbQ==",
-  "images": [],
+  "images": ["/img/uploads/hamer image - Jennifer F. Hamer.jpeg"],
   "website": "",
   "facebook": "",
   "twitter": "",

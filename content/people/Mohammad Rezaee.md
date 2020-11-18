@@ -21,7 +21,7 @@
     "Environmental Remediation"
   ],
   "email": "bS5yZXphZWVAcHN1LmVkdQ==",
-  "images": [],
+  "images": ["/img/uploads/Mohammad Rezaee photo - Mohammad Rezaee.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

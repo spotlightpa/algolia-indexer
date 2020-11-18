@@ -18,7 +18,7 @@
     "health"
   ],
   "email": "aG93YXJkc0B1cGVubi5lZHU=",
-  "images": [],
+  "images": ["/img/uploads/HS smile in REC Library - Howard Stevenson.jpg"],
   "website": "https://www.gse.upenn.edu/academics/faculty-directory/stevenson",
   "facebook": "",
   "twitter": "DrHoward_RECAST",

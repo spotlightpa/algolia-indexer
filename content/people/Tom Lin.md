@@ -14,7 +14,7 @@
   ],
   "keywords": [],
   "email": "dG9tLmxpbkB0ZW1wbGUuZWR1",
-  "images": [],
+  "images": ["/img/uploads/Tom-Lin-Photo - Tom Lin.jpg"],
   "website": "https://www.law.temple.edu/contact/tom-lin/",
   "facebook": "",
   "twitter": "",

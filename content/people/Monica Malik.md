@@ -27,7 +27,7 @@
     "community initiative"
   ],
   "email": "TW9uaWNhaW1hbGlrQGdtYWlsLmNvbQ==",
-  "images": [],
+  "images": ["/img/uploads/20200902_154043 - Monica Malik.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

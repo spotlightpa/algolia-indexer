@@ -20,7 +20,7 @@
     "Trade with China"
   ],
   "email": "aXJleWVzQGdldHR5c2J1cmcuZWR1",
-  "images": [],
+  "images": ["/img/uploads/Snapshot2 - Ivanova Reyes.jpg"],
   "website": "http://ivanovareyes.sites.gettysburg.edu/facultyprofile/",
   "facebook": "",
   "twitter": "",

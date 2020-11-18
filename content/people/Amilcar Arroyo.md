@@ -14,7 +14,7 @@
   ],
   "keywords": [],
   "email": "YW1pbGNhckBlcGl4Lm5ldA==",
-  "images": [],
+  "images": ["/img/uploads/Amilcar Arroyo - amilcar@epix.net.jpeg"],
   "website": "https://mensajeroint.com/",
   "facebook": "ElMensajero.international",
   "twitter": "",

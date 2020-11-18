@@ -19,7 +19,7 @@
     "educator"
   ],
   "email": "aWxzZS5haGFAZ21haWwuY29t",
-  "images": [],
+  "images": ["/img/uploads/DSC_0620 small - Ilse Huerta.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

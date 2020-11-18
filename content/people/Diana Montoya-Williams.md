@@ -22,7 +22,7 @@
     "maternal child health"
   ],
   "email": "bW9udG95YXdpZEBlbWFpbC5jaG9wLmVkdQ==",
-  "images": [],
+  "images": ["/img/uploads/Montoya-Williams, DianaRGB18 - Diana Montoya-Williams.jpg"],
   "website": "https://www.chop.edu/doctors/montoya-williams-diana",
   "facebook": "",
   "twitter": "DrDianaMW",

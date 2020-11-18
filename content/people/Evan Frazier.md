@@ -29,7 +29,7 @@
     "Corporate Citizenship"
   ],
   "email": "ZXZhbi5mcmF6aWVyQGhpZ2htYXJraGVhbHRoLm9yZw==",
-  "images": [],
+  "images": ["/img/uploads/EvanFrazierPhoto - Joanna Zuckerman Bernstein.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "",

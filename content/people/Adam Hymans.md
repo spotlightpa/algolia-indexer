@@ -17,7 +17,7 @@
   ],
   "keywords": [],
   "email": "YWRhbUByZXNvdXJjZS1tZWRpYS5vcmc=",
-  "images": [],
+  "images": ["/img/uploads/AdamHymans_Headshot - Adam Resource.jpg"],
   "website": "https://www.resource-media.org",
   "facebook": "",
   "twitter": "PHLnthrope",

@@ -18,7 +18,7 @@
     "mandatory minimums"
   ],
   "email": "Y3RydXN0eUBmYW1tLm9yZw==",
-  "images": [],
+  "images": ["/img/uploads/Celeste Trusty headshot - k. celeste trusty.jpg"],
   "website": "https://famm.org/",
   "facebook": "",
   "twitter": "thejuryroomblog",

@@ -15,7 +15,7 @@
   ],
   "keywords": [],
   "email": "c2F5ZWVkYXJhc2hpZEBwYWltbWlncmFudC5vcmc=",
-  "images": [],
+  "images": ["/img/uploads/S Rashid_Headshot - Sayeeda Rashid.jpg"],
   "website": "",
   "facebook": "sayeedar",
   "twitter": "",

@@ -21,7 +21,7 @@
     "Elections"
   ],
   "email": "anNhcHVuYXJAd2VhcmVjYXNhLm9yZw==",
-  "images": [],
+  "images": ["/img/uploads/Gustavo Torres CASA Executive Director - Jossie Flor Sapunar.PNG"],
   "website": "http://wearecasa.org",
   "facebook": "",
   "twitter": "",

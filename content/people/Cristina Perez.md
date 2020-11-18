@@ -13,7 +13,7 @@
   ],
   "keywords": [],
   "email": "Y3Jpc3RpbmEucGVyZXpAZmFuZG0uZWR1",
-  "images": [],
+  "images": ["/img/uploads/2020 Headshot - Cristina Perez.jpg"],
   "website": "https://www.fandm.edu/cristina-perez",
   "facebook": "",
   "twitter": "",

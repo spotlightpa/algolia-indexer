@@ -19,7 +19,7 @@
     "poverty"
   ],
   "email": "YXRoZWVudkBwZW5ubWVkaWNpbmUudXBlbm4uZWR1",
-  "images": [],
+  "images": ["/img/uploads/venkataramani-atheen - Atheendar Venkataramani.jpg"],
   "website": "https://opportunityforhealth.org",
   "facebook": "",
   "twitter": "atheendar",

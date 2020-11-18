@@ -23,7 +23,7 @@
     "Fundraising"
   ],
   "email": "ZmNoYW5nbTFAdXBlbm4uZWR1",
-  "images": [],
+  "images": ["/img/uploads/F Chang-Muy JPEG - Fernando Chang-Muy.jpg"],
   "website": "https://www.sp2.upenn.edu/people/view/fernando-chang-muy/",
   "facebook": "",
   "twitter": "",

@@ -20,7 +20,7 @@
     "Latino mental health"
   ],
   "email": "Y2hhdXNtYW5uc0BicnlubWF3ci5lZHU=",
-  "images": [],
+  "images": ["/img/uploads/Hausmann-Stabile_photo - Carolina Hausmann-Stabile.png"],
   "website": "https://www.brynmawr.edu/people/carolina-hausmann-stabile",
   "facebook": "",
   "twitter": "HausmannStabile",

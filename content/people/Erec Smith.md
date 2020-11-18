@@ -24,7 +24,7 @@
     "buddhism"
   ],
   "email": "ZXNtaXRoNDdAeWNwLmVkdQ==",
-  "images": [],
+  "images": ["/img/uploads/Headshot 1 Cropped - Erec Smith.jpg"],
   "website": "",
   "facebook": "",
   "twitter": "Rhetors_of_York",
