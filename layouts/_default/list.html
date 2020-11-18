@@ -3,12 +3,17 @@
     <div class="mx-auto max-w-screen-md">
       <h1 class="text-right leading-tight text-lg">
         {{ with .Parent }}
-          {{ if ne . site.Home }}
-          <a
+            <a
             class="text-blue hover:text-yellow duration-500"
-            href="{{ .RelPermalink }}"
-          >{{ .LinkTitle }}</a>
+            href="/"
+          >Home</a>
           <span class="text-g-5">»</span>
+          {{ if ne . site.Home }}
+            <a
+              class="text-blue hover:text-yellow duration-500"
+              href="/#by-{{ .RelPermalink | anchorize }}"
+            >{{ .LinkTitle }}</a>
+            <span class="text-g-5">»</span>
           {{ end }}
         {{ end }}
         <span class="font-bold">
