@@ -215,10 +215,10 @@ collections:
         name: menus
         file: config/_default/menus.toml
         fields:
-          - label: "Main menu items"
+          - label: "Site navbar items"
             label_singular: "menu item"
-            name: main
-            hint: "Navbar main menu"
+            name: navbar
+            hint: "Only shows on desktops"
             widget: list
             fields: &menu
               - label: "Display Name"
@@ -234,6 +234,12 @@ collections:
                 widget: number
                 valueType: int
                 required: false
+          - label: "Menu items"
+            label_singular: "menu item"
+            name: mobile
+            hint: "Only shows on mobile/tablet"
+            widget: list
+            fields: *menu
           - label: "Footer menu items"
             label_singular: "menu item"
             name: footer
