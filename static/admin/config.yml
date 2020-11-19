@@ -220,7 +220,7 @@ collections:
             name: main
             hint: "Navbar main menu"
             widget: list
-            fields:
+            fields: &menu
               - label: "Display Name"
                 name: name
                 widget: string
@@ -229,12 +229,20 @@ collections:
                 name: url
                 widget: string
                 required: true
-              - label: "CSS class"
-                name: pre
-                widget: string
-                required: false
               - label: Order
                 name: weight
                 widget: number
                 valueType: int
                 required: false
+          - label: "Footer menu items"
+            label_singular: "menu item"
+            name: footer
+            hint: "Footer pages list, first column"
+            widget: list
+            fields: *menu
+          - label: "Social menu items"
+            label_singular: "menu item"
+            name: social
+            hint: "Footer social links"
+            widget: list
+            fields: *menu

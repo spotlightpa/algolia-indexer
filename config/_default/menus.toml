@@ -17,3 +17,86 @@ weight = 3
 name = "Support us"
 url = "http://checkout.fundjournalism.org/memberform?org_id=spotlightpa&campaign=7015G0000003ZZVQA2&utm_source=sources.spotlightpa.org"
 weight = 4
+
+[[footer]]
+name = "Home"
+url = "https://www.spotlightpa.org/"
+weight = 1
+
+[[footer]]
+name = "About Us"
+url = "https://www.spotlightpa.org/about/mission/"
+weight = 2
+
+[[footer]]
+name = "Contact"
+url = "https://www.spotlightpa.org/contact/"
+weight = 3
+
+[[footer]]
+name = "Tips"
+url = "https://www.spotlightpa.org/tips/"
+weight = 4
+
+[[footer]]
+name = "Newsletters"
+url = "https://www.spotlightpa.org/newsletters/"
+weight = 5
+
+[[footer]]
+name = "Staff"
+url = "https://www.spotlightpa.org/about/staff/"
+weight = 6
+
+[[footer]]
+name = "FAQ"
+url = "https://www.spotlightpa.org/about/faq/"
+weight = 8
+
+[[footer]]
+name = "Donate"
+pre = "is-uppercase"
+url = "http://checkout.fundjournalism.org/memberform?org_id=spotlightpa&campaign=7015G0000003ZZVQA2&utm_source=sources.spotlightpa.org"
+weight = 9
+
+[[social]]
+name = "Facebook"
+pre = "is-uppercase"
+url = "https://www.facebook.com/SpotlightPennsylvania"
+weight = 1
+
+[[social]]
+name = "Twitter"
+pre = "is-uppercase"
+url = "https://www.twitter.com/SpotlightPA"
+weight = 2
+
+[[social]]
+name = "Instagram"
+pre = "is-uppercase"
+url = "https://www.instagram.com/Spotlightpennsylvania/"
+weight = 3
+
+[[social]]
+name = "Apple News"
+pre = "is-uppercase"
+url = "https://apple.news/TJOxac5Y3SDWgviiNxcD9gA"
+weight = 4
+
+[[social]]
+name = "Flipboard"
+pre = "is-uppercase"
+url = "https://flipboard.com/@SpotlightPA"
+weight = 5
+
+[[social]]
+name = "Google News"
+pre = "is-uppercase"
+url = "https://news.google.com/publications/CAAqBwgKMJOpkgswx-CnAw"
+weight = 6
+
+[[social]]
+name = "Github"
+pre = "is-uppercase"
+url = "https://www.github.com/spotlightpa/"
+weight = 7
