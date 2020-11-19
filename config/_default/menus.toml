@@ -5,7 +5,7 @@ weight = 1
 
 [[navbar]]
 name = "Nominate An Expert"
-url = "https://docs.google.com/forms/d/e/1FAIpQLSdZx3UnNQaT9dLmWZQ0Ro41hygj7Mn_IvgddJzGF8R3TX50sA/viewform"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSeVh7CFSaKc5H7VTWcizw1sxmC8XQfWZ_yerww6SvWad5vmQQ/viewform"
 weight = 2
 
 [[mobile]]
@@ -20,7 +20,7 @@ weight = 2
 
 [[mobile]]
 name = "Nominate An Expert"
-url = "https://docs.google.com/forms/d/e/1FAIpQLSdZx3UnNQaT9dLmWZQ0Ro41hygj7Mn_IvgddJzGF8R3TX50sA/viewform"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSeVh7CFSaKc5H7VTWcizw1sxmC8XQfWZ_yerww6SvWad5vmQQ/viewform"
 weight = 3
 
 [[mobile]]
