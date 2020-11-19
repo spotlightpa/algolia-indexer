@@ -91,7 +91,7 @@ collections:
         required: true
       - label: Pronunciation
         hint: E.g. "Err On" "Co Bye Ah She"
-        name: last
+        name: pronunciation
         widget: string
         required: true
       - label: Honorific
