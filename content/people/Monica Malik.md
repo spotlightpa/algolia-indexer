@@ -13,7 +13,8 @@
     "Diversity & Inclusion",
     "Economy",
     "Technology",
-    "Wellness"
+    "Wellness",
+    "Small Business"
   ],
   "keywords": [
     "Food insecurity",

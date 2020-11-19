@@ -8,7 +8,8 @@
   "pronoun": "she/her",
   "role": "Small Business Consultant",
   "expertise": [
-    "Business & Finance"
+    "Business & Finance",
+    "Small Business"
   ],
   "keywords": [
     "Small business",
