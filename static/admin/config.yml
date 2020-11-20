@@ -93,7 +93,7 @@ collections:
         hint: E.g. "Err On" "Co Bye Ah She"
         name: pronunciation
         widget: string
-        required: true
+        required: false
       - label: Honorific
         hint: E.g. Dr., Prof., Mr., Ms., Mx.
         name: honorific
