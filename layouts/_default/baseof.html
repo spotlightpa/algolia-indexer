@@ -13,20 +13,6 @@
     {{- end -}}
   </title>
 
-  {{ if .Param "no-index" }}
-    <meta name="robots" content="noindex">
-  {{ else }}
-    <meta name="robots" content="index,follow">
-    <link href="{{ .Permalink }}" rel="canonical">
-  {{ end }}
-
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-  {{ template "_internal/schema.html" . }}
-  {{ template "_internal/google_news.html" . }}
-
-  {{ template "_internal/google_analytics_async.html" . }}
-
   {{ $cssFonts := resources.Get "css/fonts.css" }}
   {{ $cssTW := resources.Get "css/main.css" }}
   {{ $css := slice $cssFonts $cssTW | resources.Concat "css/site.css" }}
@@ -70,9 +56,23 @@
     {{ $iconShrunk := $icon.Fit $size }}
     <link rel="apple-touch-icon" href="{{ $iconShrunk.Permalink }}" sizes="{{ $size }}">
   {{ end }}
+
   {{ $logo := resources.Get "/img/logos/circle-default-on-trans.svg" | fingerprint }}
   <link rel="mask-icon" href="{{ $logo.Permalink }}" color="black">
 
+  {{ if .Param "no-index" }}
+    <meta name="robots" content="noindex">
+  {{ else }}
+    <meta name="robots" content="index,follow">
+    <link href="{{ .Permalink }}" rel="canonical">
+  {{ end }}
+
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/schema.html" . }}
+  {{ template "_internal/google_news.html" . }}
+
+  {{ template "_internal/google_analytics_async.html" . }}
 </head>
 {{ $pageCat := printf "%s:%s" (.Section | default .Type) .Kind }}
 {{ if eq .Kind "home" }}{{ $pageCat = "home "}}{{ end }}
@@ -91,12 +91,8 @@
   <script
     src='{{ $js.RelPermalink }}'
     type="module"
-    async
   ></script>
-  <script
-    nomodule
-    async
-  >
+  <script nomodule>
     document.body.classList.add('has-old-js');
   </script>
 
