@@ -14,9 +14,12 @@
   </title>
 
   {{ $cssFonts := resources.Get "css/fonts.css" }}
+  <style>
+    {{ $cssFonts.Content | safeCSS }}
+  </style>
+
   {{ $cssTW := resources.Get "css/main.css" }}
-  {{ $css := slice $cssFonts $cssTW | resources.Concat "css/site.css" }}
-  {{ $css = $css | postCSS }}
+  {{ $css := $cssTW | postCSS }}
   {{ if ne hugo.Environment "development" }}
     {{ $css = $css | minify | fingerprint | resources.PostProcess }}
   {{ end }}
