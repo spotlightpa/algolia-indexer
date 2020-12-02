@@ -2,6 +2,9 @@ module github.com/spotlightpa/sourcesdb
 
 go 1.15
 
+// +heroku goVersion go1.15
+// +heroku install ./cmd/...
+
 require (
 	github.com/algolia/algoliasearch-client-go/v3 v3.12.1
 	github.com/carlmjohnson/errutil v0.20.1
