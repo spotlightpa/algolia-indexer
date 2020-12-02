@@ -36,8 +36,13 @@ buildFuture = true
   baseName = "searchindex"
   isPlainText = true
 
+[outputFormats.autotweeter]
+  mediaType = "application/json"
+  baseName = "autotweeter"
+  isPlainText = true
+
 [outputs]
-  home = ["html", "searchindex"]
+  home = ["html", "searchindex", "autotweeter"]
   section = ["html"]
   taxonomy = ["html"]
   term = ["html"]
