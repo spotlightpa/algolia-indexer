@@ -1,6 +1,7 @@
-package redis
+package blob
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -44,7 +45,7 @@ func (loc Loc) printf(format string, v ...interface{}) {
 	}
 }
 
-func (loc Loc) Get(key string, v interface{}) error {
+func (loc Loc) Get(ctx context.Context, key string, v interface{}) error {
 	loc.printf("do file GET %q", loc.name(key))
 
 	err := loc.ensure()
@@ -53,7 +54,7 @@ func (loc Loc) Get(key string, v interface{}) error {
 	}
 	data, err := ioutil.ReadFile(loc.name(key))
 	if os.IsNotExist(err) {
-		return ErrNil
+		return ErrNotFound
 	} else if err != nil {
 		return fmt.Errorf("could not read cache data: %w", err)
 	}
@@ -63,7 +64,7 @@ func (loc Loc) Get(key string, v interface{}) error {
 	return nil
 }
 
-func (loc Loc) Set(key string, v interface{}) error {
+func (loc Loc) Set(ctx context.Context, key string, v interface{}) error {
 	loc.printf("do file SET %q", loc.name(key))
 
 	data, err := json.Marshal(v)
@@ -77,22 +78,4 @@ func (loc Loc) Set(key string, v interface{}) error {
 		return fmt.Errorf("could not write cache data: %w", err)
 	}
 	return nil
-}
-
-func (loc Loc) GetSet(key string, getv, setv interface{}) (err error) {
-	loc.printf("do file GETSET %q", loc.name(key))
-
-	geterr := loc.Get(key, getv)
-	if err = loc.Set(key, setv); err != nil {
-		return err
-	}
-	return geterr
-}
-
-func (loc Loc) GetLock(key string) (unlock func(), err error) {
-	// TODO: actual locking
-	loc.printf("noop getlock %q", key)
-	return func() {
-		loc.printf("noop unlock %q", key)
-	}, nil
 }

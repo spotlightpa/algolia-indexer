@@ -17,7 +17,8 @@ import (
 	"github.com/carlmjohnson/flagext"
 	"github.com/dghubble/go-twitter/twitter"
 	"github.com/dghubble/oauth1"
-	"github.com/spotlightpa/sourcesdb/internal/redis"
+	"github.com/henvic/ctxsignal"
+	"github.com/spotlightpa/sourcesdb/internal/blob"
 )
 
 const AppName = "autotweeter"
@@ -44,7 +45,7 @@ func (app *appEnv) ParseArgs(args []string) error {
 	consumerKey := fl.String("twitter-consumer-key", "", "")
 	consumerSecret := fl.String("twitter-consumer-secret", "", "")
 
-	getRedis := redis.Var(fl, "redis-url", "`URL` for Redis (mock if not set)")
+	getBlob := blob.Var(fl, "blob-url", "`URL` for S3 blob store (mock if not set)")
 
 	app.l = log.New(nil, AppName+" ", log.LstdFlags)
 	flagext.LoggerVar(
@@ -83,7 +84,7 @@ Options:
 			"twitter-access-token-secret",
 			"twitter-consumer-key",
 			"twitter-consumer-secret",
-			"redis-url")
+			"blob-url")
 	}
 
 	if err := flagext.MustHave(fl, musthave...); err != nil {
@@ -96,16 +97,32 @@ Options:
 		app.cl = config.Client(context.Background(), token)
 	}
 	var err error
-	app.store, err = getRedis(app.l)
 
-	return err
+	ctx, cancel := newContext(5 * time.Second)
+	defer cancel()
+
+	app.store, err = getBlob(ctx, app.l)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "problem with blob store: %v\n", err)
+		return err
+	}
+	return nil
+}
+
+func newContext(d time.Duration) (context.Context, func()) {
+	ctx, c1 := context.WithTimeout(context.Background(), d)
+	ctx, c2 := ctxsignal.WithTermination(ctx)
+	return ctx, func() {
+		defer c1()
+		defer c2()
+	}
 }
 
 type appEnv struct {
 	l     *log.Logger
 	mock  bool
 	cl    *http.Client
-	store redis.Storable
+	store blob.Storable
 	src   io.ReadCloser
 	tmpl  *template.Template
 }
@@ -117,19 +134,13 @@ func (app *appEnv) logf(format string, args ...interface{}) {
 func (app *appEnv) Exec() (err error) {
 	app.logf("starting")
 
-	// lock Redis
-	unlock, err := app.store.GetLock(AppName)
-	defer unlock()
-	if err != nil {
-		return err
-	}
-
-	app.logf("got lock")
+	ctx, cancel := newContext(10 * time.Second)
+	defer cancel()
 
 	// get old tweets
 	priorTweets := map[string]time.Time{}
-	if err = app.store.Get("prior-tweets", &priorTweets); err != nil &&
-		err != redis.ErrNil {
+	if err = app.store.Get(ctx, "prior-tweets", &priorTweets); err != nil &&
+		err != blob.ErrNotFound {
 		return err
 	}
 
@@ -143,9 +154,9 @@ func (app *appEnv) Exec() (err error) {
 
 	// remove items that were tweeted
 	filteredCtxs := ctxs[:0]
-	for _, ctx := range ctxs {
-		if _, ok := priorTweets[ctx["id"]]; !ok {
-			filteredCtxs = append(filteredCtxs, ctx)
+	for _, tmplctx := range ctxs {
+		if _, ok := priorTweets[tmplctx["id"]]; !ok {
+			filteredCtxs = append(filteredCtxs, tmplctx)
 		}
 	}
 
@@ -156,13 +167,13 @@ func (app *appEnv) Exec() (err error) {
 	if !app.mock {
 		rand.Seed(time.Now().UnixNano())
 	}
-	ctx := filteredCtxs[rand.Intn(len(filteredCtxs))]
+	tmplctx := filteredCtxs[rand.Intn(len(filteredCtxs))]
 
-	app.logf("chose %q", ctx["id"])
+	app.logf("chose %q", tmplctx["id"])
 
 	// build text
 	var buf strings.Builder
-	if err = app.tmpl.Execute(&buf, ctx); err != nil {
+	if err = app.tmpl.Execute(&buf, tmplctx); err != nil {
 		return err
 	}
 
@@ -172,8 +183,8 @@ func (app *appEnv) Exec() (err error) {
 	}
 
 	// update list of old Tweets
-	priorTweets[ctx["id"]] = time.Now()
-	if err = app.store.Set("prior-tweets", &priorTweets); err != nil {
+	priorTweets[tmplctx["id"]] = time.Now()
+	if err = app.store.Set(ctx, "prior-tweets", &priorTweets); err != nil {
 		return err
 	}
 
