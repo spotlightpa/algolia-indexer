@@ -11,7 +11,7 @@
     "Regulations",
     "Entrepreneurship"
   ],
-  "phone": "7326776545",
+  "phone": "8144330221",
   "first": "Jabari",
   "expertise": [
     "Business & Finance",
