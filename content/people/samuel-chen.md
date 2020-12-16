@@ -19,8 +19,8 @@
     "Politics",
     "Ethics"
   ],
-  "twitter": "@SamChen220",
-  "location": "Allentown, PA",
+  "twitter": "SamChen220",
+  "location": "Lehigh Valley, PA and Washington, DC",
   "role": "Political Strategist | TV Host | College Professor",
   "last": "Chen",
   "title": "Samuel Chen",
