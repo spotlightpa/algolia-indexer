@@ -19,7 +19,9 @@
     "economics"
   ],
   "email": "c21laHJhQHRlbXBsZS5lZHU=",
-  "images": ["/img/uploads/Salil Mehra - SALIL K. MEHRA.jpg"],
+  "images": [
+    "/img/uploads/Salil Mehra - SALIL K. MEHRA.jpg"
+  ],
   "website": "https://www.law.temple.edu/contact/salil-k-mehra/",
   "facebook": "",
   "twitter": "slamra_n_flufya",

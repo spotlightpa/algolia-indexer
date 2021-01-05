@@ -18,7 +18,9 @@
     "urban planning"
   ],
   "email": "YWtpcmFkQHVwZW5uLmVkdQ==",
-  "images": ["/img/uploads/AkiraHeadshot - Akira Drake.jpg"],
+  "images": [
+    "/img/uploads/AkiraHeadshot - Akira Drake.jpg"
+  ],
   "website": "http://www.akirarodriguez.com",
   "facebook": "",
   "twitter": "akiradrake",

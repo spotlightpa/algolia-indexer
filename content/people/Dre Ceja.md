@@ -40,7 +40,9 @@
     "HR"
   ],
   "email": "ZGNlamFAY2VudHJhbHBhbGdidGNlbnRlci5vcmc=",
-  "images": ["/img/uploads/0 - ARTS of PA.jpg"],
+  "images": [
+    "/img/uploads/0 - ARTS of PA.jpg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "dreconchile",

@@ -20,7 +20,9 @@
     "science journalism"
   ],
   "email": "c3BpZGVyZGF5bmlnaHRsaXZlQGdtYWlsLmNvbQ==",
-  "images": ["/img/uploads/IMG_20191016_094849_672 - Sebastian Echeverri.jpg"],
+  "images": [
+    "/img/uploads/IMG_20191016_094849_672 - Sebastian Echeverri.jpg"
+  ],
   "website": "https://www.spiderdaynightlive.com/",
   "facebook": "",
   "twitter": "spiderdayNight",

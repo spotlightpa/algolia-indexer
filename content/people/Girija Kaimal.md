@@ -22,7 +22,9 @@
     "arts and health"
   ],
   "email": "Z2lyaWphLmthaW1hbEBwb3N0LmhhcnZhcmQuZWR1",
-  "images": ["/img/uploads/headshot2 - girija kaimal.jpg"],
+  "images": [
+    "/img/uploads/headshot2 - girija kaimal.jpg"
+  ],
   "website": "http://www.girijakaimal.com",
   "facebook": "",
   "twitter": "kaimalgirija",

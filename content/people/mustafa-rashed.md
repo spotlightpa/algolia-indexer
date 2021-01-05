@@ -1,6 +1,6 @@
 {
   "pronoun": "he/him",
-  "bio": "Mustafa Rashed is the president & CEO of Bellevue Strategies, a government relations and strategic communications firm. He serves as the firm’s manager of day-to-day operations and is responsible for operations, technology, HR and vision. Rashed is an advocate of public education and a strong municipal public school system. He’s a graduate of the Philadelphia school system (John Bartram, H.S). He holds a Bachelor of Science Degree from Temple University.",
+  "bio": "Mustafa Rashed is the president & CEO of Bellevue Strategies, a government relations and strategic communications firm. He serves as the firm\u2019s manager of day-to-day operations and is responsible for operations, technology, HR and vision. Rashed is an advocate of public education and a strong municipal public school system. He\u2019s a graduate of the Philadelphia school system (John Bartram, H.S). He holds a Bachelor of Science Degree from Temple University.",
   "layout": "person",
   "keywords": [
     "Political Consultant"

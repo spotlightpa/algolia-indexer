@@ -20,7 +20,9 @@
   ],
   "keywords": [],
   "email": "bGZtQGNvbW1vbndlYWx0aGZvdW5kYXRpb24ub3Jn",
-  "images": ["/img/uploads/904875_10201081082937720_370197708_o_10201081082937720 - Lenny McAllister.jpg"],
+  "images": [
+    "/img/uploads/904875_10201081082937720_370197708_o_10201081082937720 - Lenny McAllister.jpg"
+  ],
   "website": "https://www.commonwealthfoundation.org/about/detail/lenny-mcallister",
   "facebook": "",
   "twitter": "lennymcallister",

@@ -16,7 +16,9 @@
     "Community Economic Development"
   ],
   "email": "Z2hvcnRvbkB1ZWNkYy5vcmc=",
-  "images": ["/img/uploads/horton - Gary Horton.jpg"],
+  "images": [
+    "/img/uploads/horton - Gary Horton.jpg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

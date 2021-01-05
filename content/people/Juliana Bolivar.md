@@ -17,7 +17,9 @@
     "finance"
   ],
   "email": "anVsaWFuYUB2aXZpbW9zd2lsZC5jb20=",
-  "images": ["/img/uploads/Prof pic - Juliana Bolivar.jpg"],
+  "images": [
+    "/img/uploads/Prof pic - Juliana Bolivar.jpg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

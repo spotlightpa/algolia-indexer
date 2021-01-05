@@ -20,7 +20,9 @@
     "political healer"
   ],
   "email": "ZGF2b25hbGNwYWNsZXlAZ21haWwuY29t",
-  "images": ["/img/uploads/IMG-4694 - DaVona Pacley.jpg"],
+  "images": [
+    "/img/uploads/IMG-4694 - DaVona Pacley.jpg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

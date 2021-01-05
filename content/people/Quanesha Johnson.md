@@ -21,7 +21,9 @@
     "therapy"
   ],
   "email": "YnRnY291bnNlbGluZ2VkQGdtYWlsLmNvbQ==",
-  "images": ["/img/uploads/IMG-6402 - Quanesha Johnson.jpg"],
+  "images": [
+    "/img/uploads/IMG-6402 - Quanesha Johnson.jpg"
+  ],
   "website": "https://www.btgcounselinged.com/",
   "facebook": "btgcounselinged",
   "twitter": "",

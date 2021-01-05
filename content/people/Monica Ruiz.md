@@ -24,7 +24,9 @@
     "Social Work"
   ],
   "email": "bW9uaWNhQGNhc2FzYW5qb3NlLm9yZw==",
-  "images": ["/img/uploads/Women of Influence picture - Monica Ruiz.jpg"],
+  "images": [
+    "/img/uploads/Women of Influence picture - Monica Ruiz.jpg"
+  ],
   "website": "https://casasanjose.org/",
   "facebook": "",
   "twitter": "",

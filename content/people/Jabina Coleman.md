@@ -18,7 +18,9 @@
     "social work"
   ],
   "email": "aW5mb0B0aGVsYWN0YXRpb250aGVyYXBpc3QuY29t",
-  "images": ["/img/uploads/Jabina Headshot - Jabina Coleman.jpeg"],
+  "images": [
+    "/img/uploads/Jabina Headshot - Jabina Coleman.jpeg"
+  ],
   "website": "https://thelactationtherapist.com",
   "facebook": "",
   "twitter": "",

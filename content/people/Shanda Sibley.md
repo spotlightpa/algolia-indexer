@@ -21,7 +21,9 @@
     "crimes"
   ],
   "email": "U2hhbmRhLnNpYmxleUB0ZW1wbGUuZWR1",
-  "images": ["/img/uploads/956210C4-5C79-4A48-8248-3C2BDA4D73C5 - Shanda Sibley.jpeg"],
+  "images": [
+    "/img/uploads/956210C4-5C79-4A48-8248-3C2BDA4D73C5 - Shanda Sibley.jpeg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

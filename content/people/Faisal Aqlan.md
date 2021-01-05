@@ -17,7 +17,9 @@
     "Manufacturing"
   ],
   "email": "YXFsYW5AcHN1LmVkdQ==",
-  "images": ["/img/uploads/Faisal Aqlan - Tamara Dunn.jpg"],
+  "images": [
+    "/img/uploads/Faisal Aqlan - Tamara Dunn.jpg"
+  ],
   "website": "https://sites.psu.edu/aqlan/",
   "facebook": "",
   "twitter": "",

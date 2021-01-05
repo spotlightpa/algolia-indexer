@@ -14,7 +14,9 @@
   ],
   "keywords": [],
   "email": "ZGFtYXJ5cm9kcmlndWV6MDVAZ21haWwuY29t",
-  "images": ["/img/uploads/Screenshot_20201011-214753_2 - Damary Rodriguez.png"],
+  "images": [
+    "/img/uploads/Screenshot_20201011-214753_2 - Damary Rodriguez.png"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

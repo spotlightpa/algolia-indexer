@@ -16,7 +16,9 @@
     "Child psychology"
   ],
   "email": "Ym95ZHJAZW1haWwuY2hvcC5lZHU=",
-  "images": ["/img/uploads/BOYD_RHONDA_penn - rboyd@mail.med.upenn.edu.jpg"],
+  "images": [
+    "/img/uploads/BOYD_RHONDA_penn - rboyd@mail.med.upenn.edu.jpg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "RhondaBoydPhD",

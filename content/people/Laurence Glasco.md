@@ -15,7 +15,9 @@
     "Pittsburgh African American history"
   ],
   "email": "bGFycnlnbGFzY29AZ21haWwuY29t",
-  "images": ["/img/uploads/Photo-Glasco - Laurence Glasco.JPG"],
+  "images": [
+    "/img/uploads/Photo-Glasco - Laurence Glasco.JPG"
+  ],
   "website": "http://www.history.pitt.edu/people/faculty",
   "facebook": "",
   "twitter": "",

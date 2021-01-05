@@ -21,7 +21,9 @@
     "community"
   ],
   "email": "bmtpdGhAa2l0aHNpbmMub3Jn",
-  "images": ["/img/uploads/IMG_0414 - Nary Kith.jpg"],
+  "images": [
+    "/img/uploads/IMG_0414 - Nary Kith.jpg"
+  ],
   "website": "https://www.kithservices.org",
   "facebook": "kithsnonprofit",
   "twitter": "",

@@ -18,7 +18,9 @@
     "wellness advocate"
   ],
   "email": "cmVnaW5hbGRhaG93YXJkQGdtYWlsLmNvbQ==",
-  "images": ["/img/uploads/IMG_4419 - Reginald A. Howard.jpeg"],
+  "images": [
+    "/img/uploads/IMG_4419 - Reginald A. Howard.jpeg"
+  ],
   "website": "https://reginaldahoward.com/",
   "facebook": "",
   "twitter": "reginaldahoward",

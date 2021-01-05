@@ -18,7 +18,9 @@
     "Health Care"
   ],
   "email": "bGF2YWxtd0BnbWFpbC5jb20=",
-  "images": ["/img/uploads/Laval Headshot - Laval Miller-Wilson.JPEG"],
+  "images": [
+    "/img/uploads/Laval Headshot - Laval Miller-Wilson.JPEG"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

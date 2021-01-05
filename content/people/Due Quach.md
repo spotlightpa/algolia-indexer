@@ -27,7 +27,9 @@
     "Social Impact"
   ],
   "email": "ZHVlQGNhbG1jbGFyaXR5Lm9yZw==",
-  "images": ["/img/uploads/Headshot_DueQuach_byBenArnon - Due Quach.jpg"],
+  "images": [
+    "/img/uploads/Headshot_DueQuach_byBenArnon - Due Quach.jpg"
+  ],
   "website": "https://www.calmclarity.org",
   "facebook": "calmclarity",
   "twitter": "CalmClarityOrg",

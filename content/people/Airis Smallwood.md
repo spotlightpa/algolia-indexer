@@ -15,7 +15,9 @@
   ],
   "keywords": [],
   "email": "QWlyaXMuU21hbGx3b29kQG91dGxvb2suY29t",
-  "images": ["/img/uploads/3A3981FB-CB57-4FD6-A5B8-5F9341AB713D - Airis Smallwood.jpeg"],
+  "images": [
+    "/img/uploads/3A3981FB-CB57-4FD6-A5B8-5F9341AB713D - Airis Smallwood.jpeg"
+  ],
   "website": "",
   "facebook": "thesingersloungehbg",
   "twitter": "",

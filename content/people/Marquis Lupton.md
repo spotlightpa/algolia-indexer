@@ -17,7 +17,9 @@
     "Entrepreneurial Journalist"
   ],
   "email": "VENQTmV0d29yazI1NEBnbWFpbC5jb20=",
-  "images": ["/img/uploads/IMG_2200 (1) - TCP Network.jpeg"],
+  "images": [
+    "/img/uploads/IMG_2200 (1) - TCP Network.jpeg"
+  ],
   "website": "https://www.thetcpnetwork.com/",
   "facebook": "",
   "twitter": "",

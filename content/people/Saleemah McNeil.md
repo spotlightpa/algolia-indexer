@@ -20,7 +20,9 @@
     "postpartum depression"
   ],
   "email": "aW5mb0Bvc2h1bmZhbWlseWNlbnRlci5vcmc=",
-  "images": ["/img/uploads/IMG_1844 - Oshun Family Center.JPG"],
+  "images": [
+    "/img/uploads/IMG_1844 - Oshun Family Center.JPG"
+  ],
   "website": "https://www.oshunfamilycenter.org",
   "facebook": "",
   "twitter": "",

@@ -16,7 +16,9 @@
     "Union Activist"
   ],
   "email": "bmZ1bGxlckBwaGlsYXBvc2gub3Jn",
-  "images": ["/img/uploads/20181212_151608 - Nicole Fuller.jpg"],
+  "images": [
+    "/img/uploads/20181212_151608 - Nicole Fuller.jpg"
+  ],
   "website": "https://philaposh.org/",
   "facebook": "PHILAPOSH",
   "twitter": "Phiaposh1",

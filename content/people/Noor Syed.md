@@ -19,7 +19,9 @@
     "Applied Behavior Analysis"
   ],
   "email": "bm9vcnN5ZWQuYmNiYUBnbWFpbC5jb20=",
-  "images": ["/img/uploads/180913_Noor Syed_037 - Noor Syed.jpg"],
+  "images": [
+    "/img/uploads/180913_Noor Syed_037 - Noor Syed.jpg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

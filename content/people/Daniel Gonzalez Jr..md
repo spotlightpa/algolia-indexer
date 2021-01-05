@@ -25,7 +25,9 @@
     "Technology"
   ],
   "email": "ZGdvbnphbGV6QHljZWFwYS5vcmc=",
-  "images": ["/img/uploads/Gonzalez, David - Tamara Dunn.jpg"],
+  "images": [
+    "/img/uploads/Gonzalez, David - Tamara Dunn.jpg"
+  ],
   "website": "http://yceapa.org",
   "facebook": "",
   "twitter": "GonzalezJ_David",

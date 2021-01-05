@@ -20,7 +20,9 @@
     "racial justice"
   ],
   "email": "d2FzaS5tb2hhbWVkQGdtYWlsLmNvbQ==",
-  "images": ["/img/uploads/Wasiullah-Mohamed-headshot - Wasi Mohamed.jpg"],
+  "images": [
+    "/img/uploads/Wasiullah-Mohamed-headshot - Wasi Mohamed.jpg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

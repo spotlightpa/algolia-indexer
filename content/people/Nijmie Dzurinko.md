@@ -21,7 +21,9 @@
     "rural"
   ],
   "email": "bmlqbWllZEBnbWFpbC5jb20=",
-  "images": ["/img/uploads/E048B144-809B-4D21-B9DE-06A7E8E6F1D6 - Nijmie Dzurinko.jpeg"],
+  "images": [
+    "/img/uploads/E048B144-809B-4D21-B9DE-06A7E8E6F1D6 - Nijmie Dzurinko.jpeg"
+  ],
   "website": "https://www.putpeoplefirstpa.org",
   "facebook": "",
   "twitter": "NijmieZD",

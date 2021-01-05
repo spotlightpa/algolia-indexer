@@ -15,7 +15,9 @@
     "Marketing and Comms"
   ],
   "email": "Z2Zlcm5hbmRlekBsYXRpbm9jb25uZWN0aW9uLm9yZw==",
-  "images": ["/img/uploads/gacla_gfernandez-portrait.png"],
+  "images": [
+    "/img/uploads/gacla_gfernandez-portrait.png"
+  ],
   "website": "https://latinoconnection.org",
   "facebook": "",
   "twitter": "",

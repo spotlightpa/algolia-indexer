@@ -21,7 +21,9 @@
     "Trauma"
   ],
   "email": "a2FycmllbXNhbGFhbUBnbWFpbC5jb20=",
-  "images": ["/img/uploads/138B4588-5F84-4429-8803-CE25373E3F05 - Karriem Salaam.jpeg"],
+  "images": [
+    "/img/uploads/138B4588-5F84-4429-8803-CE25373E3F05 - Karriem Salaam.jpeg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

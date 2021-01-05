@@ -21,7 +21,9 @@
     "NGOs"
   ],
   "email": "bmRkMjA4QGxlaGlnaC5lZHU=",
-  "images": ["/img/uploads/ND at podium - Timothy Loftus.JPG"],
+  "images": [
+    "/img/uploads/ND at podium - Timothy Loftus.JPG"
+  ],
   "website": "https://polisci.cas.lehigh.edu/people/nandini-deo",
   "facebook": "",
   "twitter": "",

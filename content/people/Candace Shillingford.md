@@ -15,7 +15,9 @@
     "neurobiology"
   ],
   "email": "c2hpbGxpbmdmb3JkX2NhbmRhY2VAeWFob28uY29t",
-  "images": ["/img/uploads/shillingford, picture - Candace Shillingford.jpg"],
+  "images": [
+    "/img/uploads/shillingford, picture - Candace Shillingford.jpg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

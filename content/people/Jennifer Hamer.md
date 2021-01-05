@@ -19,7 +19,9 @@
     "equity"
   ],
   "email": "amZoNTgxOUBwc3UuZWR1IGFuZCBoYW1lci5qZW5uaWZlci5mQGdtYWlsLmNvbQ==",
-  "images": ["/img/uploads/hamer image - Jennifer F. Hamer.jpeg"],
+  "images": [
+    "/img/uploads/hamer image - Jennifer F. Hamer.jpeg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

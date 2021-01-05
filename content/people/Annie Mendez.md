@@ -22,7 +22,9 @@
     "politics"
   ],
   "email": "SG91c2VvZmVudnk4MDlAZ21haWwuY29t",
-  "images": ["/img/uploads/B3D8963C-B2A6-4E55-886F-94BDACACC021 - Annie Mendez.jpeg"],
+  "images": [
+    "/img/uploads/B3D8963C-B2A6-4E55-886F-94BDACACC021 - Annie Mendez.jpeg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "Annieamendez26",

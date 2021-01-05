@@ -20,7 +20,9 @@
     "State Legislative Politics"
   ],
   "email": "d2FrYWJheWFzaGkuYW5uZUBnbWFpbC5jb20=",
-  "images": ["/img/uploads/anne_wakabayashi_40_under_40_pa_2017_273a0773_ - Anne Wakabayashi.jpg"],
+  "images": [
+    "/img/uploads/anne_wakabayashi_40_under_40_pa_2017_273a0773_ - Anne Wakabayashi.jpg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

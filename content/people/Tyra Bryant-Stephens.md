@@ -21,7 +21,9 @@
     "investigator"
   ],
   "email": "c3RlcGhlbnN0QGVtYWlsLmNob3AuZWR1",
-  "images": ["/img/uploads/headshot - Tyra Stephens.png"],
+  "images": [
+    "/img/uploads/headshot - Tyra Stephens.png"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

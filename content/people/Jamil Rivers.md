@@ -17,7 +17,9 @@
     "Equity in health and education"
   ],
   "email": "amFtaWxrcml2ZXJzQGdtYWlsLmNvbQ==",
-  "images": ["/img/uploads/36303028_10155330314037651_1865714891231330304_o - Jamil Rivers.jpg"],
+  "images": [
+    "/img/uploads/36303028_10155330314037651_1865714891231330304_o - Jamil Rivers.jpg"
+  ],
   "website": "",
   "facebook": "jamil.kalirivers",
   "twitter": "jamilkali",

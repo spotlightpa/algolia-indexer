@@ -1,7 +1,7 @@
 {
   "honorific": "Ms.",
   "pronoun": "she/her",
-  "bio": "At the Women's Law Project, Amal provides legal representation and engages in public policy advocacy in a variety of areas, including pregnancy/caretaking discrimination and accommodation, Title IX athletic equity and sexual harassment, and employment rights. From 2016-17, she was convener of the Pennsylvania Campaign for Women’s Health. She was among Billy Penn’s “Who’s Next: Law\" in 2017, and she was co-chair of the Philadelphia Bar Association’s Women’s Rights Committee in 2018 and 2019. Amal received her BA from Yale College and her JD from Harvard Law School.",
+  "bio": "At the Women's Law Project, Amal provides legal representation and engages in public policy advocacy in a variety of areas, including pregnancy/caretaking discrimination and accommodation, Title IX athletic equity and sexual harassment, and employment rights. From 2016-17, she was convener of the Pennsylvania Campaign for Women\u2019s Health. She was among Billy Penn\u2019s \u201cWho\u2019s Next: Law\" in 2017, and she was co-chair of the Philadelphia Bar Association\u2019s Women\u2019s Rights Committee in 2018 and 2019. Amal received her BA from Yale College and her JD from Harvard Law School.",
   "layout": "person",
   "keywords": [
     "Gender Justice",

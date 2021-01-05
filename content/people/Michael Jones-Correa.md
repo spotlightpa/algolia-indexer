@@ -17,7 +17,9 @@
     "urban"
   ],
   "email": "bWpjb3JyZWFAdXBlbm4uZWR1",
-  "images": ["/img/uploads/MJC Penn 16.07 01 - Michael Jones-Correa.jpg"],
+  "images": [
+    "/img/uploads/MJC Penn 16.07 01 - Michael Jones-Correa.jpg"
+  ],
   "website": "https://live-sas-www-polisci.pantheon.sas.upenn.edu/people/standing-faculty/michael-jones-correa",
   "facebook": "",
   "twitter": "mjonescorrea",

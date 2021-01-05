@@ -16,7 +16,9 @@
   ],
   "keywords": [],
   "email": "aW5mb0B0aGVjZW50ZXJibGFja2VkLm9yZw==",
-  "images": ["/img/uploads/SEM1 - Victoria Harrison.JPG"],
+  "images": [
+    "/img/uploads/SEM1 - Victoria Harrison.JPG"
+  ],
   "website": "http://www.thecenterblacked.org",
   "facebook": "selmekki",
   "twitter": "selmekki",

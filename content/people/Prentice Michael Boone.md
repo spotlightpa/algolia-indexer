@@ -24,7 +24,9 @@
     "hair"
   ],
   "email": "aGF1dGViYXJiZXJpbmNAZ21haWwuY29t",
-  "images": ["/img/uploads/ec01f283-4393-4361-a52e-f3869babf07d-p.michael-boone.jpeg"],
+  "images": [
+    "/img/uploads/ec01f283-4393-4361-a52e-f3869babf07d-p.michael-boone.jpeg"
+  ],
   "website": "https://pmichael.org",
   "facebook": "",
   "twitter": "",

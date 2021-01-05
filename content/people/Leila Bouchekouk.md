@@ -28,7 +28,9 @@
     "Female"
   ],
   "email": "bGVpbGEuYm91Y2hla291a0BnbWFpbC5jb20=",
-  "images": ["/img/uploads/5A56C60D-439A-427C-92A6-C2AFB66ED7DC - Leila Bouchekouk.jpeg"],
+  "images": [
+    "/img/uploads/5A56C60D-439A-427C-92A6-C2AFB66ED7DC - Leila Bouchekouk.jpeg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

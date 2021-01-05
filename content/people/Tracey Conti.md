@@ -16,7 +16,9 @@
     "Health Disparities"
   ],
   "email": "Q29udHRkQHlhaG9vLmNvbQ==",
-  "images": ["/img/uploads/C83B5497-BB42-46AE-8341-8D0A4E409B87 - tracey conti.jpeg"],
+  "images": [
+    "/img/uploads/C83B5497-BB42-46AE-8341-8D0A4E409B87 - tracey conti.jpeg"
+  ],
   "website": "",
   "facebook": "",
   "twitter": "",

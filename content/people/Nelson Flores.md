@@ -18,7 +18,9 @@
     "ESL"
   ],
   "email": "bmZsb3Jlc0B1cGVubi5lZHU=",
-  "images": ["/img/uploads/penngse_oct19_0554 cropped - Nelson Flores.jpeg"],
+  "images": [
+    "/img/uploads/penngse_oct19_0554 cropped - Nelson Flores.jpeg"
+  ],
   "website": "https://educationallinguist.wordpress.com",
   "facebook": "",
   "twitter": "nelsonlflores",
