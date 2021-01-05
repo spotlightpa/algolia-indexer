@@ -23,7 +23,9 @@
   "twitter": "",
   "instagram": "",
   "linkedin": "",
-  "location": "Harrisburg, PA",
+  "location": [
+    "Harrisburg, PA"
+  ],
   "phone": "7178058790",
   "bio": "By combining his authentic experience with a passion for communication and service, George Fernandez helps clients build positive, profitable, and sustainable connections with the Latino community.",
   "layout": "person"

@@ -32,7 +32,9 @@
   "twitter": "",
   "instagram": "PMichael_",
   "linkedin": "",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "phone": "2156883711",
   "bio": "My name is P. Michael Boone. I am the proud owner of Haute Barbershop and creator of the Junior Barber Academy based in the heart Philadelphia. My mission is to simply provide the youth with an opportunity. Giving them an outlet to express themselves in a positive manner.",
   "layout": "person"

@@ -25,7 +25,9 @@
   "instagram": "",
   "twitter": "Rhetors_of_York",
   "middle": "S",
-  "location": "York, PA",
+  "location": [
+    "York, PA"
+  ],
   "role": "Associate Professor of Rhetoric",
   "last": "Smith",
   "title": "Erec S Smith",

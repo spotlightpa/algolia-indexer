@@ -16,7 +16,9 @@
   "twitter": "",
   "middle": "Magic",
   "pronunciation": "-",
-  "location": "Washington, DC",
+  "location": [
+    "Washington, DC"
+  ],
   "role": "Attorney",
   "last": "Jordan",
   "title": "Rondell Magic Jordan",

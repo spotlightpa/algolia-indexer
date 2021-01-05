@@ -22,7 +22,9 @@
   "twitter": "alastanford",
   "middle": "",
   "pronunciation": "A - La",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "role": "Founder & CEO Black Doctors COVID-19 Consortium, REAL Concierege Medicine & Stanford Prdatric Surgery",
   "last": "Stanford",
   "title": "Ala Stanford",

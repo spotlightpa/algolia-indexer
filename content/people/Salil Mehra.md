@@ -27,7 +27,9 @@
   "twitter": "slamra_n_flufya",
   "instagram": "",
   "linkedin": "",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "phone": "6104270173",
   "bio": "Professor Salil Mehra joined the Temple Law faculty in 2000. His research focuses on antitrust/competition law and technology. Professor Mehra is a past Chair of the AALS Section on Antitrust and Economic Regulation, and is a nongovernmental advisor to the International Competition Network. He is a former Abe Fellow of Japan\u2019s Center for Global Partnership and the Social Science Research Center. Prior to his career with Temple Law, Professor Mehra worked at the Antitrust Division of the Department of Justice.",
   "layout": "person"

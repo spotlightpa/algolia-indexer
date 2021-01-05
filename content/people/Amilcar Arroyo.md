@@ -22,7 +22,9 @@
   "twitter": "",
   "instagram": "elmensajerointernacional",
   "linkedin": "",
-  "location": "Hazleton, PA",
+  "location": [
+    "Hazleton, PA"
+  ],
   "phone": "5705748514",
   "bio": "Born in Lima, Peru. Living in Hazleton, PA for the lats 31 years. Latino who loves USA and respect everyone. Community advocate, volunteer as a passion. Person who support social equality, diversity and freedom. Always ready to help and a believer of dialogue and find a solution more than point a problem.",
   "layout": "person"

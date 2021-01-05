@@ -16,7 +16,9 @@
     "Diversity & Inclusion",
     "Politics"
   ],
-  "location": "Manheim Township, PA",
+  "location": [
+    "Manheim Township, PA"
+  ],
   "role": "Director of Community Advocacy",
   "last": "Vasquez",
   "title": "Nicole L. Vasquez",

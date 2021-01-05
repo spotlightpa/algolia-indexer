@@ -26,7 +26,9 @@
   "twitter": "",
   "instagram": "",
   "linkedin": "",
-  "location": "Harrisburg, PA",
+  "location": [
+    "Harrisburg, PA"
+  ],
   "phone": "7174212190",
   "bio": "Terrence Alladin (Ph.D., Pennsylvania State University) is an Assistant Professor at Lebanon Valley College. His research interest focuses on Incarceration, Criminal Justice Policy and Policing. He has appeared in peer-reviewed outlets such as Professional Issues in Criminal Justice, The Prison Journal and The American Journal of Criminal Justice",
   "layout": "person"

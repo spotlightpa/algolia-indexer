@@ -15,7 +15,9 @@
     "Health Policy"
   ],
   "pronunciation": "Mick-Let",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "role": "Director of Clinical Operations",
   "last": "Miclette",
   "title": "Matthew Miclette",

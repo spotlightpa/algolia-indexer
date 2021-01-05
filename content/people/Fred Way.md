@@ -17,7 +17,9 @@
   "instagram": "",
   "twitter": "",
   "middle": "",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "role": "Executive Director",
   "last": "Way",
   "title": "Fred Way",

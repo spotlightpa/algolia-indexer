@@ -26,7 +26,9 @@
     "Sociology"
   ],
   "pronunciation": "Lass it er",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "role": "Executive Director",
   "last": "Lassiter",
   "title": "Chad Dion Lassiter ",

@@ -27,7 +27,9 @@
   "twitter": "",
   "instagram": "",
   "linkedin": "",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "phone": "2152049836",
   "bio": "https://www.law.temple.edu/contact/jennifer-j-lee/",
   "layout": "person"

@@ -36,7 +36,9 @@
   "twitter": "",
   "instagram": "",
   "linkedin": "",
-  "location": "East Stroudsburg, PA",
+  "location": [
+    "East Stroudsburg, PA"
+  ],
   "phone": "5707306719",
   "bio": "Recent PASSHE graduate of Chemistry with minors of Public Health and Spanish. Currently work as a Contact Tracer and recently promoted as a Case Investigator on behalf of the PA DOH.",
   "layout": "person"

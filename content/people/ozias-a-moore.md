@@ -18,7 +18,9 @@
   ],
   "twitter": "OziasMoore",
   "pronunciation": "OH-zy-us MOOR",
-  "location": "Allentown, PA",
+  "location": [
+    "Allentown, PA"
+  ],
   "role": "Assistant Professor of Management ",
   "last": "Moore",
   "title": "Ozias A. Moore",

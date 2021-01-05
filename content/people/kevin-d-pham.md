@@ -15,7 +15,9 @@
     "Education",
     "Politics"
   ],
-  "location": "Gettysburg, PA",
+  "location": [
+    "Gettysburg, PA"
+  ],
   "role": "Assistant Professor ",
   "last": "Pham",
   "title": "Kevin D. Pham",

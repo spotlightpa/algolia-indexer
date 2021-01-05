@@ -29,7 +29,9 @@
   "instagram": "",
   "twitter": "",
   "middle": "",
-  "location": "Lancaster, PA",
+  "location": [
+    "Lancaster, PA"
+  ],
   "role": "Abolitionist educator, anti-oppression workshop leader",
   "last": "Hosey",
   "title": "Adam Hosey",

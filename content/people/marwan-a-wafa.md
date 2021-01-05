@@ -16,7 +16,9 @@
     "Entrepreneurship",
     "Religion"
   ],
-  "location": "Dickson City, PA",
+  "location": [
+    "Dickson City, PA"
+  ],
   "role": "Chancellor of Penn State Scranton",
   "last": "Wafa",
   "title": "Marwan A. Wafa",

@@ -28,7 +28,9 @@
   "twitter": "waltertsou",
   "instagram": "",
   "linkedin": "",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "phone": "2154355769",
   "bio": "Dr. Tsou is a retired, public health physician who currently serves as the Executive Director of Physicians for Social Responsibility, Pennsylvania.  He served as the founding Medical Director of the Montgomery County Health Department (1990-200), Health Commissioner of Philadelphia (2000-2002), President of the American Public Health Association (2005), and Adjunct Professor of Family Medicine and Community Health, University of Pennsylvania, Center for Public Health Initiatives 2006 to present)",
   "layout": "person"

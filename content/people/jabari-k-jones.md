@@ -26,7 +26,9 @@
   ],
   "twitter": "RealJabariJones",
   "pronunciation": "JA-BAR-EE",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "role": "President",
   "last": "Jones",
   "title": "Jabari K. Jones",

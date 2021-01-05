@@ -27,7 +27,9 @@
   "twitter": "",
   "instagram": "",
   "linkedin": "keisha-hudson-5901884",
-  "location": "Wyncote, PA",
+  "location": [
+    "Wyncote, PA"
+  ],
   "phone": "2153564605",
   "bio": "Currently the Associate Managing Director of The Justice Collaborative. Prior to joining TJC, I was the Deputy Chief Defender at the Montgomery County Public Defender Office in Montgomery County, PA.  Prior to  joining the Montgomery County Defenders, I spent ten years as an attorney with the Federal Defender, Capital Habeas Unit (Eastern District of Pennsylvania) where I represented clients sentenced to death row in their state post conviction and federal habeas appeals. In my last year at the CHU, I served as the Director of Training. I began my public defense career at the Defender Association of Philadelphia. I received both her undergraduate and law degrees from Cornell University.",
   "layout": "person"

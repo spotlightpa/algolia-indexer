@@ -29,7 +29,9 @@
   "twitter": "",
   "instagram": "",
   "linkedin": "",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "phone": "6093208596",
   "bio": "Dr. Salaam is the Medical Director of Adolescent Services at Friends Hospital in Northeast Philadelphia, and a Clinical Assistant Professor of Psychiatry at Drexel University College of Medicine. He is a Fellow of the American Psychiatric Association and a founding member of Global Health Psychiatry, LLC, founded by 10 African-American Psychiatrists to reduce mental health stigma in diverse communities through education and community action.",
   "layout": "person"

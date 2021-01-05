@@ -18,7 +18,9 @@
     "Small Business"
   ],
   "pronunciation": "",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "role": "Managing Partner",
   "last": "Tucker",
   "title": "Calvin R. Tucker",

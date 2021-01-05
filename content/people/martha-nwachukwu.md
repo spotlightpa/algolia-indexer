@@ -17,7 +17,9 @@
     "Social Justice"
   ],
   "pronunciation": "Martha Wah-chew-koo",
-  "location": "Erie, PA",
+  "location": [
+    "Erie, PA"
+  ],
   "role": "Community Organizer",
   "last": "Nwachukwu",
   "title": "Martha Nwachukwu",

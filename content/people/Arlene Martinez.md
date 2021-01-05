@@ -30,7 +30,9 @@
   "twitter": "goodjobsfirst",
   "instagram": "",
   "linkedin": "",
-  "location": "California",
+  "location": [
+    "California"
+  ],
   "phone": "2022324257",
   "bio": "Arlene has years of experience covering local government, especially as it relates to public spending, pensions and contracts, spending time in Washington, D.C., California and Pennsylvania (The Morning Call). At Good Jobs First, she leads communications for the nonprofit, which tracks government subsidies and incentives in economic development and promotes corporate/government accountability.",
   "layout": "person"

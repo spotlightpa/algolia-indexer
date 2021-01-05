@@ -29,7 +29,9 @@
   "twitter": "",
   "instagram": "",
   "linkedin": "",
-  "location": "Pittsburgh, PA",
+  "location": [
+    "Pittsburgh, PA"
+  ],
   "phone": "4123839897",
   "bio": "Professor Sheila I V\u00e9lez Mart\u00ednez is the Jack and Lovell Olender Professor of Asylum Refugee and Immigration Law at the University of Pittsburgh School of Law. She is also the Director of Clinical Programs and the Immigration Law Clinic. Her academic publications and academic interests include issues related to immigrant women, Puerto Rican migration, Caribbean Migration, remittances, legal pedagogy and OutCrit theory.",
   "layout": "person"

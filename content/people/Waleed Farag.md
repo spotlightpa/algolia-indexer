@@ -18,7 +18,9 @@
   "twitter": "",
   "middle": "",
   "pronunciation": "",
-  "location": "Indiana, PA",
+  "location": [
+    "Indiana, PA"
+  ],
   "role": "Professor of Computer Science",
   "last": "Farag",
   "title": "Waleed Farag",

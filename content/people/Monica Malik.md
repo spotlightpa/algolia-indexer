@@ -29,7 +29,9 @@
   "instagram": "",
   "twitter": "",
   "middle": "",
-  "location": "Pittsburgh, PA",
+  "location": [
+    "Pittsburgh, PA"
+  ],
   "role": "Entrepreneur and a program manager for community health",
   "last": "Malik",
   "title": "Monica Malik",

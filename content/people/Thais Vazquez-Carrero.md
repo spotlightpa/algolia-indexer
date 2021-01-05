@@ -33,7 +33,9 @@
   "twitter": "thaiscarrero",
   "middle": "F",
   "pronunciation": "Tah-ease Kah-rr-eh-roh",
-  "location": "York, PA",
+  "location": [
+    "York, PA"
+  ],
   "role": "Pennsylvania Director CASA / CASA in Action",
   "last": "Carrero",
   "title": "Tha\u00eds Carrero",

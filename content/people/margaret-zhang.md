@@ -16,7 +16,9 @@
     "Law"
   ],
   "twitter": "marzhang_phila",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "role": "Attorney",
   "last": "Zhang",
   "title": "Margaret Zhang",

@@ -16,7 +16,9 @@
     "Politics"
   ],
   "twitter": "@CleanWaterMyron",
-  "location": "Pittsburgh, PA",
+  "location": [
+    "Pittsburgh, PA"
+  ],
   "role": "Pennsylvania Director, Clean Water Action",
   "last": "Arnowitt",
   "title": "Myron Arnowitt",

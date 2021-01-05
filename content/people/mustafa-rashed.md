@@ -14,7 +14,9 @@
   ],
   "twitter": "@mustafarashed",
   "pronunciation": "Muu-stah-fah Rah-sheed",
-  "location": "Philadelphia, PA",
+  "location": [
+    "Philadelphia, PA"
+  ],
   "role": "President",
   "last": "Rashed",
   "title": "Mustafa Rashed",

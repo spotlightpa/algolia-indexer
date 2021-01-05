@@ -14,7 +14,9 @@
     "Gender & Sexuality",
     "Law"
   ],
-  "location": "Philadelphia and Montgomery Counties",
+  "location": [
+    "Philadelphia, PA", "Montgomery County, PA"
+  ],
   "role": "Attorney and Director of Policy and Advocacy at the Women's Law Project",
   "last": "Bass",
   "title": "Amal Bass",
