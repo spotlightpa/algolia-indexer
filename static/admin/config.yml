@@ -154,7 +154,7 @@ collections:
       - label: Location
         hint: E.g. "Philadelphia, PA", "California", "Canada"
         name: location
-        widget: string
+        widget: list
         required: false
       - label: "Phone"
         hint: Just the digits
@@ -232,7 +232,7 @@ collections:
               - label: Order
                 name: weight
                 widget: number
-                valueType: int
+                value_type: int
                 required: false
           - label: "Menu items"
             label_singular: "menu item"
