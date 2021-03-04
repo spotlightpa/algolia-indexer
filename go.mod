@@ -1,16 +1,9 @@
-module github.com/spotlightpa/sourcesdb
+module github.com/spotlightpa/algolia-indexer
 
-go 1.15
-
-// +heroku goVersion go1.15
-// +heroku install ./cmd/...
+go 1.16
 
 require (
-	github.com/algolia/algoliasearch-client-go/v3 v3.12.1
+	github.com/algolia/algoliasearch-client-go/v3 v3.16.0
 	github.com/carlmjohnson/exitcode v0.20.2
-	github.com/carlmjohnson/flagext v0.20.2
-	github.com/dghubble/go-twitter v0.0.0-20201011215211-4b180d0cc78d
-	github.com/dghubble/oauth1 v0.6.0
-	github.com/henvic/ctxsignal v1.0.0
-	gocloud.dev v0.20.0
+	github.com/carlmjohnson/flagext v0.21.0
 )

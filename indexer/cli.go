@@ -5,7 +5,6 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"os"
 
@@ -13,8 +12,9 @@ import (
 	"github.com/carlmjohnson/flagext"
 )
 
-const AppName = "indexer"
+const appName = "indexer"
 
+// CLI runs the algolia-indexer application
 func CLI(args []string) error {
 	var app appEnv
 	err := app.ParseArgs(args)
@@ -28,13 +28,13 @@ func CLI(args []string) error {
 }
 
 func (app *appEnv) ParseArgs(args []string) error {
-	fl := flag.NewFlagSet(AppName, flag.ContinueOnError)
+	fl := flag.NewFlagSet(appName, flag.ContinueOnError)
 
 	src := flagext.File(flagext.StdIO)
 	app.src = src
 	fl.Var(src, "src", "source file or URL")
 
-	app.l = log.New(nil, AppName+" ", log.LstdFlags)
+	app.l = log.New(nil, appName+" ", log.LstdFlags)
 	flagext.LoggerVar(
 		fl, app.l, "verbose", flagext.LogVerbose, "log debug output")
 
@@ -53,7 +53,7 @@ Options:
 	if err := fl.Parse(args); err != nil {
 		return err
 	}
-	if err := flagext.ParseEnv(fl, AppName); err != nil {
+	if err := flagext.ParseEnv(fl, appName); err != nil {
 		return err
 	}
 
@@ -80,7 +80,7 @@ func (app *appEnv) logf(format string, args ...interface{}) {
 func (app *appEnv) Exec() (err error) {
 	app.logf("starting")
 
-	raw, err := ioutil.ReadAll(app.src)
+	raw, err := io.ReadAll(app.src)
 	if err != nil {
 		return err
 	}

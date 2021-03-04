@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/carlmjohnson/exitcode"
-	"github.com/spotlightpa/sourcesdb/pkg/indexer"
+	"github.com/spotlightpa/algolia-indexer/indexer"
 )
 
 func main() {
