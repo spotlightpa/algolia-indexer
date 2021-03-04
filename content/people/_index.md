@@ -1,3 +1,0 @@
-+++
-title = "Sources By Name"
-+++

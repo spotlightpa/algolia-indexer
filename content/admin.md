@@ -1,5 +1,0 @@
-{
-    "title": "admin",
-    "layout": "admin"
-}
-
