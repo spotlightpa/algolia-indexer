@@ -1,4 +1,5 @@
-# Algolia-Indexer
+# Algolia-Indexer [![GoDoc](https://godoc.org/github.com/spotlightpa/algolia-indexer?status.svg)](https://godoc.org/github.com/spotlightpa/algolia-indexer) [![Go Report Card](https://goreportcard.com/badge/github.com/spotlightpa/algolia-indexer)](https://goreportcard.com/report/github.com/spotlightpa/algolia-indexer)
+
 
 A tool to power your static site's search with [Algolia](https://www.algolia.com). Build a JSON site index and send it to Algolia with this script. To work, the Algolia script API key must have permission to create/drop an index because it creates a temporary table, sends all the data to the temporary table, then swaps it in.
 
