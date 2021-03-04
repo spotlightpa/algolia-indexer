@@ -18,6 +18,8 @@ GOBIN=$(pwd) go install github.com/spotlightpa/algolia-indexer@latest
 $ algolia-indexer -h
 indexer - sends JSON object array to Algolia
 
+Options may also be set as environment variables prefixed with INDEXER_.
+
 Options:
   -algolia-api-key key
         key for Algolia API
